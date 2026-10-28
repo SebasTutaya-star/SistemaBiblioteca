@@ -1,95 +1,81 @@
 <?php
-/**
- * Plantilla general: cabecera, menú lateral y pie.
- */
-
-function icono(string $n): string
-{
-    $p = [
-        'home'    => '<path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/>',
-        'book'    => '<path d="M4 4h10a4 4 0 014 4v12H8a4 4 0 01-4-4z"/><path d="M4 16a4 4 0 014-4h10"/>',
-        'swap'    => '<path d="M7 7h13l-4-4"/><path d="M17 17H4l4 4"/>',
-        'list'    => '<path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/>',
-        'clock'   => '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/>',
-        'bell'    => '<path d="M6 16V11a6 6 0 0112 0v5l2 2H4z"/><path d="M10 20a2 2 0 004 0"/>',
-        'chart'   => '<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',
-        'upload'  => '<path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v4h16v-4"/>',
-        'sliders' => '<path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/>',
-        'users'   => '<circle cx="9" cy="8" r="3.5"/><path d="M2 20a7 7 0 0114 0"/><path d="M16 4.5a3.5 3.5 0 010 7M22 20a7 7 0 00-4-6.3"/>',
-        'shield'  => '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/>',
-        'key'     => '<circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3"/>',
-        'logout'  => '<path d="M15 4h4v16h-4"/><path d="M10 8l-4 4 4 4M6 12h11"/>',
-    ][$n] ?? '';
-    return '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' . $p . '</svg>';
-}
-
+/** Marco visual compartido de los prototipos Stitch. */
+require_once __DIR__ . '/ui.php';
+function icono(string $n): string { return ui_icono($n); }
 function contar_alertas(): int
 {
     $dias = (int)conf('dias_alerta_proximo', 2);
     return (int)valor("SELECT COUNT(*) FROM prestamos WHERE estado = 'activo' AND fecha_vencimiento <= DATE_ADD(CURDATE(), INTERVAL ? DAY)", [$dias])
          + (int)valor("SELECT COUNT(*) FROM prestamos WHERE estado = 'perdido'");
 }
-
 function pagina_inicio(string $titulo, string $actual = ''): void
 {
     $u = usuario();
     $app = $GLOBALS['CONFIG']['app_nombre'] ?? 'Biblioteca';
-    ?><!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    $lector = $u && $u['rol'] === 'lector';
+    $rol = $u ? ($lector ? ucfirst((string)$u['tipo_lector']) : ROLES[$u['rol']]) : '';
+    $nav = array_values(array_filter(menu(), fn($item) => !$item[2] || puede($item[2])));
+    $GLOBALS['UI_ACTUAL'] = $actual;
+?><!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1e3a8a">
 <title><?= e($titulo) ?> · <?= e($app) ?></title>
-<link rel="stylesheet" href="assets/css/estilos.css?v=1">
-</head>
-<body>
+<link rel="icon" href="assets/img/insignia-san-juan.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Material+Symbols+Outlined:wght,FILL@400,0&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/estilos.css?v=stitch-1">
+</head><body class="<?= $u ? ($lector ? 'sesion lector' : 'sesion personal') : 'sin-sesion' ?>" data-pagina="<?= e(g('p', 'inicio')) ?>">
+<a class="saltar-contenido" href="#contenido">Ir al contenido</a>
 <?php if ($u): ?>
-<input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true">
-<header class="barra-movil">
-  <label for="menu-toggle" class="btn-menu" aria-label="Abrir menú">☰</label>
-  <span class="marca-movil"><?= e($app) ?></span>
+<header class="cabecera-app">
+  <button type="button" class="icon-btn abrir-menu" aria-controls="menu-lateral" aria-expanded="false" aria-label="Abrir menú"><?= icono('menu') ?></button>
+  <a class="cabecera-marca" href="<?= e(url('inicio')) ?>"><img src="assets/img/insignia-san-juan.png" alt="Insignia San Juan"><span><strong>Biblioteca Escolar</strong><small>I.E. San Juan</small></span></a>
+  <span class="rol-chip"><?= e($rol) ?></span>
+  <div class="cabecera-derecha">
+    <?php if (puede('alertas.ver')): $n = contar_alertas(); ?><a class="icon-btn notificacion" href="<?= e(url('alertas')) ?>" aria-label="Ver alertas<?= $n ? ': ' . $n . ' pendientes' : '' ?>"><?= icono('bell') ?><?php if ($n): ?><b><?= $n ?></b><?php endif; ?></a><?php endif; ?>
+    <a class="perfil-enlace" href="<?= e(url('cambiar_clave')) ?>"><span><strong><?= e(nombre_completo($u)) ?></strong><small><?= e($u['grado'] ? $u['grado'] . ' · ' . $u['seccion'] : $rol) ?></small></span><span class="avatar"><?= e(mb_substr($u['nombres'], 0, 1) . mb_substr($u['apellidos'], 0, 1)) ?></span></a>
+  </div>
 </header>
-<aside class="lateral">
-  <div class="marca">
-    <div class="marca-sello">SJ</div>
-    <div><strong>Biblioteca</strong><small>I.E.P. San Juan</small></div>
-  </div>
+<aside class="lateral" id="menu-lateral" aria-label="Navegación principal">
+  <a class="marca" href="<?= e(url('inicio')) ?>"><img src="assets/img/insignia-san-juan.png" alt=""><span><strong>I.E. San Juan</strong><small><?= $lector ? 'Portal del lector' : 'Sistema de biblioteca' ?></small></span></a>
+  <div class="contexto-rol"><span class="punto"></span><div><small><?= $lector ? 'Nivel académico' : 'Sesión activa' ?></small><strong><?= e($u['grado'] ? $u['grado'] . ' ' . $u['seccion'] : $rol) ?></strong></div></div>
   <nav class="menu">
-    <?php foreach (menu() as [$pag, $etq, $perm, $ico]):
-        if ($perm && !puede($perm)) continue;
-        $badge = '';
-        if ($pag === 'alertas') { $n = contar_alertas(); if ($n) $badge = '<span class="badge">' . $n . '</span>'; }
-    ?>
-      <a href="<?= e(url($pag)) ?>" class="<?= $actual === $pag ? 'activo' : '' ?>"><?= icono($ico) ?><span><?= e($etq) ?></span><?= $badge ?></a>
-    <?php endforeach; ?>
+    <span class="menu-seccion"><?= $lector ? 'Mi biblioteca' : 'Biblioteca escolar' ?></span>
+    <?php foreach ($nav as [$pag, $etq, $perm, $ico]): ?><a href="<?= e(url($pag)) ?>" class="<?= $actual === $pag ? 'activo' : '' ?>" <?= $actual === $pag ? 'aria-current="page"' : '' ?>><?= icono($ico) ?><span><?= e($etq) ?></span></a><?php endforeach; ?>
+    <span class="menu-seccion">Mi cuenta</span>
+    <a href="<?= e(url('cambiar_clave')) ?>" <?= g('p') === 'cambiar_clave' ? 'aria-current="page" class="activo"' : '' ?>><?= icono('person') ?><span>Mi cuenta y contraseña</span></a>
   </nav>
-  <div class="usuario-caja">
-    <div class="usuario-nombre"><?= e(nombre_completo($u)) ?></div>
-    <div class="usuario-rol"><?= e(ROLES[$u['rol']]) ?><?= $u['tipo_lector'] ? ' · ' . e(ucfirst($u['tipo_lector'])) : '' ?></div>
-    <a href="<?= e(url('cambiar_clave')) ?>"><?= icono('key') ?> Cambiar contraseña</a>
-    <form method="post" action="<?= e(url('salir')) ?>"><?= csrf_campo() ?><button class="enlace"><?= icono('logout') ?> Cerrar sesión</button></form>
-  </div>
+  <div class="usuario-caja"><span class="estado-conexion"><span class="punto"></span>Biblioteca I.E. San Juan</span><small>San Juan Bautista · Ayacucho</small><form method="post" action="<?= e(url('salir')) ?>"><?= csrf_campo() ?><button class="cerrar-sesion"><?= icono('logout') ?>Cerrar sesión</button></form></div>
 </aside>
-<label for="menu-toggle" class="velo" aria-hidden="true"></label>
-<main class="contenido">
-<?php else: ?>
-<main class="contenido-solo">
+<button class="velo" type="button" aria-label="Cerrar menú" hidden></button>
+<main class="contenido" id="contenido">
+<div class="ruta-contexto"><span><?= icono('home') ?> I.E. San Juan</span><span>/</span><span><?= e($titulo) ?></span><time datetime="<?= date('Y-m-d') ?>"><?= fecha_es(hoy()) ?></time></div>
+<?php else: ui_cabecera_auth(); ?><main class="contenido-solo" id="contenido">
 <?php endif; ?>
-<?php foreach (tomar_flash() as $f): ?>
-  <div class="aviso aviso-<?= e($f['tipo']) ?>"><?= e($f['msg']) ?></div>
-<?php endforeach;
+<?php foreach (tomar_flash() as $f): ?><div class="aviso aviso-<?= e($f['tipo']) ?>" role="status"><?= e($f['msg']) ?></div><?php endforeach;
 }
-
 function pagina_fin(): void
 {
-    ?>
-</main>
-<script src="assets/js/app.js?v=1"></script>
-</body>
-</html>
-<?php
+    $u = usuario();
+    $actual = $GLOBALS['UI_ACTUAL'] ?? '';
+?></main>
+<?php if ($u):
+    $items = [['inicio','Inicio','home',null],['catalogo','Catálogo','book','catalogo.consultar']];
+    if ($u['rol'] === 'lector') { $items[] = ['mis_prestamos','Préstamos','list','historial.propio']; $items[] = ['mis_prestamos#historial','Historial','clock','historial.propio']; }
+    elseif (puede('prestamos.gestionar')) { $items[] = ['prestamos','Préstamos','swap','prestamos.gestionar']; $items[] = ['historial','Historial','clock','historial.general']; }
+    elseif (puede('usuarios.gestionar')) { $items[] = ['usuarios','Usuarios','users','usuarios.gestionar']; $items[] = ['padron','Padrón','upload','usuarios.gestionar']; }
+?>
+<nav class="nav-inferior" aria-label="Navegación móvil">
+<?php foreach ($items as [$pag, $etq, $ico, $perm]): if ($perm && !puede($perm)) continue; $partes = explode('#', $pag); ?><a href="<?= e(url($partes[0]) . (isset($partes[1]) ? '#' . $partes[1] : '')) ?>" class="<?= $actual === $partes[0] && !isset($partes[1]) ? 'activo' : '' ?>"><?= icono($ico) ?><span><?= e($etq) ?></span></a><?php endforeach; ?>
+<button type="button" class="abrir-menu" aria-label="Más opciones" aria-controls="menu-lateral" aria-expanded="false"><?= icono('more_horiz') ?><span>Más</span></button>
+</nav>
+<footer class="pie-app"><span>Biblioteca Escolar · I.E. San Juan</span><span><?= date('Y') ?> · San Juan Bautista, Ayacucho</span></footer>
+<?php else: ui_pie_auth(); endif; ?>
+<script src="assets/js/app.js?v=stitch-1" defer></script>
+<script src="assets/js/interfaz.js?v=stitch-1" defer></script>
+</body></html><?php
 }
-
 /** Cabecera de sección con título y acciones opcionales (HTML ya escapado). */
 function encabezado(string $titulo, string $sub = '', string $acciones = ''): void
 {
