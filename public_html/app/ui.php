@@ -8,7 +8,13 @@ function ui_icono(string $nombre): string
 
 function ui_portada(array $material, string $clase = ''): string
 {
-    // El esquema original no contiene portadas: cubierta tipográfica con datos reales.
+    // Arte exportado del prototipo cuando coincide el título; sin columnas nuevas.
+    $portadas = ['cien anos de soledad'=>'cien-anos-de-soledad', 'los rios profundos'=>'los-rios-profundos', 'el principito'=>'el-principito', 'cosmos'=>'cosmos'];
+    $clave = mb_strtolower(sin_tildes(trim($material['titulo'])));
+    if (isset($portadas[$clave])) {
+        return '<div class="libro-portada portada-imagen ' . e($clase) . '" aria-hidden="true"><img src="assets/img/portadas/' . $portadas[$clave] . '.jpg" alt="" loading="lazy"><b>' . e($material['codigo'] ?? '') . '</b></div>';
+    }
+    // El esquema no contiene portadas: cubierta tipográfica para los demás títulos.
     return '<div class="libro-portada ' . e($clase) . '" aria-hidden="true"><span>' . ui_icono('book') . '</span><strong>' . e($material['titulo']) . '</strong><small>' . e($material['autor'] ?? '') . '</small><b>' . e($material['codigo'] ?? '') . '</b></div>';
 }
 
