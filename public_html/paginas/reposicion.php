@@ -26,6 +26,7 @@ encabezado('Registrar reposición', $pr['codigo'] . ' · ' . $pr['titulo'], '<a 
 ?>
 <form method="post" class="tarjeta angosta" action="<?= e(url('reposicion')) ?>">
   <?= csrf_campo() ?><input type="hidden" name="id" value="<?= $id ?>">
+  <div class="grupo-form-titulo"><?= icono('book') ?> Reposición de material</div><div class="material-celda" style="margin-bottom:20px"><?= ui_portada($pr, 'portada-mini') ?><strong><?= e($pr['titulo']) ?></strong></div>
   <p><strong><?= e(nombre_completo($pr)) ?></strong> (DNI <?= e($pr['dni']) ?>) perdió este libro; la pérdida se registró el <?= fecha_es($pr['fecha_devolucion'], true) ?>.</p>
   <p>Confirme que el lector entregó <strong>el mismo libro</strong> en reposición.</p>
   <label>Observación<input name="observacion" maxlength="200" placeholder="Ej.: entregó ejemplar nuevo, misma edición"></label>

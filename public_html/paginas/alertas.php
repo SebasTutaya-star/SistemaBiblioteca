@@ -31,15 +31,17 @@ function tabla_alertas(array $filas): void
 pagina_inicio('Alertas', 'alertas');
 encabezado('Alertas y notificaciones', 'Actualizado al ' . fecha_es(date('Y-m-d H:i'), true));
 ?>
-<section class="tarjeta borde-rojo">
+<div class="metricas"><?php ui_metrica('Préstamos vencidos', count($vencidos), 'Requieren regularización', 'bell', 'roja'); ui_metrica('Próximos vencimientos', count($proximos), 'Dentro del plazo de aviso', 'clock', 'naranja'); ui_metrica('Lectores con pendientes', count($pendientes), 'Materiales por devolver', 'users'); ui_metrica('Anticipación de alertas', $dias . ' días', 'Configuración vigente', 'calendar'); ?></div>
+<nav class="tabs" aria-label="Tipos de alerta"><a href="#alertas-vencidos">Vencidos</a><a href="#alertas-proximos">Próximos a vencer</a><a href="#alertas-pendientes">Lectores con pendientes</a></nav>
+<section class="tarjeta borde-rojo" id="alertas-vencidos">
   <h2>Préstamos vencidos <span class="contador"><?= count($vencidos) ?></span></h2>
   <?php tabla_alertas($vencidos); ?>
 </section>
-<section class="tarjeta borde-ambar">
+<section class="tarjeta borde-ambar" id="alertas-proximos">
   <h2>Próximos a vencer (hoy y <?= $dias ?> día(s) siguientes) <span class="contador"><?= count($proximos) ?></span></h2>
   <?php tabla_alertas($proximos); ?>
 </section>
-<section class="tarjeta">
+<section class="tarjeta" id="alertas-pendientes">
   <h2>Lectores con materiales pendientes de devolución <span class="contador"><?= count($pendientes) ?></span></h2>
   <?php if (!$pendientes): ?><p class="vacio">Ningún lector tiene materiales pendientes.</p><?php else: ?>
   <div class="tabla-envoltura"><table class="tabla">

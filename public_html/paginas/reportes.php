@@ -47,6 +47,7 @@ encabezado('Reportes de la biblioteca', 'Elija el reporte y el periodo; luego de
 ?>
 <form method="get" class="tarjeta formulario" action="index.php" id="form-reporte">
   <input type="hidden" name="p" value="reportes">
+  <div class="grupo-form-titulo"><?= icono('chart') ?> Generar reporte de biblioteca</div>
   <div class="rejilla-form">
     <label>Reporte
       <select name="tipo" onchange="this.form.submit()">
@@ -67,8 +68,8 @@ encabezado('Reportes de la biblioteca', 'Elija el reporte y el periodo; luego de
   </div>
   <div class="botonera izquierda">
     <button class="btn btn-primario">Ver reporte</button>
-    <button class="btn" name="formato" value="xlsx">⬇ Descargar Excel</button>
-    <button class="btn" name="formato" value="pdf">⬇ Descargar PDF</button>
+    <button class="btn" name="formato" value="xlsx"><?= icono('download') ?> Descargar Excel</button>
+    <button class="btn" name="formato" value="pdf"><?= icono('download') ?> Descargar PDF</button>
   </div>
 </form>
 

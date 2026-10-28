@@ -118,11 +118,12 @@ pagina_inicio('Importar catálogo', 'importar');
 encabezado('Importar catálogo desde Excel', 'Carga masiva de libros. El registro manual sigue disponible para libros nuevos y correcciones.');
 
 if (!$resumen): ?>
+<div class="pasos" aria-label="Proceso de importación"><span class="paso activo">1. Cargar archivo</span><span class="paso">2. Revisar datos</span><span class="paso">3. Confirmar importación</span></div>
 <div class="rejilla-2">
   <form method="post" enctype="multipart/form-data" class="tarjeta" action="<?= e(url('importar')) ?>">
     <?= csrf_campo() ?><input type="hidden" name="accion" value="validar">
     <h2>1. Seleccione el archivo</h2>
-    <label>Archivo Excel (.xlsx) o CSV<input type="file" name="archivo" accept=".xlsx,.csv" required></label>
+    <label class="zona-archivo"><?= icono('upload') ?><strong>Selecciona tu archivo Excel o CSV</strong><small>Máximo 5 MB · Revisarás los datos antes de confirmar.</small><input type="file" name="archivo" accept=".xlsx,.csv" required></label>
     <button class="btn btn-primario">Validar archivo</button>
     <p class="nota">Primero verá una vista previa con los errores encontrados. Nada se guarda hasta que confirme.</p>
   </form>

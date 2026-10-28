@@ -74,6 +74,7 @@ encabezado($m ? 'Editar material' : 'Registrar material', $m ? $m['titulo'] : 'C
 <form method="post" class="tarjeta formulario" action="<?= e(url('material_form')) ?>" novalidate>
   <?= csrf_campo() ?>
   <input type="hidden" name="id" value="<?= (int)$id ?>">
+  <div class="grupo-form-titulo"><?= icono('book') ?> Datos bibliográficos</div>
   <div class="rejilla-form">
     <label class="col-2">Título *<input name="titulo" id="f-titulo" value="<?= e($d['titulo']) ?>" required maxlength="255"><?= $err('titulo') ?></label>
     <label>Autor<input name="autor" value="<?= e($d['autor']) ?>" maxlength="200"></label>
