@@ -24,18 +24,22 @@ if (es_post()) {
 }
 pagina_inicio('Recuperar contraseña');
 ?>
-<div class="tarjeta angosta">
-  <h1>Recuperar contraseña</h1>
-  <?php if ($enviado): ?>
-    <div class="aviso aviso-ok">Si el correo está registrado y activo, recibirá un enlace para crear una nueva contraseña. Revise también la carpeta de spam.</div>
-  <?php else: ?>
-    <p class="sub">Escriba su correo institucional. Le enviaremos un enlace para crear una nueva contraseña.</p>
-    <form method="post" action="<?= e(url('recuperar')) ?>">
-      <?= csrf_campo() ?>
-      <label>Correo institucional <input type="email" name="correo" required autofocus></label>
-      <button class="btn btn-primario btn-bloque">Enviar enlace</button>
-    </form>
-  <?php endif; ?>
-  <a class="enlace-sec" href="<?= e(url('login')) ?>">‹ Volver al inicio de sesión</a>
+<div class="auth-recuperar">
+  <div class="recuperar-identidad"><img src="assets/img/insignia-san-juan.png" alt="Escudo oficial I.E. San Juan"><h1>Recuperar contraseña</h1><p class="sub">Ingresa tu correo institucional escolar para recibir un enlace seguro de restauración de acceso.</p></div>
+  <section class="tarjeta">
+    <div class="pasos" aria-label="Pasos de recuperación"><span class="paso activo">1. Correo institucional</span><span class="paso <?= $enviado ? 'activo' : '' ?>">2. Enlace por correo</span><span class="paso">3. Nueva contraseña</span></div>
+    <?php if ($enviado): ?>
+      <div class="aviso aviso-ok" role="status"><?= icono('check') ?> Si el correo está registrado y activo, recibirá un enlace para crear una nueva contraseña. Revise también la carpeta de spam.</div>
+    <?php else: ?>
+      <div class="tabs" aria-label="Tipo de cuenta"><button type="button" class="activo" data-rol-acceso="estudiante" aria-pressed="true"><?= icono('school') ?> Estudiante</button><button type="button" data-rol-acceso="personal" aria-pressed="false"><?= icono('person') ?> Docente o personal</button></div>
+      <form method="post" action="<?= e(url('recuperar')) ?>">
+        <?= csrf_campo() ?>
+        <label>Correo institucional<div class="campo-icono"><?= icono('mail') ?><input type="email" name="correo" required autofocus autocomplete="email" placeholder="estudiante@iesanjuan.edu.pe"></div></label>
+        <button class="btn btn-primario btn-bloque"><?= icono('mail') ?> Enviar enlace de recuperación</button>
+      </form>
+    <?php endif; ?>
+    <div class="login-nota" id="ayuda-acceso"><?= icono('info') ?><div><strong>Orientación al lector</strong><p id="nota-acceso">Revise su carpeta de correo no deseado. Si no recuerda su correo registrado, acérquese al mostrador de biblioteca con su DNI.</p></div></div>
+    <a class="enlace-sec" href="<?= e(url('login')) ?>"><?= icono('back') ?> Volver al inicio de sesión</a>
+  </section>
 </div>
 <?php pagina_fin();
