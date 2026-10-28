@@ -1,0 +1,13 @@
+Rol			Ingreso	
+
+Bibliotecaria	
+biblioteca@sanjuan.edu.pe / 70000001	
+
+Auxiliar	
+auxiliar@sanjuan.edu.pe / 70000002
+
+Estudiante	
+estudiante@sanjuan.edu.pe / 74561230	
+
+Administrador	
+admin@sanjuan.edu.pe / admin123	
