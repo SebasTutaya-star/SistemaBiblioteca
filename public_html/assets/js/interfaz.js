@@ -89,6 +89,31 @@
     if (initial) select(initial, false);
     window.addEventListener('hashchange', function () { var match = buttons.find(function (b) { return '#' + b.dataset.panel === location.hash; }); if (match) select(match, false); });
   });
+  // La ficha conserva una URL real; se abre como diálogo solo dentro del catálogo.
+  if (document.body.dataset.pagina === 'catalogo' && typeof HTMLDialogElement !== 'undefined') {
+    var detail = document.createElement('dialog'); detail.className = 'ficha-dialog';
+    detail.setAttribute('aria-label', 'Ficha bibliográfica del material');
+    detail.innerHTML = '<div class="dialog-barra"><strong>Ficha bibliográfica</strong><button type="button" class="icon-btn" aria-label="Cerrar ficha"><span class="material-symbols-outlined" aria-hidden="true">close</span></button></div><div class="dialog-contenido"></div>';
+    document.body.appendChild(detail);
+    detail.querySelector('button').addEventListener('click', function () { detail.close(); });
+    detail.addEventListener('click', function (event) { if (event.target === detail) { var rect = detail.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) detail.close(); } });
+    document.querySelectorAll('.contenido a[href*="p=material_ver"]').forEach(function (link) {
+      link.addEventListener('click', function (ev) {
+        if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.altKey) return;
+        ev.preventDefault();
+        var content = detail.querySelector('.dialog-contenido');
+        content.textContent = 'Cargando ficha…'; detail.showModal();
+        fetch(link.href, {credentials: 'same-origin'}).then(function (response) { if (!response.ok) throw new Error('Ficha no disponible'); return response.text(); }).then(function (html) {
+          var doc = new DOMParser().parseFromString(html, 'text/html');
+          var main = doc.querySelector('main.contenido');
+          if (!main) throw new Error('Sesión expirada');
+          var breadcrumb = main.querySelector('.ruta-contexto'); if (breadcrumb) breadcrumb.remove();
+          content.replaceChildren.apply(content, Array.from(main.childNodes));
+          content.querySelectorAll('.tabla-envoltura').forEach(function (w) { w.classList.remove('tabla-responsive'); });
+        }).catch(function () { detail.close(); window.location.assign(link.href); });
+      });
+    });
+  }
   var loan = document.getElementById('form-prestamo');
   if (loan) {
     var step = loan.querySelector('[name="confirmar"]') ? 2 : 0;
