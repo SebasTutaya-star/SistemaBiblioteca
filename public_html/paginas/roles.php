@@ -5,6 +5,7 @@ foreach (filas('SELECT rol, COUNT(*) n FROM usuarios WHERE activo = 1 GROUP BY r
 pagina_inicio('Roles y permisos', 'roles');
 encabezado('Roles y permisos', 'Funcionalidades que ve cada rol. Para cambiar el rol de una persona, edite su cuenta en Usuarios.');
 ?>
+<div class="ayuda-panel" style="margin-bottom:20px"><h3><?= icono('shield') ?> Perfiles de acceso de la biblioteca</h3><p>Consulta las funciones habilitadas para cada rol. Para asignar otro perfil a una persona, actualiza su cuenta desde Usuarios.</p><a class="btn" href="<?= e(url('usuarios')) ?>">Gestionar usuarios</a></div>
 <div class="tabla-envoltura tarjeta"><table class="tabla matriz">
   <thead><tr><th>Funcionalidad</th><th>Requisito</th>
     <?php foreach (ROLES as $k => $v): ?><th class="centro"><?= e($v) ?><br><small><?= (int)($conteo[$k] ?? 0) ?> activa(s)</small></th><?php endforeach; ?></tr></thead>

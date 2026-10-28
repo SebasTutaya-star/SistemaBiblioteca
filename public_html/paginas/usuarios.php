@@ -56,7 +56,7 @@ encabezado('Usuarios', $total . ' cuenta(s)',
   <thead><tr><th>Nombre</th><th>DNI</th><th>Correo</th><th>Rol</th><th>Grado</th><th>Estado</th><th>Último acceso</th><th></th></tr></thead>
   <tbody><?php foreach ($lista as $r): ?>
     <tr class="<?= $r['activo'] ? '' : 'inactivo' ?>">
-      <td><strong><?= e($r['apellidos'] . ', ' . $r['nombres']) ?></strong></td>
+      <td><div class="material-celda"><span class="avatar"><?= e(mb_substr($r['nombres'],0,1) . mb_substr($r['apellidos'],0,1)) ?></span><strong><?= e($r['apellidos'] . ', ' . $r['nombres']) ?></strong></div></td>
       <td><?= e($r['dni']) ?></td>
       <td><small><?= e($r['correo']) ?></small></td>
       <td><?= e(ROLES[$r['rol']]) ?><?= $r['tipo_lector'] ? '<br><small>' . e(ucfirst($r['tipo_lector'])) . '</small>' : '' ?></td>

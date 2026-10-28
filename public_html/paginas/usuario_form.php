@@ -47,6 +47,7 @@ encabezado($obj ? 'Editar usuario' : 'Registrar usuario', $obj ? nombre_completo
 ?>
 <form method="post" class="tarjeta formulario" action="<?= e(url('usuario_form')) ?>" id="form-usuario">
   <?= csrf_campo() ?><input type="hidden" name="id" value="<?= $id ?>">
+  <div class="grupo-form-titulo"><?= icono('users') ?> Identidad y perfil del usuario</div>
   <div class="rejilla-form">
     <label>DNI *<input name="dni" value="<?= e($d['dni']) ?>" inputmode="numeric" maxlength="12" required><?= $err('dni') ?></label>
     <label>Correo institucional *<input type="email" name="correo" value="<?= e($d['correo']) ?>" required><?= $err('correo') ?></label>
