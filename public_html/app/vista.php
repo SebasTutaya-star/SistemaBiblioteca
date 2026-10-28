@@ -42,6 +42,7 @@ function pagina_inicio(string $titulo, string $actual = ''): void
   <nav class="menu">
     <span class="menu-seccion"><?= $lector ? 'Mi biblioteca' : 'Biblioteca escolar' ?></span>
     <?php foreach ($nav as [$pag, $etq, $perm, $ico]): ?><a href="<?= e(url($pag)) ?>" class="<?= $actual === $pag ? 'activo' : '' ?>" <?= $actual === $pag ? 'aria-current="page"' : '' ?>><?= icono($ico) ?><span><?= e($etq) ?></span></a><?php endforeach; ?>
+    <?php if ($lector): ?><a href="<?= e(url('mis_prestamos')) ?>#historial"><?= icono('clock') ?><span>Mi historial</span></a><?php endif; ?>
     <span class="menu-seccion">Mi cuenta</span>
     <a href="<?= e(url('cambiar_clave')) ?>" <?= g('p') === 'cambiar_clave' ? 'aria-current="page" class="activo"' : '' ?>><?= icono('person') ?><span>Mi cuenta y contraseña</span></a>
   </nav>

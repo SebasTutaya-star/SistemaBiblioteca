@@ -88,7 +88,7 @@ encabezado('Catálogo bibliográfico', $total . ' material(es) encontrados',
     <?php foreach ($materiales as $m): ?>
       <tr class="<?= $m['activo'] ? '' : 'inactivo' ?>">
         <td class="mono"><?= e($m['codigo']) ?></td>
-        <td><div class="material-celda"><?= ui_portada($m, 'portada-mini') ?><div><a href="<?= e(url('material_ver', ['id' => $m['id']])) ?>"><strong><?= e($m['titulo']) ?></strong></a><br><small><?= e($m['autor']) ?><?= $m['editorial'] ? ' · ' . e($m['editorial']) : '' ?></small></div></div></td>
+        <td><div class="material-celda"><?= ui_portada($m, 'portada-mini') ?><div><a href="<?= e(url('material_ver', ['id' => $m['id']])) ?>"><strong><?= e($m['titulo']) ?></strong></a><br><small><?= e($m['autor']) ?><?= $m['editorial'] ? ' · ' . e($m['editorial']) : '' ?></small><small class="solo-movil"><?= e($m['codigo']) ?></small></div></div></td>
         <td><?= e($m['area']) ?><br><small><?= e($m['nivel']) ?></small></td>
         <td class="nowrap"><?= e($m['ubicacion'] ?: '—') ?></td>
         <td class="num"><?= (int)$m['cantidad_total'] ?></td>
