@@ -23,3 +23,4 @@
 @media(max-width:760px){.ficha-dialog{width:calc(100vw - 20px);max-height:calc(100dvh - 24px)}.dialog-contenido{padding:16px}.dialog-barra{padding:4px 12px}.dialog-contenido .encabezado h1{font-size:20px}}
 .portada-imagen{padding:0;overflow:hidden;background:#eff4ff;justify-content:center;align-items:center;aspect-ratio:3/4}.portada-imagen>img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}.portada-imagen>b{position:absolute;bottom:0;left:0;max-width:100%;padding:4px 8px;background:#1e3a8ae6;color:white}.portada-imagen.portada-mini>b{font-size:7px;padding:2px}.libro-activo>.portada-imagen{height:210px;min-height:0}
 @media(max-width:760px){.libro-activo>.portada-imagen{height:145px;min-height:0}.portada-imagen{min-height:200px}}
+@media(max-width:760px){.tabla-responsive td{overflow-wrap:anywhere}.tabla-responsive .material-celda{min-width:0}.tabla-responsive .material-celda>strong{min-width:0}}
