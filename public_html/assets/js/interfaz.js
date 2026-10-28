@@ -7,6 +7,7 @@
   function toggleMenu(open) {
     if (!menu) return;
     document.body.classList.toggle('menu-abierto', open);
+    menu.inert = window.matchMedia('(max-width: 760px)').matches && !open;
     document.querySelectorAll('.abrir-menu').forEach(function (b) { b.setAttribute('aria-expanded', String(open)); });
     overlay.hidden = !open;
     if (open) { previousFocus = document.activeElement; menu.querySelector('a').focus(); }
@@ -14,6 +15,7 @@
   }
   document.querySelectorAll('.abrir-menu').forEach(function (b) { b.addEventListener('click', function () { toggleMenu(!document.body.classList.contains('menu-abierto')); }); });
   if (overlay) overlay.addEventListener('click', function () { toggleMenu(false); });
+  if (menu) menu.inert = window.matchMedia('(max-width: 760px)').matches;
   document.addEventListener('keydown', function (ev) {
     if (!document.body.classList.contains('menu-abierto')) return;
     if (ev.key === 'Escape') toggleMenu(false);
@@ -24,7 +26,7 @@
       else if (!ev.shiftKey && document.activeElement === last) { ev.preventDefault(); first.focus(); }
     }
   });
-  window.matchMedia('(min-width: 761px)').addEventListener('change', function (e) { if (e.matches) toggleMenu(false); });
+  window.matchMedia('(min-width: 761px)').addEventListener('change', function () { toggleMenu(false); });
 
   document.querySelectorAll('input[type="password"]').forEach(function (input, i) {
     if (!input.id) input.id = 'clave-visual-' + i;
@@ -67,7 +69,12 @@
   }
   document.querySelectorAll('.tabla-envoltura').forEach(function (wrapper) {
     var table = wrapper.querySelector('table');
-    if (!table || table.classList.contains('matriz')) return;
+    if (!table) return;
+    if (table.classList.contains('matriz')) {
+      wrapper.tabIndex = 0; wrapper.setAttribute('role', 'region');
+      wrapper.setAttribute('aria-label', 'Tabla de permisos. Desplácese horizontalmente para ver todos los roles.');
+      return;
+    }
     var headers = Array.from(table.querySelectorAll('thead th')).map(function (h) { return h.textContent.trim(); });
     table.querySelectorAll('tbody tr').forEach(function (tr) { Array.from(tr.children).forEach(function (td, i) { td.dataset.label = headers[i] || ''; }); });
     wrapper.classList.add('tabla-responsive');
