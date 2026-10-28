@@ -21,7 +21,8 @@ encabezado($m['titulo'], $m['autor'] ?: '', $acciones);
 ?>
 <div class="rejilla-2">
   <section class="tarjeta">
-    <h2>Datos bibliográficos</h2>
+    <div class="grupo-form-titulo"><?= icono('book') ?> Ficha bibliográfica <?= $gestion ? '' : 'del lector' ?></div>
+    <div class="libro-activo" style="margin-bottom:24px"><?= ui_portada($m) ?><div class="libro-activo-info"><span class="etiqueta"><?= e($m['area'] ?: 'General') ?></span><h3><?= e($m['titulo']) ?></h3><p class="sub"><?= e($m['autor'] ?: 'Autor no registrado') ?></p><p style="margin-top:16px"><?= disponibilidad_html($m) ?></p></div></div>
     <dl class="datos-grandes">
       <dt>Código</dt><dd class="mono"><?= e($m['codigo']) ?></dd>
       <dt>Autor</dt><dd><?= e($m['autor'] ?: '—') ?></dd>
@@ -62,6 +63,8 @@ encabezado($m['titulo'], $m['autor'] ?: '', $acciones);
       </ul>
     <?php endif; ?>
   </section>
+  <?php else: ?>
+  <section class="tarjeta"><h2><?= icono('info') ?> ¿Cómo solicitar este libro?</h2><ol class="lista-simple"><li>Acércate al mostrador de biblioteca con tu identificación.</li><li>Indica el título o presenta esta ficha al personal.</li><li>El personal verificará la disponibilidad y registrará el préstamo según las reglas vigentes.</li></ol><div class="aviso aviso-info">Para ampliar un plazo de lectura, solicita la renovación directamente al personal de biblioteca antes del vencimiento.</div><a class="btn btn-primario" href="<?= e(url('catalogo')) ?>">Entendido, volver al catálogo</a></section>
   <?php endif; ?>
 </div>
 
