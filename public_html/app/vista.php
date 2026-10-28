@@ -22,8 +22,7 @@ function pagina_inicio(string $titulo, string $actual = ''): void
 <meta name="theme-color" content="#1e3a8a">
 <title><?= e($titulo) ?> · <?= e($app) ?></title>
 <link rel="icon" href="assets/img/insignia-san-juan.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Material+Symbols+Outlined:wght,FILL@400,0&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/fuentes.css?v=stitch-1">
 <link rel="stylesheet" href="assets/css/estilos.css?v=stitch-1">
 </head><body class="<?= $u ? ($lector ? 'sesion lector' : 'sesion personal') : 'sin-sesion' ?>" data-pagina="<?= e(g('p', 'inicio')) ?>">
 <a class="saltar-contenido" href="#contenido">Ir al contenido</a>
