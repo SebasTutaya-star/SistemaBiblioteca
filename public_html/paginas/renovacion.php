@@ -42,7 +42,7 @@ if ($error) echo '<div class="aviso aviso-error">' . e($error) . '</div>';
 <div class="rejilla-2">
   <form method="post" class="tarjeta" action="<?= e(url('renovacion')) ?>">
     <?= csrf_campo() ?><input type="hidden" name="id" value="<?= $id ?>">
-    <p>Fecha de devolución actual: <strong><?= fecha_es($pr['fecha_vencimiento']) ?></strong> <?= estado_prestamo_html($pr) ?></p>
+    <div class="grupo-form-titulo"><?= icono('clock') ?> Renovar plazo de lectura</div><p>Fecha de devolución actual: <strong><?= fecha_es($pr['fecha_vencimiento']) ?></strong> <?= estado_prestamo_html($pr) ?></p>
     <label>Nueva fecha de devolución *<input type="date" name="fecha_nueva" value="<?= e($nueva) ?>" min="<?= hoy() ?>" required></label>
     <label>Justificación presentada por el lector *<textarea name="justificacion" rows="3" maxlength="255" required><?= e($just) ?></textarea></label>
     <button class="btn btn-primario">Autorizar ampliación</button>

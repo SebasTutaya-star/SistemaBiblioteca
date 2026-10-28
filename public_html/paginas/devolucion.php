@@ -53,7 +53,7 @@ encabezado('Registrar devolución', $pr['codigo'] . ' · ' . $pr['titulo'], '<a 
 ?>
 <div class="rejilla-2">
   <section class="tarjeta">
-    <h2>Datos del préstamo</h2>
+    <div class="grupo-form-titulo"><?= icono('book') ?> Datos del préstamo</div><div class="material-celda" style="margin-bottom:20px"><?= ui_portada($pr, 'portada-mini') ?><strong><?= e($pr['titulo']) ?></strong></div>
     <dl class="datos-grandes">
       <dt>Lector</dt><dd><?= e(nombre_completo($pr)) ?> · DNI <?= e($pr['dni']) ?></dd>
       <dt>Tipo</dt><dd><?= e(ucfirst((string)$pr['tipo_lector'])) ?><?= $pr['grado'] ? ' · ' . e($pr['grado'] . ' ' . $pr['seccion']) : '' ?></dd>

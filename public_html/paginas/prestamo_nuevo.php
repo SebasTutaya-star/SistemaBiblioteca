@@ -46,9 +46,11 @@ encabezado('Registrar préstamo', 'Busque al lector y el material; el sistema ve
 foreach ($resultado['errores'] as $er) echo '<div class="aviso aviso-error">' . e($er) . '</div>';
 if ($pedirConfirmacion) foreach ($resultado['advertencias'] as $a) echo '<div class="aviso aviso-advertencia"><strong>Advertencia:</strong> ' . e($a) . '</div>';
 ?>
-<form method="post" class="tarjeta formulario" action="<?= e(url('prestamo_nuevo')) ?>" id="form-prestamo">
+<form method="post" class="tarjeta formulario wizard-card" action="<?= e(url('prestamo_nuevo')) ?>" id="form-prestamo">
   <?= csrf_campo() ?>
-  <div class="rejilla-2 sin-margen">
+  <div class="grupo-form-titulo"><?= icono('plus') ?> Registro de nuevo préstamo <span class="estado est-ambar" style="margin-left:auto">Biblioteca I.E. San Juan</span></div>
+  <div class="pasos" id="pasos-prestamo" aria-label="Pasos de registro"><span class="paso activo">1. Lector</span><span class="paso">2. Material</span><span class="paso">3. Confirmación</span></div>
+  <div class="rejilla-2 sin-margen wizard-selectores">
     <div class="selector" data-tipo="lector">
       <label>Lector (DNI, nombre o correo)
         <input type="search" class="selector-buscar" autocomplete="off" placeholder="Escriba al menos 2 caracteres…"
@@ -76,17 +78,20 @@ if ($pedirConfirmacion) foreach ($resultado['advertencias'] as $a) echo '<div cl
       </div>
     </div>
   </div>
-  <div class="rejilla-form">
+  <div class="rejilla-form wizard-fechas">
     <label>Fecha de devolución *
       <input type="date" name="fecha_vencimiento" id="f-vence" value="<?= e($vence) ?>" min="<?= hoy() ?>" required>
       <small class="ayuda">Se propone según el tipo de material. Puede ajustarla.</small>
     </label>
     <label>Observación<input name="observacion" value="<?= e($obs) ?>" maxlength="255"></label>
   </div>
+  <section class="ayuda-panel wizard-resumen" hidden aria-live="polite"><h2>Confirma el préstamo</h2><dl class="datos-grandes"><dt>Lector</dt><dd id="resumen-lector"></dd><dt>Material</dt><dd id="resumen-material"></dd><dt>Devolver hasta</dt><dd id="resumen-fecha"></dd></dl><p class="nota">Revisa los datos. El sistema validará las reglas y la disponibilidad antes de guardar.</p></section>
   <div class="botonera">
+    <a class="btn" href="<?= e(url('prestamos')) ?>">Cancelar</a>
+    <button type="button" class="btn wizard-atras" hidden>Anterior</button>
+    <button type="button" class="btn btn-primario wizard-siguiente" hidden>Continuar al paso 2 <?= icono('arrow') ?></button>
     <?php if ($pedirConfirmacion): ?>
       <input type="hidden" name="confirmar" value="<?= (int)$material['id'] . '-' . (int)$lector['id'] ?>">
-      <a class="btn" href="<?= e(url('prestamo_nuevo')) ?>">Cancelar</a>
       <button class="btn btn-advertencia">Confirmar préstamo</button>
     <?php else: ?>
       <button class="btn btn-primario">Registrar préstamo</button>

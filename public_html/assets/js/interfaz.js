@@ -89,4 +89,39 @@
     if (initial) select(initial, false);
     window.addEventListener('hashchange', function () { var match = buttons.find(function (b) { return '#' + b.dataset.panel === location.hash; }); if (match) select(match, false); });
   });
+  var loan = document.getElementById('form-prestamo');
+  if (loan) {
+    var step = loan.querySelector('[name="confirmar"]') ? 2 : 0;
+    var reader = loan.querySelector('[data-tipo="lector"]');
+    var material = loan.querySelector('[data-tipo="material"]');
+    var dates = loan.querySelector('.wizard-fechas');
+    var summary = loan.querySelector('.wizard-resumen');
+    var next = loan.querySelector('.wizard-siguiente');
+    var back = loan.querySelector('.wizard-atras');
+    var submit = loan.querySelector('.botonera button:not([type="button"])');
+    function showStep() {
+      reader.hidden = step !== 0; material.hidden = step !== 1; dates.hidden = step !== 1;
+      summary.hidden = step !== 2; back.hidden = step === 0; next.hidden = step === 2; submit.hidden = step !== 2;
+      loan.querySelectorAll('.paso').forEach(function (el, i) { el.classList.toggle('activo', i <= step); if (i === step) el.setAttribute('aria-current', 'step'); else el.removeAttribute('aria-current'); });
+      next.innerHTML = (step === 0 ? 'Continuar al paso 2' : 'Revisar préstamo') + ' <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>';
+      document.getElementById('resumen-lector').textContent = reader.querySelector('input[type="search"]').value;
+      document.getElementById('resumen-material').textContent = material.querySelector('input[type="search"]').value;
+      document.getElementById('resumen-fecha').textContent = loan.querySelector('[name="fecha_vencimiento"]').value;
+    }
+    function advance() {
+      var selected = step === 0 ? reader : material;
+      var search = selected.querySelector('input[type="search"]');
+      if (!selected.querySelector('.selector-id').value) { search.setCustomValidity('Seleccione un resultado de la búsqueda para continuar.'); search.reportValidity(); return; }
+      search.setCustomValidity('');
+      if (step === 1) { var date = loan.querySelector('[name="fecha_vencimiento"]'); if (!date.reportValidity()) return; }
+      step = Math.min(2, step + 1); showStep();
+      (step === 1 ? material.querySelector('input[type="search"]') : submit).focus();
+    }
+    [reader, material].forEach(function (el) { el.querySelector('input[type="search"]').addEventListener('input', function () { this.setCustomValidity(''); }); });
+    next.addEventListener('click', advance);
+    back.addEventListener('click', function () { step = Math.max(0, step - 1); showStep(); (step === 0 ? reader : material).querySelector('input[type="search"]').focus(); });
+    loan.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' && step < 2 && ev.target.tagName === 'INPUT' && !ev.defaultPrevented) { ev.preventDefault(); advance(); } });
+    loan.addEventListener('submit', function (ev) { if (step < 2) { ev.preventDefault(); advance(); } });
+    loan.classList.add('wizard-activo'); showStep();
+  }
 })();

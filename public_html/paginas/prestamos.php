@@ -27,8 +27,9 @@ $lista = filas("SELECT p.*, m.codigo, m.titulo, u.nombres, u.apellidos, u.dni, u
                 $sql ORDER BY p.fecha_vencimiento, u.apellidos LIMIT $limite OFFSET $offset", $params);
 
 pagina_inicio('Préstamos', 'prestamos');
-encabezado('Préstamos', $total . ' registro(s)', '<a class="btn btn-primario" href="' . e(url('prestamo_nuevo')) . '">+ Nuevo préstamo</a>');
+encabezado('Control de Préstamos', 'Gestión de circulación · ' . $total . ' registro(s)', '<a class="btn btn-primario" href="' . e(url('prestamo_nuevo')) . '">+ Nuevo préstamo</a>');
 ?>
+<nav class="tabs" aria-label="Filtrar préstamos"><?php foreach ($filtros as $k => $v): ?><a class="<?= $filtro === $k ? 'activo' : '' ?>" href="<?= e(url('prestamos', array_filter(['filtro'=>$k,'q'=>$texto]))) ?>" <?= $filtro === $k ? 'aria-current="page"' : '' ?>><?= e($v) ?></a><?php endforeach; ?></nav>
 <form method="get" class="buscador tarjeta" action="index.php">
   <input type="hidden" name="p" value="prestamos">
   <div class="fila-busqueda">
