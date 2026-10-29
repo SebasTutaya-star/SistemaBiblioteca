@@ -86,3 +86,11 @@ Los cambios entre páginas usan una entrada breve de opacidad en CSS, sin depend
 Las fichas mantienen dimensiones estables mientras llegan sus datos. Las búsquedas y fichas cancelan solicitudes anteriores para evitar respuestas fuera de orden. Las animaciones interrumpidas restauran el tamaño y el desbordamiento del contenedor. Todo respeta `prefers-reduced-motion`.
 
 Auditoría: `tools/audit_motion.py --output motion-final.json` y `tools/verify_motion_interactions.py`. Se recorrieron 126 combinaciones de vistas/opciones, roles y tamaños, con caché desactivada y JavaScript ralentizado. Los informes están en `artifacts/qa/motion-final.json` y `artifacts/qa/motion-interactions.json`. Los flujos funcionales se repitieron únicamente en la copia local de demostración.
+
+### Firma de navegación San Juan
+
+Todos los enlaces de módulos y accesos mantienen la navegación nativa y añaden un enfoque progresivo de 320 ms. Los filtros y búsquedas tienen una actualización más breve; los formularios y el historial de navegación usan variantes propias. La intención se conserva solo durante la navegación mediante un marcador temporal de sesión, sin guardar datos del usuario ni alterar las peticiones.
+
+El acento naranja del menú activo, las flechas de avance, los resultados de búsqueda, los archivos seleccionados y las confirmaciones comparten la misma respuesta visual. El menú móvil también se cierra al navegar a una sección de la página actual. La preferencia de movimiento reducido desactiva estos efectos.
+
+Verificación específica: `tools/verify_navigation_effects.py` recorre la navegación de los cinco perfiles en móvil y escritorio, incluidos filtros automáticos, búsquedas, envío de formularios y regreso por historial.

@@ -24,6 +24,7 @@
       entrada.value = it.texto;
       oculto.value = it.id;
       info.textContent = it.info;
+      if (window.uiMotion) window.uiMotion.reveal(info);
       cerrar();
       if (tipo === 'material' && it.vence) {
         var f = document.getElementById('f-vence');
