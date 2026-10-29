@@ -81,7 +81,7 @@ Informes JSON y capturas: `artifacts/qa/` (ignorados por Git). El envío de corr
 
 La interfaz entrega las tablas móviles y sus etiquetas desde el servidor, junto con el estado inicial del asistente y los campos del usuario. Así evita cambiar la composición cuando termina de cargar JavaScript. El acceso directo al historial también respeta el fragmento `#historial` desde el primer render.
 
-Los cambios entre páginas usan una transición breve de opacidad cuando el navegador la admite. Botones, foco, validación, menús, fichas, pestañas, ayudas y formularios responden con efectos discretos. Las acciones conservan sus textos y endpoints. Las descargas no dejan indicadores de envío activos y el regreso con el navegador limpia los estados de carga.
+Los cambios entre páginas usan una entrada breve de opacidad en CSS, sin depender de las transiciones nativas de navegación del navegador. Botones, foco, validación, menús, fichas, pestañas, ayudas y formularios responden con efectos discretos. Las acciones conservan sus textos y endpoints. Las descargas no dejan indicadores de envío activos y el regreso con el navegador limpia los estados de carga.
 
 Las fichas mantienen dimensiones estables mientras llegan sus datos. Las búsquedas y fichas cancelan solicitudes anteriores para evitar respuestas fuera de orden. Las animaciones interrumpidas restauran el tamaño y el desbordamiento del contenedor. Todo respeta `prefers-reduced-motion`.
 

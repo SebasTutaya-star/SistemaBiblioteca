@@ -1,11 +1,11 @@
 /* Respuesta visual breve, coherente con el azul y naranja institucionales. */
 :root{--mov-rapido:130ms;--mov-suave:200ms;--mov-curva:cubic-bezier(.2,.7,.2,1)}
-@view-transition{navigation:auto}
-.contenido,.contenido-solo{view-transition-name:contenido}
-::view-transition-old(root),::view-transition-new(root){animation:none}
-::view-transition-old(contenido){animation:contenido-sale 100ms ease-out both}
-::view-transition-new(contenido){animation:contenido-entra 180ms ease-out both}
-@keyframes contenido-sale{to{opacity:0}}
+
+
+
+
+
+
 @keyframes contenido-entra{from{opacity:0}to{opacity:1}}
 .btn,.icon-btn,.menu a,.nav-inferior a,.nav-inferior button,.tabs button,.tabs a,.acceso,.ficha,.opcion,.enlace,.cerrar-sesion{transition:background-color var(--mov-rapido) ease,color var(--mov-rapido) ease,border-color var(--mov-rapido) ease,box-shadow var(--mov-suave) ease,transform var(--mov-rapido) var(--mov-curva)}
 input,select,textarea{transition:border-color var(--mov-rapido) ease,box-shadow var(--mov-suave) ease,background-color var(--mov-rapido) ease}
@@ -36,5 +36,8 @@ body.navegando:before{content:'';position:fixed;top:0;left:0;right:0;height:2px;
 .js #form-prestamo[data-wizard-step="2"] .wizard-siguiente{display:none!important}
 .js #form-prestamo[data-wizard-step="0"] .wizard-atras{display:none!important}
 @media(max-width:760px){.selector-info{min-height:56px}.ficha-dialog{height:calc(100dvh - 24px)}:is(.tabla-responsive,.tabla-envoltura:has(>table[data-responsive])) td:before{min-height:14px}.login-nota p{min-height:6.4em}}
-@media(prefers-reduced-motion:reduce){:root{--mov-rapido:0ms;--mov-suave:0ms}html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}::view-transition-old(contenido),::view-transition-new(contenido){animation:none}.contenido,.contenido-solo{view-transition-name:none}body.navegando:before{background:var(--primario)}.enviando button:after{animation:none!important;border-color:currentColor}}
+@media(prefers-reduced-motion:reduce){:root{--mov-rapido:0ms;--mov-suave:0ms}html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}body.navegando:before{background:var(--primario)}.enviando button:after{animation:none!important;border-color:currentColor}}
 .js[data-panel-inicial=historial] #activos{display:none}.js[data-panel-inicial=historial] #historial[hidden]{display:block!important}
+
+.contenido,.contenido-solo{animation:pagina-lista 160ms ease-out}
+@keyframes pagina-lista{from{opacity:.88}to{opacity:1}}

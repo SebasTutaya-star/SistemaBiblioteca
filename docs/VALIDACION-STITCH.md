@@ -45,3 +45,5 @@ Los informes detallados y capturas están disponibles localmente en `artifacts/q
 - 12 grupos de interacción verificados, incluyendo movimiento reducido, pulsaciones repetidas, descargas y dimensiones del diálogo durante la carga.
 - Los 17 flujos funcionales originales se repitieron satisfactoriamente tras añadir los efectos.
 - Backend, controladores y SQL siguen preservados según `tools/check_scope.py`.
+
+La regresión final de iconos y carga fría pasó en 14 pantallas con fuentes bloqueadas y caché desactivada. Se sustituyó la transición nativa entre documentos por opacidad CSS para evitar errores al interrumpir navegaciones.
