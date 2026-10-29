@@ -25,19 +25,19 @@ function pagina_inicio(string $titulo, string $actual = ''): void
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#1e3a8a">
 <title><?= e($titulo) ?> · <?= e($app) ?></title>
-<link rel="icon" href="assets/img/insignia-san-juan.png">
+<link rel="icon" href="assets/img/insignia-san-juan.png?v=institucion-1">
 <link rel="preload" href="assets/fonts/stitch-font-7.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/fuentes.css?v=stitch-8">
 <link rel="stylesheet" href="assets/css/estilos.css?v=stitch-8">
 <link rel="stylesheet" href="assets/css/movimiento.css?v=stitch-8">
-<link rel="stylesheet" href="assets/css/bienvenida.css?v=stitch-8">
-<link rel="preload" href="assets/img/insignia-san-juan.png" as="image">
+<link rel="stylesheet" href="assets/css/bienvenida.css?v=stitch-9">
+<link rel="preload" href="assets/img/insignia-san-juan.png?v=institucion-1" as="image">
 </head><body class="<?= $u ? ($lector ? 'sesion lector' : 'sesion personal') : 'sin-sesion' ?>" data-pagina="<?= e(g('p', 'inicio')) ?>">
 <?php readfile(__DIR__ . '/../assets/img/iconos.svg'); ?>
 <?php if ($u): ?>
 <section class="welcome-screen" role="dialog" aria-modal="true" aria-labelledby="welcome-title" aria-describedby="welcome-name welcome-role" tabindex="-1">
   <div class="welcome-content">
-    <div class="welcome-emblem"><span class="welcome-orbit" aria-hidden="true"></span><img src="assets/img/insignia-san-juan.png" alt="Insignia de la I.E. San Juan" width="128" height="132"></div>
+    <div class="welcome-emblem"><span class="welcome-orbit" aria-hidden="true"></span><img src="assets/img/insignia-san-juan.png?v=institucion-1" alt="Insignia de la I.E. San Juan" width="128" height="132"></div>
     <p class="welcome-institution">I.E. San Juan <span>Biblioteca Escolar</span></p>
     <h2 id="welcome-title">¡Bienvenido(a)!</h2>
     <p id="welcome-name" class="welcome-name"><?= e(nombre_completo($u)) ?></p>
@@ -52,7 +52,7 @@ function pagina_inicio(string $titulo, string $actual = ''): void
 <?php if ($u): ?>
 <header class="cabecera-app">
   <button type="button" class="icon-btn abrir-menu" aria-controls="menu-lateral" aria-expanded="false" aria-label="Abrir menú"><?= icono('menu') ?></button>
-  <a class="cabecera-marca" href="<?= e(url('inicio')) ?>"><img src="assets/img/insignia-san-juan.png" alt="Insignia San Juan"><span><strong>Biblioteca Escolar</strong><small>I.E. San Juan</small></span></a>
+  <a class="cabecera-marca" href="<?= e(url('inicio')) ?>"><img src="assets/img/insignia-san-juan.png?v=institucion-1" alt="Insignia San Juan"><span><strong>Biblioteca Escolar</strong><small>I.E. San Juan</small></span></a>
   <span class="rol-chip"><?= e($rol) ?></span>
   <div class="cabecera-derecha">
     <?php if (puede('alertas.ver')): $n = contar_alertas(); ?><a class="icon-btn notificacion" href="<?= e(url('alertas')) ?>" aria-label="Ver alertas<?= $n ? ': ' . $n . ' pendientes' : '' ?>"><?= icono('bell') ?><?php if ($n): ?><b><?= $n ?></b><?php endif; ?></a><?php endif; ?>
@@ -60,7 +60,7 @@ function pagina_inicio(string $titulo, string $actual = ''): void
   </div>
 </header>
 <aside class="lateral" id="menu-lateral" aria-label="Navegación principal">
-  <a class="marca" href="<?= e(url('inicio')) ?>"><img src="assets/img/insignia-san-juan.png" alt=""><span><strong>I.E. San Juan</strong><small><?= $lector ? 'Portal del lector' : 'Sistema de biblioteca' ?></small></span></a>
+  <a class="marca" href="<?= e(url('inicio')) ?>"><img src="assets/img/insignia-san-juan.png?v=institucion-1" alt=""><span><strong>I.E. San Juan</strong><small><?= $lector ? 'Portal del lector' : 'Sistema de biblioteca' ?></small></span></a>
   <div class="contexto-rol"><span class="punto"></span><div><small><?= $lector ? 'Nivel académico' : 'Sesión activa' ?></small><strong><?= e($u['grado'] ? $u['grado'] . ' ' . $u['seccion'] : $rol) ?></strong></div></div>
   <nav class="menu">
     <span class="menu-seccion"><?= $lector ? 'Mi biblioteca' : 'Biblioteca escolar' ?></span>

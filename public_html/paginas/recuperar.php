@@ -25,7 +25,7 @@ if (es_post()) {
 pagina_inicio('Recuperar contraseña');
 ?>
 <div class="auth-recuperar">
-  <div class="recuperar-identidad"><img src="assets/img/insignia-san-juan.png" alt="Escudo oficial I.E. San Juan"><h1>Recuperar contraseña</h1><p class="sub">Ingresa tu correo institucional escolar para recibir un enlace seguro de restauración de acceso.</p></div>
+  <div class="recuperar-identidad"><img src="assets/img/insignia-san-juan.png?v=institucion-1" alt="Escudo oficial I.E. San Juan"><h1>Recuperar contraseña</h1><p class="sub">Ingresa tu correo institucional escolar para recibir un enlace seguro de restauración de acceso.</p></div>
   <section class="tarjeta">
     <div class="pasos" aria-label="Pasos de recuperación"><span class="paso activo">1. Correo institucional</span><span class="paso <?= $enviado ? 'activo' : '' ?>">2. Enlace por correo</span><span class="paso">3. Nueva contraseña</span></div>
     <?php if ($enviado): ?>

@@ -21,7 +21,7 @@ if ($reg && es_post()) {
 }
 pagina_inicio('Nueva contraseña');
 ?>
-<div class="auth-recuperar"><div class="recuperar-identidad"><img src="assets/img/insignia-san-juan.png" alt="Insignia I.E. San Juan"><p class="sobrelinea">Biblioteca escolar · Acceso seguro</p></div><div class="tarjeta" id="ayuda-acceso">
+<div class="auth-recuperar"><div class="recuperar-identidad"><img src="assets/img/insignia-san-juan.png?v=institucion-1" alt="Insignia I.E. San Juan"><p class="sobrelinea">Biblioteca escolar · Acceso seguro</p></div><div class="tarjeta" id="ayuda-acceso">
   <h1>Nueva contraseña</h1>
   <?php if (!$reg): ?>
     <div class="aviso aviso-error">El enlace no es válido o ya expiró. Solicite uno nuevo.</div>

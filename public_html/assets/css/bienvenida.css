@@ -35,6 +35,6 @@
 
 .welcome-pending.welcome-revealing body>:not(.welcome-screen):not(script):not(svg){visibility:visible}
 
-.welcome-pending .welcome-screen{width:100vw;max-width:none}.welcome-emblem img{background:#fff;border-radius:14px;padding:5px}
+.welcome-pending .welcome-screen{width:100vw;max-width:none}.welcome-emblem img{background:transparent;border-radius:0;padding:0}
 
 html.welcome-pending{background:#10234e}

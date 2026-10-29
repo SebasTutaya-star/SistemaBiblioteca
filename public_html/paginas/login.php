@@ -15,7 +15,7 @@ pagina_inicio('Iniciar sesión');
 <div class="login">
   <form method="post" class="login-form" action="<?= e(url('login')) ?>">
     <?= csrf_campo() ?>
-    <div class="login-identidad"><img src="assets/img/insignia-san-juan.png" alt="Escudo oficial I.E. San Juan"><div><span class="sobrelinea">Portal institucional seguro</span><h1>Acceso a la Biblioteca</h1><p class="sub">Sistema de préstamos y consulta bibliográfica</p></div></div>
+    <div class="login-identidad"><img src="assets/img/insignia-san-juan.png?v=institucion-1" alt="Escudo oficial I.E. San Juan"><div><span class="sobrelinea">Portal institucional seguro</span><h1>Acceso a la Biblioteca</h1><p class="sub">Sistema de préstamos y consulta bibliográfica</p></div></div>
     <div class="tabs" aria-label="Tipo de acceso"><button type="button" class="activo" data-rol-acceso="estudiante" aria-pressed="true"><?= icono('school') ?> Estudiante</button><button type="button" data-rol-acceso="personal" aria-pressed="false"><?= icono('person') ?> Docente / Personal</button></div>
     <?php if ($error): ?><div class="aviso aviso-error" role="alert"><?= e($error) ?></div><?php endif; ?>
     <label>Correo institucional<div class="campo-icono"><?= icono('mail') ?><input type="email" name="correo" value="<?= e($correo) ?>" required autofocus autocomplete="username" placeholder="estudiante@iesanjuan.edu.pe"></div></label>

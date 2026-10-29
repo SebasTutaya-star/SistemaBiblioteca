@@ -48,7 +48,7 @@ function ui_metrica(string $titulo, $valor, string $detalle, string $ico = 'book
 
 function ui_cabecera_auth(): void
 {
-    ?><header class="auth-header"><a class="auth-marca" href="<?= e(url('login')) ?>"><img src="assets/img/insignia-san-juan.png" alt="Insignia de la I.E. San Juan"><span><strong>I.E. San Juan</strong><small>Biblioteca escolar institucional</small></span></a><nav aria-label="Acceso"><a href="<?= e(url('login')) ?>">Ingreso</a><a href="<?= e(url('recuperar')) ?>">Recuperar acceso</a><a href="#ayuda-acceso">Mesa de ayuda</a></nav></header><?php
+    ?><header class="auth-header"><a class="auth-marca" href="<?= e(url('login')) ?>"><img src="assets/img/insignia-san-juan.png?v=institucion-1" alt="Insignia de la I.E. San Juan"><span><strong>I.E. San Juan</strong><small>Biblioteca escolar institucional</small></span></a><nav aria-label="Acceso"><a href="<?= e(url('login')) ?>">Ingreso</a><a href="<?= e(url('recuperar')) ?>">Recuperar acceso</a><a href="#ayuda-acceso">Mesa de ayuda</a></nav></header><?php
 }
 
 function ui_pie_auth(): void
