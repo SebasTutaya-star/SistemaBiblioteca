@@ -1,6 +1,9 @@
 /* Comportamiento de interfaz; los formularios conservan sus endpoints originales. */
 (function () {
   'use strict';
+  function icon(name) {
+    return '<svg class="material-symbols-outlined" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><use href="#ui-' + name + '"></use></svg>';
+  }
   var previousFocus;
   var menu = document.getElementById('menu-lateral');
   var overlay = document.querySelector('.velo');
@@ -39,13 +42,13 @@
     button.type = 'button'; button.className = 'password-toggle';
     button.setAttribute('aria-controls', input.id); button.setAttribute('aria-label', 'Mostrar contraseña');
     button.setAttribute('aria-pressed', 'false');
-    button.innerHTML = '<span class="material-symbols-outlined" aria-hidden="true">visibility</span>';
+    button.innerHTML = icon('visibility');
     button.addEventListener('click', function () {
       var show = input.type === 'password'; input.type = show ? 'text' : 'password';
       input.classList.toggle('password-visible', show);
       button.setAttribute('aria-label', show ? 'Ocultar contraseña' : 'Mostrar contraseña');
       button.setAttribute('aria-pressed', String(show));
-      button.firstElementChild.textContent = show ? 'visibility_off' : 'visibility';
+      button.innerHTML = icon(show ? 'visibility_off' : 'visibility');
     });
     box.appendChild(button);
   });
@@ -100,7 +103,7 @@
   if (document.body.dataset.pagina === 'catalogo' && typeof HTMLDialogElement !== 'undefined') {
     var detail = document.createElement('dialog'); detail.className = 'ficha-dialog';
     detail.setAttribute('aria-label', 'Ficha bibliográfica del material');
-    detail.innerHTML = '<div class="dialog-barra"><strong>Ficha bibliográfica</strong><button type="button" class="icon-btn" aria-label="Cerrar ficha"><span class="material-symbols-outlined" aria-hidden="true">close</span></button></div><div class="dialog-contenido"></div>';
+    detail.innerHTML = '<div class="dialog-barra"><strong>Ficha bibliográfica</strong><button type="button" class="icon-btn" aria-label="Cerrar ficha">' + icon('close') + '</button></div><div class="dialog-contenido"></div>';
     document.body.appendChild(detail);
     detail.querySelector('button').addEventListener('click', function () { detail.close(); });
     detail.addEventListener('click', function (event) { if (event.target === detail) { var rect = detail.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) detail.close(); } });
@@ -135,7 +138,7 @@
       reader.hidden = step !== 0; material.hidden = step !== 1; dates.hidden = step !== 1;
       summary.hidden = step !== 2; back.hidden = step === 0; next.hidden = step === 2; submit.hidden = step !== 2;
       loan.querySelectorAll('.paso').forEach(function (el, i) { el.classList.toggle('activo', i <= step); if (i === step) el.setAttribute('aria-current', 'step'); else el.removeAttribute('aria-current'); });
-      next.innerHTML = (step === 0 ? 'Continuar al paso 2' : 'Revisar préstamo') + ' <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>';
+      next.innerHTML = (step === 0 ? 'Continuar al paso 2' : 'Revisar préstamo') + ' ' + icon('arrow_forward');
       document.getElementById('resumen-lector').textContent = reader.querySelector('input[type="search"]').value;
       document.getElementById('resumen-material').textContent = material.querySelector('input[type="search"]').value;
       document.getElementById('resumen-fecha').textContent = loan.querySelector('[name="fecha_vencimiento"]').value;

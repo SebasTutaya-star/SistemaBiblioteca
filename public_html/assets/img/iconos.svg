@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="0" height="0" style="position:absolute;overflow:hidden;pointer-events:none"><defs>
+<symbol id="ui-dashboard" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol>
+<symbol id="ui-menu_book" viewBox="0 0 24 24"><path d="M12 5C9 3 5 3 2 4v15c3-1 7-1 10 1 3-2 7-2 10-1V4c-3-1-7-1-10 1v15"/><path d="M5 7h4M5 10h4M15 7h4M15 10h4"/></symbol>
+<symbol id="ui-assignment_return" viewBox="0 0 24 24"><rect x="5" y="4" width="15" height="18" rx="2"/><path d="M9 4V2h6v2M15 9l-4 4 4 4M11 13h7"/></symbol>
+<symbol id="ui-assignment" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="18" rx="2"/><path d="M9 4V2h6v2M9 10h6M9 14h6M9 18h4"/></symbol>
+<symbol id="ui-history" viewBox="0 0 24 24"><path d="M3 11a9 9 0 1 1 2 7M3 4v7h7M12 7v5l3 2"/></symbol>
+<symbol id="ui-notifications" viewBox="0 0 24 24"><path d="M6 16v-6a6 6 0 0 1 12 0v6l2 2H4zM10 21h4M12 2v2"/></symbol>
+<symbol id="ui-bar_chart" viewBox="0 0 24 24"><path d="M4 21V11h4v10M10 21V3h4v18M16 21v-8h4v8"/></symbol>
+<symbol id="ui-upload_file" viewBox="0 0 24 24"><path d="M14 2H5v20h14V7zM14 2v5h5M12 18V10M8 14l4-4 4 4"/></symbol>
+<symbol id="ui-tune" viewBox="0 0 24 24"><path d="M3 6h5m4 0h9M3 12h10m4 0h4M3 18h3m4 0h11"/><circle cx="10" cy="6" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="8" cy="18" r="2"/></symbol>
+<symbol id="ui-group" viewBox="0 0 24 24"><circle cx="9" cy="7" r="3"/><path d="M2 21v-3a7 7 0 0 1 14 0v3M17 4a3 3 0 0 1 0 6M22 21v-3a7 7 0 0 0-4-6"/></symbol>
+<symbol id="ui-verified_user" viewBox="0 0 24 24"><path d="M12 2l8 3v7c0 5-4 8-8 10-4-2-8-5-8-10V5zM8 12l3 3 5-6"/></symbol>
+<symbol id="ui-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="12" rx="2"/><path d="M7 10V7a5 5 0 0 1 10 0v3M12 15v3"/></symbol>
+<symbol id="ui-logout" viewBox="0 0 24 24"><path d="M9 3H3v18h6M14 7l5 5-5 5M8 12h11"/></symbol>
+<symbol id="ui-search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7"/><path d="M15 15l6 6"/></symbol>
+<symbol id="ui-add" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></symbol>
+<symbol id="ui-arrow_forward" viewBox="0 0 24 24"><path d="M4 12h16M13 5l7 7-7 7"/></symbol>
+<symbol id="ui-arrow_back" viewBox="0 0 24 24"><path d="M20 12H4M11 5l-7 7 7 7"/></symbol>
+<symbol id="ui-check_circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M7 12l3 3 7-7"/></symbol>
+<symbol id="ui-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 11v6M12 7h.01"/></symbol>
+<symbol id="ui-school" viewBox="0 0 24 24"><path d="M2 8l10-5 10 5-10 5zM6 10v7c4 3 8 3 12 0v-7M22 8v8"/></symbol>
+<symbol id="ui-person" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M4 22v-3a8 8 0 0 1 16 0v3z"/></symbol>
+<symbol id="ui-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7L22 6"/></symbol>
+<symbol id="ui-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+<symbol id="ui-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></symbol>
+<symbol id="ui-shelves" viewBox="0 0 24 24"><path d="M3 3v19M21 3v19M3 11h18M3 20h18M6 11V4h4v7M14 11V3h4v8M7 20v-6h4v6M15 20v-5h3v5"/></symbol>
+<symbol id="ui-calendar_month" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M7 2v4M17 2v4M3 10h18M7 14h2M12 14h2M17 14h1M7 18h2M12 18h2"/></symbol>
+<symbol id="ui-more_horiz" viewBox="0 0 24 24"><circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/></symbol>
+<symbol id="ui-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 16v5h16v-5"/></symbol>
+<symbol id="ui-visibility" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="ui-visibility_off" viewBox="0 0 24 24"><path d="M3 3l18 18M9 5a11 11 0 0 1 3 0c6 0 10 7 10 7a22 22 0 0 1-4 4M6 6a22 22 0 0 0-4 6s4 7 10 7a12 12 0 0 0 5-1M10 10a3 3 0 0 0 4 4"/></symbol>
+</defs></svg>
