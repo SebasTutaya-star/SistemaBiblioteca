@@ -11,7 +11,7 @@ Se trasladaron la composición institucional, los menús del personal y del lect
 - Azul institucional: `#1e3a8a`; azul profundo: `#00236f`.
 - Naranja: `#fe932c`; naranja de texto: `#904d00`.
 - Fondo: `#f8f9ff`; superficies: blanco; paneles suaves: `#eff4ff` y `#e5eeff`.
-- Inter y Material Symbols servidos desde archivos locales, con sus licencias.
+- Inter servido localmente e iconos SVG incluidos en el HTML, sin dependencia de fuentes de iconos.
 - Cabecera y menú lateral en escritorio; tarjetas y navegación inferior en móvil; adaptación intermedia para tablet y laptop.
 
 ## Módulos
@@ -76,3 +76,13 @@ La clave inicial del administrador fue cambiada mediante la interfaz durante QA.
 Scripts: `tools/check_scope.py`, `tools/verify_ui.py`, `tools/verify_flows.py`, `tools/verify_edges.py`, `tools/verify_final.py`. Las suites funcionales esperan la base ficticia preparada y escriben registros de prueba; no deben ejecutarse sobre producción. La prueba de recuperación válida necesita un token temporal creado para una cuenta ficticia. El envío real de correo no se invocó.
 
 Informes JSON y capturas: `artifacts/qa/` (ignorados por Git). El envío de correo real depende de la configuración existente del alojamiento. No se cambió esa integración.
+
+## Estabilidad y movimiento
+
+La interfaz entrega las tablas móviles y sus etiquetas desde el servidor, junto con el estado inicial del asistente y los campos del usuario. Así evita cambiar la composición cuando termina de cargar JavaScript. El acceso directo al historial también respeta el fragmento `#historial` desde el primer render.
+
+Los cambios entre páginas usan una transición breve de opacidad cuando el navegador la admite. Botones, foco, validación, menús, fichas, pestañas, ayudas y formularios responden con efectos discretos. Las acciones conservan sus textos y endpoints. Las descargas no dejan indicadores de envío activos y el regreso con el navegador limpia los estados de carga.
+
+Las fichas mantienen dimensiones estables mientras llegan sus datos. Las búsquedas y fichas cancelan solicitudes anteriores para evitar respuestas fuera de orden. Las animaciones interrumpidas restauran el tamaño y el desbordamiento del contenedor. Todo respeta `prefers-reduced-motion`.
+
+Auditoría: `tools/audit_motion.py --output motion-final.json` y `tools/verify_motion_interactions.py`. Se recorrieron 126 combinaciones de vistas/opciones, roles y tamaños, con caché desactivada y JavaScript ralentizado. Los informes están en `artifacts/qa/motion-final.json` y `artifacts/qa/motion-interactions.json`. Los flujos funcionales se repitieron únicamente en la copia local de demostración.

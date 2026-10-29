@@ -37,3 +37,11 @@
 Las pruebas funcionales operaron exclusivamente sobre `biblioteca_ui_test` en `127.0.0.1:3307`. No se enviaron mensajes externos ni se utilizó la base institucional.
 
 Los informes detallados y capturas están disponibles localmente en `artifacts/qa/`; se excluyen de Git.
+
+## Auditoría de estabilidad y animaciones
+
+- 126 combinaciones de módulos/opciones, roles y tamaños con JavaScript ralentizado y caché desactivada.
+- CLS máximo registrado: 0. Sin desbordamientos ni errores de JavaScript.
+- 12 grupos de interacción verificados, incluyendo movimiento reducido, pulsaciones repetidas, descargas y dimensiones del diálogo durante la carga.
+- Los 17 flujos funcionales originales se repitieron satisfactoriamente tras añadir los efectos.
+- Backend, controladores y SQL siguen preservados según `tools/check_scope.py`.
