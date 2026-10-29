@@ -19,6 +19,9 @@
   }
   document.querySelectorAll('.abrir-menu').forEach(function (b) { b.addEventListener('click', function () { toggleMenu(!document.body.classList.contains('menu-abierto')); }); });
   if (overlay) overlay.addEventListener('click', function () { toggleMenu(false); });
+  if (menu) menu.addEventListener('click', function (event) {
+    if (event.target.closest('a[href]') && document.body.classList.contains('menu-abierto')) toggleMenu(false);
+  });
   if (menu) menu.inert = window.matchMedia('(max-width: 760px)').matches;
   document.addEventListener('keydown', function (ev) {
     if (!document.body.classList.contains('menu-abierto')) return;
