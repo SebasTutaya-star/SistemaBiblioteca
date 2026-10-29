@@ -46,7 +46,7 @@ encabezado('Registrar préstamo', 'Busque al lector y el material; el sistema ve
 foreach ($resultado['errores'] as $er) echo '<div class="aviso aviso-error">' . e($er) . '</div>';
 if ($pedirConfirmacion) foreach ($resultado['advertencias'] as $a) echo '<div class="aviso aviso-advertencia"><strong>Advertencia:</strong> ' . e($a) . '</div>';
 ?>
-<form method="post" class="tarjeta formulario wizard-card" action="<?= e(url('prestamo_nuevo')) ?>" id="form-prestamo">
+<form method="post" class="tarjeta formulario wizard-card" action="<?= e(url('prestamo_nuevo')) ?>" id="form-prestamo" data-wizard-step="<?= $pedirConfirmacion ? '2' : '0' ?>">
   <?= csrf_campo() ?>
   <div class="grupo-form-titulo"><?= icono('plus') ?> Registro de nuevo préstamo <span class="estado est-ambar" style="margin-left:auto">Biblioteca I.E. San Juan</span></div>
   <div class="pasos" id="pasos-prestamo" aria-label="Pasos de registro"><span class="paso activo">1. Lector</span><span class="paso">2. Material</span><span class="paso">3. Confirmación</span></div>
@@ -85,7 +85,7 @@ if ($pedirConfirmacion) foreach ($resultado['advertencias'] as $a) echo '<div cl
     </label>
     <label>Observación<input name="observacion" value="<?= e($obs) ?>" maxlength="255"></label>
   </div>
-  <section class="ayuda-panel wizard-resumen" hidden aria-live="polite"><h2>Confirma el préstamo</h2><dl class="datos-grandes"><dt>Lector</dt><dd id="resumen-lector"></dd><dt>Material</dt><dd id="resumen-material"></dd><dt>Devolver hasta</dt><dd id="resumen-fecha"></dd></dl><p class="nota">Revisa los datos. El sistema validará las reglas y la disponibilidad antes de guardar.</p></section>
+  <section class="ayuda-panel wizard-resumen" <?= $pedirConfirmacion ? '' : 'hidden' ?> aria-live="polite"><h2>Confirma el préstamo</h2><dl class="datos-grandes"><dt>Lector</dt><dd id="resumen-lector"><?= $lector ? e(nombre_completo($lector)) : '' ?></dd><dt>Material</dt><dd id="resumen-material"><?= $material ? e($material['codigo'] . ' · ' . $material['titulo']) : '' ?></dd><dt>Devolver hasta</dt><dd id="resumen-fecha"><?= e($vence) ?></dd></dl><p class="nota">Revisa los datos. El sistema validará las reglas y la disponibilidad antes de guardar.</p></section>
   <div class="botonera">
     <a class="btn" href="<?= e(url('prestamos')) ?>">Cancelar</a>
     <button type="button" class="btn wizard-atras" hidden>Anterior</button>

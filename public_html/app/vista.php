@@ -10,6 +10,7 @@ function contar_alertas(): int
 }
 function pagina_inicio(string $titulo, string $actual = ''): void
 {
+    ob_start('ui_preparar_html');
     $u = usuario();
     $app = $GLOBALS['CONFIG']['app_nombre'] ?? 'Biblioteca';
     $lector = $u && $u['rol'] === 'lector';
@@ -18,13 +19,15 @@ function pagina_inicio(string $titulo, string $actual = ''): void
     $GLOBALS['UI_ACTUAL'] = $actual;
 ?><!doctype html>
 <html lang="es"><head>
+<script>document.documentElement.classList.add("js");if(location.hash==="#historial")document.documentElement.dataset.panelInicial="historial";</script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#1e3a8a">
 <title><?= e($titulo) ?> · <?= e($app) ?></title>
 <link rel="icon" href="assets/img/insignia-san-juan.png">
 <link rel="preload" href="assets/fonts/stitch-font-7.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/fuentes.css?v=stitch-2">
-<link rel="stylesheet" href="assets/css/estilos.css?v=stitch-2">
+<link rel="stylesheet" href="assets/css/fuentes.css?v=stitch-3">
+<link rel="stylesheet" href="assets/css/estilos.css?v=stitch-3">
+<link rel="stylesheet" href="assets/css/movimiento.css?v=stitch-3">
 </head><body class="<?= $u ? ($lector ? 'sesion lector' : 'sesion personal') : 'sin-sesion' ?>" data-pagina="<?= e(g('p', 'inicio')) ?>">
 <?php readfile(__DIR__ . '/../assets/img/iconos.svg'); ?>
 <a class="saltar-contenido" href="#contenido">Ir al contenido</a>
@@ -74,9 +77,11 @@ function pagina_fin(): void
 </nav>
 <footer class="pie-app"><span>Biblioteca Escolar · I.E. San Juan</span><span><?= date('Y') ?> · San Juan Bautista, Ayacucho</span></footer>
 <?php else: ui_pie_auth(); endif; ?>
-<script src="assets/js/app.js?v=stitch-2" defer></script>
-<script src="assets/js/interfaz.js?v=stitch-2" defer></script>
+<script src="assets/js/movimiento.js?v=stitch-3" defer></script>
+<script src="assets/js/app.js?v=stitch-3" defer></script>
+<script src="assets/js/interfaz.js?v=stitch-3" defer></script>
 </body></html><?php
+    ob_end_flush();
 }
 /** Cabecera de sección con título y acciones opcionales (HTML ya escapado). */
 function encabezado(string $titulo, string $sub = '', string $acciones = ''): void

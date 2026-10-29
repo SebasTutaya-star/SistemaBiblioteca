@@ -1,0 +1,40 @@
+/* Respuesta visual breve, coherente con el azul y naranja institucionales. */
+:root{--mov-rapido:130ms;--mov-suave:200ms;--mov-curva:cubic-bezier(.2,.7,.2,1)}
+@view-transition{navigation:auto}
+.contenido,.contenido-solo{view-transition-name:contenido}
+::view-transition-old(root),::view-transition-new(root){animation:none}
+::view-transition-old(contenido){animation:contenido-sale 100ms ease-out both}
+::view-transition-new(contenido){animation:contenido-entra 180ms ease-out both}
+@keyframes contenido-sale{to{opacity:0}}
+@keyframes contenido-entra{from{opacity:0}to{opacity:1}}
+.btn,.icon-btn,.menu a,.nav-inferior a,.nav-inferior button,.tabs button,.tabs a,.acceso,.ficha,.opcion,.enlace,.cerrar-sesion{transition:background-color var(--mov-rapido) ease,color var(--mov-rapido) ease,border-color var(--mov-rapido) ease,box-shadow var(--mov-suave) ease,transform var(--mov-rapido) var(--mov-curva)}
+input,select,textarea{transition:border-color var(--mov-rapido) ease,box-shadow var(--mov-suave) ease,background-color var(--mov-rapido) ease}
+input:focus,select:focus,textarea:focus{box-shadow:0 0 0 4px #1e3a8a09}
+@media(hover:hover){.btn:hover{box-shadow:0 3px 10px #1e3a8a14}.acceso:hover,.ficha:focus-within{box-shadow:0 4px 16px #1e3a8a0c}.menu a:hover,.nav-inferior a:hover{box-shadow:inset 0 0 0 1px #b6c4ff22}}
+.btn:active,.icon-btn:active,.password-toggle:active,.tabs button:active{transform:scale(.985)}
+.lateral{transition:transform 220ms var(--mov-curva)}
+.velo:not([hidden]){animation:contenido-entra 160ms ease-out}
+.ficha-dialog{height:min(760px,calc(100dvh - 64px))}
+.ficha-dialog[open]{display:flex;flex-direction:column;animation:dialogo-entra 180ms var(--mov-curva)}
+.ficha-dialog::backdrop{animation:contenido-entra 160ms ease-out}
+.dialog-barra{flex-shrink:0}.dialog-contenido{flex:1;min-height:0;overflow:auto;scrollbar-gutter:stable}
+@keyframes dialogo-entra{from{opacity:0;transform:scale(.99)}to{opacity:1;transform:scale(1)}}
+.dialog-contenido[aria-busy=true]{display:grid;place-items:center;color:var(--texto-sec)}
+.selector-resultados:not([hidden]){animation:contenido-entra 120ms ease-out}
+.aviso{animation:contenido-entra 180ms ease-out}
+.btn,.icon-btn{position:relative}
+.enviando button[type=submit]:after,.enviando button:not([type]):after{content:'';position:absolute;right:8px;width:12px;height:12px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:giro-carga 650ms linear infinite;pointer-events:none}
+@keyframes giro-carga{to{transform:rotate(360deg)}}
+body.navegando:before{content:'';position:fixed;top:0;left:0;right:0;height:2px;z-index:100;background:linear-gradient(90deg,transparent,var(--acento),var(--primario),transparent);background-size:50% 100%;background-repeat:no-repeat;animation:carga-ruta 1s ease-in-out infinite;pointer-events:none}
+@keyframes carga-ruta{from{background-position:-100% 0}to{background-position:200% 0}}
+.selector-info{min-height:36px}.login-nota p{min-height:4.8em}
+/* Estado inicial del asistente disponible antes de descargar JavaScript. */
+.js #form-prestamo .wizard-selectores{display:block}
+.js #form-prestamo[data-wizard-step="0"] [data-tipo=material],.js #form-prestamo[data-wizard-step="0"] .wizard-fechas,.js #form-prestamo[data-wizard-step="2"] .wizard-selectores,.js #form-prestamo[data-wizard-step="2"] .wizard-fechas,.js #form-prestamo:not([data-wizard-step="2"]) .botonera button:not([type=button]),.js #form-prestamo[data-wizard-step="1"] [data-tipo=lector]{display:none}
+.js #form-prestamo:not([data-wizard-step="2"]) .wizard-siguiente{display:inline-flex!important}
+.js #form-prestamo:not([data-wizard-step="0"]) .wizard-atras{display:inline-flex!important}
+.js #form-prestamo[data-wizard-step="2"] .wizard-siguiente{display:none!important}
+.js #form-prestamo[data-wizard-step="0"] .wizard-atras{display:none!important}
+@media(max-width:760px){.selector-info{min-height:56px}.ficha-dialog{height:calc(100dvh - 24px)}:is(.tabla-responsive,.tabla-envoltura:has(>table[data-responsive])) td:before{min-height:14px}.login-nota p{min-height:6.4em}}
+@media(prefers-reduced-motion:reduce){:root{--mov-rapido:0ms;--mov-suave:0ms}html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}::view-transition-old(contenido),::view-transition-new(contenido){animation:none}.contenido,.contenido-solo{view-transition-name:none}body.navegando:before{background:var(--primario)}.enviando button:after{animation:none!important;border-color:currentColor}}
+.js[data-panel-inicial=historial] #activos{display:none}.js[data-panel-inicial=historial] #historial[hidden]{display:block!important}

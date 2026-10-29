@@ -1,6 +1,7 @@
 /* Comportamiento de interfaz; los formularios conservan sus endpoints originales. */
 (function () {
   'use strict';
+  var motion = window.uiMotion || {change:function (_, update) { update(); },reveal:function () {},closeDialog:function (dialog) { dialog.close(); }};
   function icon(name) {
     return '<svg class="material-symbols-outlined" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><use href="#ui-' + name + '"></use></svg>';
   }
@@ -58,7 +59,9 @@
       document.querySelectorAll('[data-rol-acceso]').forEach(function (b) { b.setAttribute('aria-pressed', String(b === button)); b.classList.toggle('activo', b === button); });
       var staff = button.dataset.rolAcceso === 'personal';
       var notice = document.getElementById('nota-acceso');
-      if (notice) notice.textContent = staff ? 'Ingrese con el correo registrado de su cuenta. El sistema reconocerá automáticamente sus permisos de docente, bibliotecaria, auxiliar o administrador.' : 'Su contraseña inicial es su número de DNI. Ingrese con el correo registrado en la biblioteca y actualice su clave al acceder por primera vez.';
+      if (notice) motion.change(notice.parentElement.parentElement, function () {
+        notice.textContent = staff ? 'Ingrese con el correo registrado de su cuenta. El sistema reconocerá automáticamente sus permisos de docente, bibliotecaria, auxiliar o administrador.' : 'Su contraseña inicial es su número de DNI. Ingrese con el correo registrado en la biblioteca y actualice su clave al acceder por primera vez.';
+      });
       var email = document.querySelector('input[name="correo"]');
       if (email) email.placeholder = staff ? 'nombre@iesanjuan.edu.pe' : 'estudiante@iesanjuan.edu.pe';
     });
@@ -87,40 +90,52 @@
   });
   document.querySelectorAll('[data-tabs]').forEach(function (container) {
     var buttons = Array.from(container.querySelectorAll('[data-panel]'));
-    function select(button, focus) {
+    function select(button, focus, animate) {
+      var change = function () {
       buttons.forEach(function (b) { var active = b === button; b.setAttribute('aria-selected', String(active)); b.tabIndex = active ? 0 : -1; var panel = document.getElementById(b.dataset.panel); if (panel) panel.hidden = !active; });
+      document.documentElement.removeAttribute('data-panel-inicial');
+      };
+      if (animate) motion.change(container.parentElement, change); else change();
       if (focus) button.focus();
     }
     buttons.forEach(function (b, i) {
-      b.addEventListener('click', function () { select(b, false); });
-      b.addEventListener('keydown', function (ev) { if (ev.key === 'ArrowRight' || ev.key === 'ArrowLeft') { ev.preventDefault(); select(buttons[(i + (ev.key === 'ArrowRight' ? 1 : buttons.length - 1)) % buttons.length], true); } });
+      b.addEventListener('click', function () { select(b, false, true); });
+      b.addEventListener('keydown', function (ev) { if (ev.key === 'ArrowRight' || ev.key === 'ArrowLeft') { ev.preventDefault(); select(buttons[(i + (ev.key === 'ArrowRight' ? 1 : buttons.length - 1)) % buttons.length], true, true); } });
     });
     var initial = buttons.find(function (b) { return '#' + b.dataset.panel === location.hash; }) || buttons[0];
     if (initial) select(initial, false);
-    window.addEventListener('hashchange', function () { var match = buttons.find(function (b) { return '#' + b.dataset.panel === location.hash; }); if (match) select(match, false); });
+    window.addEventListener('hashchange', function () { var match = buttons.find(function (b) { return '#' + b.dataset.panel === location.hash; }); if (match) select(match, false, true); });
   });
   // La ficha conserva una URL real; se abre como diálogo solo dentro del catálogo.
   if (document.body.dataset.pagina === 'catalogo' && typeof HTMLDialogElement !== 'undefined') {
+    var detailVersion = 0, detailController;
     var detail = document.createElement('dialog'); detail.className = 'ficha-dialog';
     detail.setAttribute('aria-label', 'Ficha bibliográfica del material');
     detail.innerHTML = '<div class="dialog-barra"><strong>Ficha bibliográfica</strong><button type="button" class="icon-btn" aria-label="Cerrar ficha">' + icon('close') + '</button></div><div class="dialog-contenido"></div>';
     document.body.appendChild(detail);
-    detail.querySelector('button').addEventListener('click', function () { detail.close(); });
-    detail.addEventListener('click', function (event) { if (event.target === detail) { var rect = detail.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) detail.close(); } });
+    detail.addEventListener('close', function () { detailVersion++; if (detailController) detailController.abort(); });
+    detail.querySelector('button').addEventListener('click', function () { motion.closeDialog(detail); });
+    detail.addEventListener('cancel', function (event) { event.preventDefault(); motion.closeDialog(detail); });
+    detail.addEventListener('click', function (event) { if (event.target === detail) { var rect = detail.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) motion.closeDialog(detail); } });
     document.querySelectorAll('.contenido a[href*="p=material_ver"]').forEach(function (link) {
       link.addEventListener('click', function (ev) {
         if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.altKey) return;
         ev.preventDefault();
+        if (detailController) detailController.abort();
+        var requestVersion = ++detailVersion;
+        detailController = new AbortController();
         var content = detail.querySelector('.dialog-contenido');
-        content.textContent = 'Cargando ficha…'; detail.showModal();
-        fetch(link.href, {credentials: 'same-origin'}).then(function (response) { if (!response.ok) throw new Error('Ficha no disponible'); return response.text(); }).then(function (html) {
+        content.textContent = 'Cargando ficha…'; content.setAttribute('aria-busy','true'); detail.showModal();
+        fetch(link.href, {credentials: 'same-origin', signal:detailController.signal}).then(function (response) { if (!response.ok) throw new Error('Ficha no disponible'); return response.text(); }).then(function (html) {
+          if (requestVersion !== detailVersion) return;
           var doc = new DOMParser().parseFromString(html, 'text/html');
           var main = doc.querySelector('main.contenido');
           if (!main) throw new Error('Sesión expirada');
           var breadcrumb = main.querySelector('.ruta-contexto'); if (breadcrumb) breadcrumb.remove();
           content.replaceChildren.apply(content, Array.from(main.childNodes));
+          content.removeAttribute('aria-busy'); motion.reveal(content);
           content.querySelectorAll('.tabla-envoltura').forEach(function (w) { w.classList.remove('tabla-responsive'); });
-        }).catch(function () { detail.close(); window.location.assign(link.href); });
+        }).catch(function (error) { if (error.name === 'AbortError' || requestVersion !== detailVersion) return; detail.close(); window.location.assign(link.href); });
       });
     });
   }
@@ -135,6 +150,7 @@
     var back = loan.querySelector('.wizard-atras');
     var submit = loan.querySelector('.botonera button:not([type="button"])');
     function showStep() {
+      loan.dataset.wizardStep = String(step);
       reader.hidden = step !== 0; material.hidden = step !== 1; dates.hidden = step !== 1;
       summary.hidden = step !== 2; back.hidden = step === 0; next.hidden = step === 2; submit.hidden = step !== 2;
       loan.querySelectorAll('.paso').forEach(function (el, i) { el.classList.toggle('activo', i <= step); if (i === step) el.setAttribute('aria-current', 'step'); else el.removeAttribute('aria-current'); });
@@ -149,12 +165,12 @@
       if (!selected.querySelector('.selector-id').value) { search.setCustomValidity('Seleccione un resultado de la búsqueda para continuar.'); search.reportValidity(); return; }
       search.setCustomValidity('');
       if (step === 1) { var date = loan.querySelector('[name="fecha_vencimiento"]'); if (!date.reportValidity()) return; }
-      step = Math.min(2, step + 1); showStep();
+      motion.change(loan, function () { step = Math.min(2, step + 1); showStep(); });
       (step === 1 ? material.querySelector('input[type="search"]') : submit).focus();
     }
     [reader, material].forEach(function (el) { el.querySelector('input[type="search"]').addEventListener('input', function () { this.setCustomValidity(''); }); });
     next.addEventListener('click', advance);
-    back.addEventListener('click', function () { step = Math.max(0, step - 1); showStep(); (step === 0 ? reader : material).querySelector('input[type="search"]').focus(); });
+    back.addEventListener('click', function () { motion.change(loan, function () { step = Math.max(0, step - 1); showStep(); }); (step === 0 ? reader : material).querySelector('input[type="search"]').focus(); });
     loan.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' && step < 2 && ev.target.tagName === 'INPUT' && !ev.defaultPrevented) { ev.preventDefault(); advance(); } });
     loan.addEventListener('submit', function (ev) { if (step < 2) { ev.preventDefault(); advance(); } });
     loan.classList.add('wizard-activo'); showStep();

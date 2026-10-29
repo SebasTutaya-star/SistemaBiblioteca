@@ -16,10 +16,11 @@
     var oculto = caja.querySelector('.selector-id');
     var lista = caja.querySelector('.selector-resultados');
     var info = caja.querySelector('.selector-info');
-    var temporizador, datos = [], marcado = -1;
+    var temporizador, datos = [], marcado = -1, version = 0, controller;
 
     function cerrar() { lista.hidden = true; marcado = -1; }
     function elegir(it) {
+      version++; clearTimeout(temporizador); if (controller) controller.abort();
       entrada.value = it.texto;
       oculto.value = it.id;
       info.textContent = it.info;
@@ -51,16 +52,18 @@
       lista.hidden = false;
     }
     entrada.addEventListener('input', function () {
+      version++; if (controller) controller.abort();
       oculto.value = '';
       info.textContent = '';
       clearTimeout(temporizador);
       var q = entrada.value.trim();
       if (q.length < 2) { cerrar(); return; }
       temporizador = setTimeout(function () {
-        fetch('index.php?p=api_buscar&tipo=' + tipo + '&q=' + encodeURIComponent(q), { credentials: 'same-origin' })
+        var solicitud = version; controller = new AbortController();
+        fetch('index.php?p=api_buscar&tipo=' + tipo + '&q=' + encodeURIComponent(q), { credentials: 'same-origin', signal: controller.signal })
           .then(function (r) { return r.json(); })
-          .then(function (d) { datos = d; marcado = d.length ? 0 : -1; pintar(); })
-          .catch(function () { cerrar(); });
+          .then(function (d) { if (solicitud !== version) return; datos = d; marcado = d.length ? 0 : -1; pintar(); })
+          .catch(function (error) { if (error.name !== 'AbortError' && solicitud === version) cerrar(); });
       }, 250);
     });
     entrada.addEventListener('keydown', function (e) {
@@ -103,10 +106,13 @@
   var rol = document.getElementById('f-rol');
   if (rol) {
     var tipo = document.getElementById('f-tipo');
-    var ajustar = function () {
-      var lector = rol.value === 'lector';
-      document.querySelectorAll('.solo-lector').forEach(function (el) { el.hidden = !lector; });
-      document.querySelectorAll('.solo-estudiante').forEach(function (el) { el.hidden = !(lector && tipo.value === 'estudiante'); });
+    var ajustar = function (animate) {
+      var update = function () {
+        var lector = rol.value === 'lector';
+        document.querySelectorAll('.solo-lector').forEach(function (el) { el.hidden = !lector; });
+        document.querySelectorAll('.solo-estudiante').forEach(function (el) { el.hidden = !(lector && tipo.value === 'estudiante'); });
+      };
+      if (animate && window.uiMotion) window.uiMotion.change(rol.form, update); else update();
     };
     rol.addEventListener('change', ajustar);
     tipo.addEventListener('change', ajustar);

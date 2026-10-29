@@ -31,9 +31,9 @@ encabezado('Mi cuenta', 'Datos de tu cuenta y seguridad de acceso.');
 <div class="cuenta-panel"><section class="perfil-carnet"><small>Cuenta de biblioteca escolar</small><h2><?= e(nombre_completo($u)) ?></h2><span><?= e(ROLES[$u['rol']]) ?><?= $u['tipo_lector'] ? ' · ' . e(ucfirst($u['tipo_lector'])) : '' ?></span><div class="perfil-datos"><div><small>DNI</small><strong><?= e($u['dni']) ?></strong></div><div><small>Correo institucional</small><strong><?= e($u['correo']) ?></strong></div></div></section>
 <form method="post" class="tarjeta" action="<?= e(url('cambiar_clave')) ?>">
   <?= csrf_campo() ?><div class="grupo-form-titulo"><?= icono('key') ?> Cambiar contraseña</div>
-  <label>Contraseña actual <input type="password" name="actual" required autocomplete="current-password"></label>
-  <label>Nueva contraseña <input type="password" name="clave" required minlength="8" autocomplete="new-password"></label>
-  <label>Repita la nueva contraseña <input type="password" name="clave2" required minlength="8" autocomplete="new-password"></label>
+  <label>Contraseña actual <span class="campo-icono"><input type="password" name="actual" required autocomplete="current-password"></span></label>
+  <label>Nueva contraseña <span class="campo-icono"><input type="password" name="clave" required minlength="8" autocomplete="new-password"></span></label>
+  <label>Repita la nueva contraseña <span class="campo-icono"><input type="password" name="clave2" required minlength="8" autocomplete="new-password"></span></label>
   <p class="nota">Mínimo 8 caracteres, con letras y números. No use su DNI.</p>
   <button class="btn btn-primario">Guardar</button>
 </form></div>

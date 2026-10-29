@@ -56,11 +56,11 @@ encabezado($obj ? 'Editar usuario' : 'Registrar usuario', $obj ? nombre_completo
     <label>Rol *
       <select name="rol" id="f-rol"><?php foreach (ROLES as $k => $v): ?><option value="<?= $k ?>" <?= $k === $d['rol'] ? 'selected' : '' ?>><?= e($v) ?></option><?php endforeach; ?></select><?= $err('rol') ?>
     </label>
-    <label class="solo-lector">Tipo de lector
+    <label class="solo-lector" <?= $d['rol'] === 'lector' ? '' : 'hidden' ?>>Tipo de lector
       <select name="tipo_lector" id="f-tipo"><option value="estudiante" <?= $d['tipo_lector'] === 'estudiante' ? 'selected' : '' ?>>Estudiante</option><option value="docente" <?= $d['tipo_lector'] === 'docente' ? 'selected' : '' ?>>Docente</option></select><?= $err('tipo_lector') ?>
     </label>
-    <label class="solo-estudiante">Grado<input name="grado" value="<?= e($d['grado']) ?>" maxlength="20" placeholder="Ej.: 4to"></label>
-    <label class="solo-estudiante">Sección<input name="seccion" value="<?= e($d['seccion']) ?>" maxlength="10" placeholder="Ej.: A"></label>
+    <label class="solo-estudiante" <?= $d['rol'] === 'lector' && $d['tipo_lector'] !== 'docente' ? '' : 'hidden' ?>>Grado<input name="grado" value="<?= e($d['grado']) ?>" maxlength="20" placeholder="Ej.: 4to"></label>
+    <label class="solo-estudiante" <?= $d['rol'] === 'lector' && $d['tipo_lector'] !== 'docente' ? '' : 'hidden' ?>>Sección<input name="seccion" value="<?= e($d['seccion']) ?>" maxlength="10" placeholder="Ej.: A"></label>
   </div>
   <?php if (!$obj): ?><p class="nota">La contraseña inicial será el DNI y se pedirá cambiarla en el primer ingreso.</p><?php endif; ?>
   <div class="botonera"><a class="btn" href="<?= e(url('usuarios')) ?>">Cancelar</a><button class="btn btn-primario">Guardar</button></div>

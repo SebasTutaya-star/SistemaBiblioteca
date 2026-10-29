@@ -1,5 +1,28 @@
 <?php
 /** Componentes de presentación. No altera permisos, operaciones ni reglas de negocio. */
+function ui_preparar_html(string $html): string
+{
+    // Entrega las tarjetas móviles y sus etiquetas antes del primer render.
+    return preg_replace_callback('~<table\b([^>]*)>(.*?)</table>~s', function ($tabla) {
+        if (preg_match('/\bmatriz\b/', $tabla[1])) return $tabla[0];
+        preg_match_all('~<th\b[^>]*>(.*?)</th>~s', $tabla[2], $cabeceras);
+        $etiquetas = array_map(fn($h) => trim(html_entity_decode(strip_tags($h), ENT_QUOTES, 'UTF-8')), $cabeceras[1]);
+        $contenido = preg_replace_callback('~<tbody\b([^>]*)>(.*?)</tbody>~s', function ($cuerpo) use ($etiquetas) {
+            $filas = preg_replace_callback('~<tr\b([^>]*)>(.*?)</tr>~s', function ($fila) use ($etiquetas) {
+                $indice = 0;
+                $celdas = preg_replace_callback('~<td\b([^>]*)>~s', function ($celda) use (&$indice, $etiquetas) {
+                    $etiqueta = $etiquetas[$indice++] ?? '';
+                    if (str_contains($celda[1], 'data-label=')) return $celda[0];
+                    return '<td' . $celda[1] . ' data-label="' . e($etiqueta) . '">';
+                }, $fila[2]);
+                return '<tr' . $fila[1] . '>' . $celdas . '</tr>';
+            }, $cuerpo[2]);
+            return '<tbody' . $cuerpo[1] . '>' . $filas . '</tbody>';
+        }, $tabla[2]);
+        return '<table' . $tabla[1] . ' data-responsive="true">' . $contenido . '</table>';
+    }, $html) ?? $html;
+}
+
 function ui_icono(string $nombre): string
 {
     $simbolos = ['home'=>'dashboard','book'=>'menu_book','swap'=>'assignment_return','list'=>'assignment','clock'=>'history','bell'=>'notifications','chart'=>'bar_chart','upload'=>'upload_file','sliders'=>'tune','users'=>'group','shield'=>'verified_user','key'=>'lock','logout'=>'logout','search'=>'search','plus'=>'add','arrow'=>'arrow_forward','check'=>'check_circle','info'=>'info','school'=>'school','person'=>'person','mail'=>'mail','back'=>'arrow_back','menu'=>'menu','close'=>'close','shelf'=>'shelves','calendar'=>'calendar_month','more_horiz'=>'more_horiz','download'=>'download'];

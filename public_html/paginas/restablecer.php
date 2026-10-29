@@ -31,8 +31,8 @@ pagina_inicio('Nueva contraseña');
     <form method="post" action="<?= e(url('restablecer')) ?>">
       <?= csrf_campo() ?>
       <input type="hidden" name="token" value="<?= e($token) ?>">
-      <label>Nueva contraseña <input type="password" name="clave" required minlength="8" autocomplete="new-password"></label>
-      <label>Repita la contraseña <input type="password" name="clave2" required minlength="8" autocomplete="new-password"></label>
+      <label>Nueva contraseña <span class="campo-icono"><input type="password" name="clave" required minlength="8" autocomplete="new-password"></span></label>
+      <label>Repita la contraseña <span class="campo-icono"><input type="password" name="clave2" required minlength="8" autocomplete="new-password"></span></label>
       <p class="nota">Mínimo 8 caracteres, con letras y números.</p>
       <button class="btn btn-primario btn-bloque">Guardar contraseña</button>
     </form>
