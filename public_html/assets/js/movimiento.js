@@ -8,7 +8,8 @@
     if (!element || reduced.matches || !element.animate) return;
     var previous = reveals.get(element);
     if (previous) previous.cancel();
-    var animation = element.animate([{opacity:.82},{opacity:1}], {duration:100,easing:'cubic-bezier(.2,.8,.2,1)'});
+    var offset = element.matches('input,select,textarea') ? 0 : 4;
+    var animation = element.animate([{opacity:.55,transform:'translateY('+offset+'px)'},{opacity:1,transform:'translateY(0)'}], {duration:180,easing:'cubic-bezier(.22,.7,.2,1)'});
     reveals.set(element, animation);
     function finish() { if (reveals.get(element) === animation) reveals.delete(element); }
     animation.onfinish=finish; animation.oncancel=finish;
@@ -26,7 +27,7 @@
     if (Math.abs(before - after) < 1) { reveal(element); return; }
     var overflow = element.style.overflow;
     element.style.overflow = 'clip';
-    var animation = element.animate([{height:before+'px'},{height:after+'px'}], {duration:120,easing:'cubic-bezier(.2,.7,.2,1)'});
+    var animation = element.animate([{height:before+'px'},{height:after+'px'}], {duration:160,easing:'cubic-bezier(.2,.7,.2,1)'});
     running.set(element, {animation:animation,overflow:overflow});
     reveal(element);
     function finish() { var current=running.get(element); if (current && current.animation === animation) { element.style.overflow = overflow; running.delete(element); } }
@@ -37,7 +38,7 @@
     if (reduced.matches || !dialog.animate) { dialog.close(); return; }
     if (dialog.dataset.closing) return;
     dialog.dataset.closing = 'true';
-    var a = dialog.animate([{opacity:1},{opacity:0}],{duration:70,easing:'ease-out'});
+    var a = dialog.animate([{opacity:1},{opacity:0}],{duration:100,easing:'ease-out'});
     a.finished.then(function () { dialog.close(); delete dialog.dataset.closing; },function () { delete dialog.dataset.closing; });
   }
   window.uiMotion = {change:change,reveal:reveal,closeDialog:closeDialog};

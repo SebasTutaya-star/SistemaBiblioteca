@@ -89,10 +89,10 @@ Auditoría: `tools/audit_motion.py --output motion-final.json` y `tools/verify_m
 
 ### Firma de navegación San Juan
 
-Todos los enlaces de módulos y accesos mantienen la navegación nativa y añaden una entrada rápida de 140 ms sin desenfoque. Los filtros y búsquedas tienen una actualización más breve; los formularios y el historial de navegación usan variantes propias. La intención se conserva solo durante la navegación mediante un marcador temporal de sesión, sin guardar datos del usuario ni alterar las peticiones.
+Todos los enlaces de módulos y accesos mantienen la navegación nativa y añaden una entrada visible de 200 ms y 8 px de recorrido, sin desenfoque. Los filtros y búsquedas tienen una actualización más breve; los formularios y el historial de navegación usan variantes propias. La intención se conserva solo durante la navegación mediante un marcador temporal de sesión, sin guardar datos del usuario ni alterar las peticiones.
 
 El acento naranja del menú activo, las flechas de avance, los resultados de búsqueda, los archivos seleccionados y las confirmaciones comparten la misma respuesta visual. El menú móvil también se cierra al navegar a una sección de la página actual. La preferencia de movimiento reducido desactiva estos efectos.
 
 Verificación específica: `tools/verify_navigation_effects.py` recorre la navegación de los cinco perfiles en móvil y escritorio, incluidos filtros automáticos, búsquedas, envío de formularios y regreso por historial.
 
-Ajuste de agilidad: controles a 80–120 ms, navegación a 140 ms y menú a 150 ms. Se eliminó el desenfoque y la atenuación de la página durante las solicitudes. El cierre de fichas tarda 70 ms.
+Equilibrio de movimiento: controles a 80–120 ms, navegación a 180–200 ms con 5–8 px de recorrido y paneles a 180 ms. Sin desenfoque ni atenuación durante las solicitudes. El cierre de fichas tarda 100 ms. Los desplazamientos usan transformaciones y no alteran la distribución del contenido.
