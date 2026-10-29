@@ -8,7 +8,7 @@
     if (!element || reduced.matches || !element.animate) return;
     var previous = reveals.get(element);
     if (previous) previous.cancel();
-    var animation = element.animate([{opacity:.45,filter:'blur(1px)'},{opacity:1,filter:'blur(0px)'}], {duration:230,easing:'cubic-bezier(.16,1,.3,1)'});
+    var animation = element.animate([{opacity:.82},{opacity:1}], {duration:100,easing:'cubic-bezier(.2,.8,.2,1)'});
     reveals.set(element, animation);
     function finish() { if (reveals.get(element) === animation) reveals.delete(element); }
     animation.onfinish=finish; animation.oncancel=finish;
@@ -26,7 +26,7 @@
     if (Math.abs(before - after) < 1) { reveal(element); return; }
     var overflow = element.style.overflow;
     element.style.overflow = 'clip';
-    var animation = element.animate([{height:before+'px'},{height:after+'px'}], {duration:190,easing:'cubic-bezier(.2,.7,.2,1)'});
+    var animation = element.animate([{height:before+'px'},{height:after+'px'}], {duration:120,easing:'cubic-bezier(.2,.7,.2,1)'});
     running.set(element, {animation:animation,overflow:overflow});
     reveal(element);
     function finish() { var current=running.get(element); if (current && current.animation === animation) { element.style.overflow = overflow; running.delete(element); } }
@@ -37,7 +37,7 @@
     if (reduced.matches || !dialog.animate) { dialog.close(); return; }
     if (dialog.dataset.closing) return;
     dialog.dataset.closing = 'true';
-    var a = dialog.animate([{opacity:1},{opacity:0}],{duration:100,easing:'ease-out'});
+    var a = dialog.animate([{opacity:1},{opacity:0}],{duration:70,easing:'ease-out'});
     a.finished.then(function () { dialog.close(); delete dialog.dataset.closing; },function () { delete dialog.dataset.closing; });
   }
   window.uiMotion = {change:change,reveal:reveal,closeDialog:closeDialog};
@@ -76,7 +76,7 @@
   },true);
   document.addEventListener('invalid',function (event) {
     if (reduced.matches || !event.target.animate) return;
-    event.target.animate([{boxShadow:'0 0 0 0 #ba1a1a00'},{boxShadow:'0 0 0 4px #ba1a1a18'},{boxShadow:'0 0 0 0 #ba1a1a00'}],{duration:280});
+    event.target.animate([{boxShadow:'0 0 0 0 #ba1a1a00'},{boxShadow:'0 0 0 4px #ba1a1a18'},{boxShadow:'0 0 0 0 #ba1a1a00'}],{duration:160});
   },true);
   document.querySelectorAll('details').forEach(function (el) {
     var summary=el.querySelector('summary');

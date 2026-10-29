@@ -1,5 +1,5 @@
 /* Respuesta visual breve, coherente con el azul y naranja institucionales. */
-:root{--mov-rapido:130ms;--mov-suave:200ms;--mov-curva:cubic-bezier(.2,.7,.2,1)}
+:root{--mov-rapido:80ms;--mov-suave:120ms;--mov-curva:cubic-bezier(.2,.7,.2,1)}
 
 @keyframes contenido-entra{from{opacity:0}to{opacity:1}}
 .btn,.icon-btn,.menu a,.nav-inferior a,.nav-inferior button,.tabs button,.tabs a,.acceso,.ficha,.opcion,.enlace,.cerrar-sesion{transition:background-color var(--mov-rapido) ease,color var(--mov-rapido) ease,border-color var(--mov-rapido) ease,box-shadow var(--mov-suave) ease,transform var(--mov-rapido) var(--mov-curva)}
@@ -7,20 +7,20 @@ input,select,textarea{transition:border-color var(--mov-rapido) ease,box-shadow 
 input:focus,select:focus,textarea:focus{box-shadow:0 0 0 4px #1e3a8a09}
 @media(hover:hover){.btn:hover{box-shadow:0 3px 10px #1e3a8a14}.acceso:hover,.ficha:focus-within{box-shadow:0 4px 16px #1e3a8a0c}.menu a:hover,.nav-inferior a:hover{box-shadow:inset 0 0 0 1px #b6c4ff22}}
 .btn:active,.icon-btn:active,.password-toggle:active,.tabs button:active{transform:scale(.985)}
-.lateral{transition:transform 220ms var(--mov-curva)}
-.velo:not([hidden]){animation:contenido-entra 160ms ease-out}
+.lateral{transition:transform 150ms var(--mov-curva)}
+.velo:not([hidden]){animation:contenido-entra 100ms ease-out}
 .ficha-dialog{height:min(760px,calc(100dvh - 64px))}
-.ficha-dialog[open]{display:flex;flex-direction:column;animation:dialogo-entra 180ms var(--mov-curva)}
-.ficha-dialog::backdrop{animation:contenido-entra 160ms ease-out}
+.ficha-dialog[open]{display:flex;flex-direction:column;animation:dialogo-entra 120ms var(--mov-curva)}
+.ficha-dialog::backdrop{animation:contenido-entra 100ms ease-out}
 .dialog-barra{flex-shrink:0}.dialog-contenido{flex:1;min-height:0;overflow:auto;scrollbar-gutter:stable}
 @keyframes dialogo-entra{from{opacity:0;transform:scale(.99)}to{opacity:1;transform:scale(1)}}
 .dialog-contenido[aria-busy=true]{display:grid;place-items:center;color:var(--texto-sec)}
 .selector-resultados:not([hidden]){animation:contenido-entra 120ms ease-out}
-.aviso{animation:contenido-entra 180ms ease-out}
+.aviso{animation:contenido-entra 120ms ease-out}
 .btn,.icon-btn{position:relative}
-.enviando button[type=submit]:after,.enviando button:not([type]):after{content:'';position:absolute;right:8px;width:12px;height:12px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:giro-carga 650ms linear infinite;pointer-events:none}
+.enviando button[type=submit]:after,.enviando button:not([type]):after{content:'';position:absolute;right:8px;width:12px;height:12px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:giro-carga 450ms linear infinite;pointer-events:none}
 @keyframes giro-carga{to{transform:rotate(360deg)}}
-body.navegando:before{content:'';position:fixed;top:0;left:0;right:0;height:2px;z-index:100;background:linear-gradient(90deg,transparent,var(--acento),var(--primario),transparent);background-size:50% 100%;background-repeat:no-repeat;animation:carga-ruta 1s ease-in-out infinite;pointer-events:none}
+body.navegando:before{content:'';position:fixed;top:0;left:0;right:0;height:2px;z-index:100;background:linear-gradient(90deg,transparent,var(--acento),var(--primario),transparent);background-size:50% 100%;background-repeat:no-repeat;animation:carga-ruta 600ms ease-in-out infinite;pointer-events:none}
 @keyframes carga-ruta{from{background-position:-100% 0}to{background-position:200% 0}}
 .selector-info{min-height:36px}.login-nota p{min-height:4.8em}
 /* Estado inicial del asistente disponible antes de descargar JavaScript. */
@@ -35,26 +35,26 @@ body.navegando:before{content:'';position:fixed;top:0;left:0;right:0;height:2px;
 .js[data-panel-inicial=historial] #activos{display:none}.js[data-panel-inicial=historial] #historial[hidden]{display:block!important}
 
 /* Firma de navegación San Juan: enfoque progresivo y acento de luz naranja. */
-.contenido,.contenido-solo{animation:pagina-lista 320ms cubic-bezier(.16,1,.3,1);transition:opacity 110ms ease,filter 110ms ease}
-@keyframes pagina-lista{from{opacity:.3;filter:blur(1.5px)}to{opacity:1;filter:blur(0)}}
-html[data-navigation=filter] main{animation:resultado-listo 240ms cubic-bezier(.16,1,.3,1)}
-html[data-navigation=submit] main{animation:accion-lista 300ms cubic-bezier(.16,1,.3,1)}
-html[data-navigation=history] main{animation:historial-listo 240ms ease-out}
-@keyframes resultado-listo{from{opacity:.45;filter:blur(1px)}to{opacity:1;filter:blur(0)}}
-@keyframes accion-lista{0%{opacity:.4;filter:blur(1px)}60%{opacity:1;filter:blur(0)}100%{opacity:1;filter:blur(0)}}
-@keyframes historial-listo{from{opacity:.4}to{opacity:1}}
-body.navegando main{opacity:.72;filter:blur(.5px)}
+.contenido,.contenido-solo{animation:pagina-lista 140ms cubic-bezier(.2,.8,.2,1);transition:none}
+@keyframes pagina-lista{from{opacity:.82}to{opacity:1}}
+html[data-navigation=filter] main{animation:resultado-listo 140ms cubic-bezier(.2,.8,.2,1)}
+html[data-navigation=submit] main{animation:accion-lista 140ms cubic-bezier(.2,.8,.2,1)}
+html[data-navigation=history] main{animation:historial-listo 140ms ease-out}
+@keyframes resultado-listo{from{opacity:.82}to{opacity:1}}
+@keyframes accion-lista{0%{opacity:.82}60%{opacity:1}100%{opacity:1}}
+@keyframes historial-listo{from{opacity:.82}to{opacity:1}}
+
 .menu a,.nav-inferior a,.tabs a,.tabs button{position:relative;isolation:isolate}
-.menu a.activo:after{content:'';position:absolute;inset:10px auto 10px 0;width:3px;border-radius:3px;background:var(--acento);transform-origin:center;animation:acento-activo 320ms cubic-bezier(.16,1,.3,1);pointer-events:none}
+.menu a.activo:after{content:'';position:absolute;inset:10px auto 10px 0;width:3px;border-radius:3px;background:var(--acento);transform-origin:center;animation:acento-activo 140ms cubic-bezier(.2,.8,.2,1);pointer-events:none}
 @keyframes acento-activo{from{opacity:0;transform:scaleY(.2)}to{opacity:1;transform:scaleY(1)}}
-.nav-inferior a.activo:after{content:'';position:absolute;top:0;left:calc(50% - 10px);width:20px;height:2px;border-radius:2px;background:var(--primario);animation:acento-activo 260ms ease-out;pointer-events:none}
-.tabs [aria-selected=true],.tabs .activo{animation:seleccion-lista 210ms ease-out}
+.nav-inferior a.activo:after{content:'';position:absolute;top:0;left:calc(50% - 10px);width:20px;height:2px;border-radius:2px;background:var(--primario);animation:acento-activo 120ms ease-out;pointer-events:none}
+.tabs [aria-selected=true],.tabs .activo{animation:seleccion-lista 100ms ease-out}
 @keyframes seleccion-lista{from{box-shadow:0 0 0 2px #1e3a8a14}to{box-shadow:0 1px 3px #0b1c300a}}
-.btn svg:has(use[href="#ui-arrow_forward"]){transition:transform 170ms cubic-bezier(.16,1,.3,1)}
+.btn svg:has(use[href="#ui-arrow_forward"]){transition:transform 100ms cubic-bezier(.2,.8,.2,1)}
 @media(hover:hover){.btn:hover svg:has(use[href="#ui-arrow_forward"]){transform:translateX(3px)}.btn-primario:hover{box-shadow:0 4px 16px #1e3a8a25,0 0 0 1px #ffffff20 inset}.acceso:hover .acceso-ico{box-shadow:0 0 0 4px #1e3a8a08}}
-.ficha-dialog[open]{animation:apertura-ficha 240ms cubic-bezier(.16,1,.3,1)}
-@keyframes apertura-ficha{from{opacity:0;transform:scale(.985);filter:blur(1px)}to{opacity:1;transform:scale(1);filter:blur(0)}}
-.selector-resultados:not([hidden]){animation:resultado-listo 170ms ease-out}
-.ayuda.ok,.aviso-ok{animation:confirmacion-lista 320ms ease-out}
-@keyframes confirmacion-lista{from{box-shadow:0 0 0 3px #087a3812;opacity:.6}to{box-shadow:0 0 0 0 #087a3800;opacity:1}}
-@media(prefers-reduced-motion:reduce){body.navegando main{opacity:1;filter:none}.btn:hover svg{transform:none!important}}
+.ficha-dialog[open]{animation:apertura-ficha 140ms cubic-bezier(.2,.8,.2,1)}
+@keyframes apertura-ficha{from{opacity:0;transform:scale(.985)}to{opacity:1;transform:scale(1)}}
+.selector-resultados:not([hidden]){animation:resultado-listo 100ms ease-out}
+.ayuda.ok,.aviso-ok{animation:confirmacion-lista 140ms ease-out}
+@keyframes confirmacion-lista{from{box-shadow:0 0 0 3px #087a3812;opacity:.85}to{box-shadow:0 0 0 0 #087a3800;opacity:1}}
+@media(prefers-reduced-motion:reduce){.btn:hover svg{transform:none!important}}
