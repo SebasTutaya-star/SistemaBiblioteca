@@ -61,3 +61,7 @@ Informe: `artifacts/qa/navigation-effects.json`. Script: `tools/verify_navigatio
 ## Bienvenida institucional
 
 Diez accesos correctos verificados: cinco perfiles en escritorio y móvil, con nombre y rol reales. También se verificaron movimiento reducido, cierre con Escape, credenciales inválidas, ausencia al recargar, restauración del foco y salida con Continuar. La pantalla cubre el viewport completo y no modifica los permisos ni la lógica de autenticación.
+
+## Scroll
+
+Se verificó scroll nativo inmediato y ausencia de backdrop-filter en las capas fijas de ocho vistas (cuatro módulos en escritorio y móvil). También pasaron bienvenida, apertura y cierre de fichas. No se detectaron desbordamientos horizontales ni errores JavaScript. Se guardaron perfiles de scroll locales antes y después; las métricas dependen del entorno y no se presentan como una mejora porcentual garantizada.

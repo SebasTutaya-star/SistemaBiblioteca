@@ -104,3 +104,11 @@ Tras un acceso correcto aparece una pantalla institucional con la insignia San J
 Se muestra una sola vez por acceso, durante aproximadamente 1,3 segundos, con salida automática y botón Continuar para omitirla. No aparece al recargar, al cambiar de módulo ni ante credenciales inválidas. Respeta el movimiento reducido y el teclado; el contenido de fondo queda temporalmente inerte y recupera su foco al terminar. Funciona también antes del cambio obligatorio de contraseña porque utiliza la identidad ya autenticada.
 
 La identidad y el rol provienen de la sesión existente. La presentación se activa mediante un marcador temporal del formulario de acceso; no se cambia el controlador de login, la autenticación, los permisos ni la base. Verificación: `tools/verify_welcome.py`, más comprobación del botón Continuar y cobertura completa del viewport en escritorio y móvil. Capturas e informe en `artifacts/qa/welcome*`.
+
+## Fluidez del desplazamiento
+
+Se sustituyeron los fondos translúcidos con `backdrop-filter` de la cabecera y la navegación móvil por superficies opacas del mismo color institucional. También se retiró el desenfoque de los fondos de menús y fichas. Estas capas ya no necesitan filtrar el contenido que pasa por debajo al desplazar la página.
+
+El scroll utiliza el comportamiento nativo directo (`scroll-behavior: auto`), sin interceptar eventos de rueda o gestos táctiles. Se conservan las animaciones de navegación, interacción y bienvenida.
+
+Se comprobaron inicio, catálogo, historial y alertas en 1440 y 390 px, además del diálogo de fichas y la bienvenida. Las ocho vistas respondieron al desplazamiento directo sin desbordamiento horizontal ni errores JavaScript. `tools/profile_scroll.py` registra intervalos de fotogramas y métricas del navegador con CPU emulada a 4x: los informes `artifacts/qa/scroll-before.json` y `scroll-after.json` son diagnósticos locales, sin garantía de FPS para otros dispositivos.
