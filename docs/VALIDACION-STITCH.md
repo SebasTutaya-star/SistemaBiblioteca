@@ -57,3 +57,7 @@ La regresión final de iconos y carga fría pasó en 14 pantallas con fuentes bl
 - Se verificó que los enlaces internos al historial cierren el menú móvil.
 
 Informe: `artifacts/qa/navigation-effects.json`. Script: `tools/verify_navigation_effects.py`.
+
+## Bienvenida institucional
+
+Diez accesos correctos verificados: cinco perfiles en escritorio y móvil, con nombre y rol reales. También se verificaron movimiento reducido, cierre con Escape, credenciales inválidas, ausencia al recargar, restauración del foco y salida con Continuar. La pantalla cubre el viewport completo y no modifica los permisos ni la lógica de autenticación.

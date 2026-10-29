@@ -96,3 +96,11 @@ El acento naranja del menú activo, las flechas de avance, los resultados de bú
 Verificación específica: `tools/verify_navigation_effects.py` recorre la navegación de los cinco perfiles en móvil y escritorio, incluidos filtros automáticos, búsquedas, envío de formularios y regreso por historial.
 
 Equilibrio de movimiento: controles a 80–120 ms, navegación a 180–200 ms con 5–8 px de recorrido y paneles a 180 ms. Sin desenfoque ni atenuación durante las solicitudes. El cierre de fichas tarda 100 ms. Los desplazamientos usan transformaciones y no alteran la distribución del contenido.
+
+## Bienvenida al iniciar sesión
+
+Tras un acceso correcto aparece una pantalla institucional con la insignia San Juan, el saludo Bienvenido(a), el nombre completo y el perfil autenticado (administrador, bibliotecaria, auxiliar, estudiante o docente). La entrada del escudo, el aro naranja, el texto escalonado y la salida al panel son más notorios que las microinteracciones de navegación.
+
+Se muestra una sola vez por acceso, durante aproximadamente 1,3 segundos, con salida automática y botón Continuar para omitirla. No aparece al recargar, al cambiar de módulo ni ante credenciales inválidas. Respeta el movimiento reducido y el teclado; el contenido de fondo queda temporalmente inerte y recupera su foco al terminar. Funciona también antes del cambio obligatorio de contraseña porque utiliza la identidad ya autenticada.
+
+La identidad y el rol provienen de la sesión existente. La presentación se activa mediante un marcador temporal del formulario de acceso; no se cambia el controlador de login, la autenticación, los permisos ni la base. Verificación: `tools/verify_welcome.py`, más comprobación del botón Continuar y cobertura completa del viewport en escritorio y móvil. Capturas e informe en `artifacts/qa/welcome*`.
