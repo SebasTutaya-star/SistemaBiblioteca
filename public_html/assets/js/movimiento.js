@@ -65,6 +65,9 @@
   document.addEventListener('submit',function (event) {
     if (event.defaultPrevented || (event.submitter && event.submitter.name === 'formato')) return;
     var form=event.target;
+    if (new URL(form.action,location.href).searchParams.get('p') === 'login') {
+      try { sessionStorage.setItem('biblioteca-welcome',JSON.stringify({time:Date.now()})); } catch (_) {}
+    }
     if (form.classList.contains('enviando')) { event.preventDefault(); return; }
     form.classList.add('enviando'); form.setAttribute('aria-busy','true'); loading(form.method.toLowerCase()==='get' ? 'filter' : 'submit');
   });

@@ -1,0 +1,38 @@
+.welcome-screen{display:none}
+.welcome-pending body{overflow:hidden}
+.welcome-pending .welcome-screen{display:grid;position:fixed;inset:0;z-index:200;place-items:center;padding:30px 24px;background:radial-gradient(ellipse at 50% 25%,#23499d 0,#132d70 44%,#091938 100%);color:#fff;overflow:auto}
+.welcome-pending body>:not(.welcome-screen):not(script):not(svg){visibility:hidden}
+.welcome-content{width:min(100%,650px);text-align:center;margin:auto}
+.welcome-emblem{position:relative;display:grid;place-items:center;width:176px;height:176px;margin:0 auto 22px;isolation:isolate}
+.welcome-emblem:before{content:'';position:absolute;inset:11px;background:#ffffff0b;border:1px solid #ffffff18;border-radius:50%;box-shadow:0 0 60px #81a8ff20}
+.welcome-emblem img{width:112px;height:118px;object-fit:contain;z-index:1;filter:drop-shadow(0 6px 14px #0003);animation:welcome-seal 520ms cubic-bezier(.18,.85,.25,1) both}
+.welcome-orbit{position:absolute;inset:0;border:2px solid #ffffff0d;border-top-color:var(--acento);border-right-color:#fe932c66;border-radius:50%;animation:welcome-orbit 950ms linear infinite}
+.welcome-institution{font-size:14px;font-weight:700;letter-spacing:.05em;margin:0 0 26px;color:#ffdcc3;animation:welcome-copy 320ms 60ms both}
+.welcome-institution span{display:block;font-size:12px;font-weight:400;color:#c1d0f3;letter-spacing:0;margin-top:4px}
+.welcome-screen #welcome-title{font-size:clamp(30px,5vw,48px);letter-spacing:-.035em;line-height:1.2;color:#fff;margin:0 0 12px;animation:welcome-copy 360ms 100ms both}
+.welcome-name{font-size:clamp(21px,3.7vw,32px);font-weight:650;line-height:1.3;margin:0 auto 18px;max-width:600px;text-wrap:balance;overflow-wrap:anywhere;animation:welcome-copy 360ms 160ms both;color:#fff}
+.welcome-role{display:inline-flex;align-items:center;gap:8px;min-height:34px;padding:7px 14px;background:#ffffff10;border:1px solid #ffffff22;border-radius:6px;color:#ffdcc3;font-size:12px;font-weight:600;animation:welcome-copy 320ms 220ms both}
+.welcome-role svg{font-size:17px}
+.welcome-loading{max-width:240px;margin:32px auto 0;animation:welcome-copy 300ms 260ms both}
+.welcome-track{display:block;position:relative;height:3px;border-radius:4px;background:#ffffff15;overflow:hidden}
+.welcome-track:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,#fe932c,#fff0d5,transparent);animation:welcome-track 800ms ease-in-out infinite}
+.welcome-loading p{font-size:11px;color:#c1d0f3;margin:12px 0 0}
+.welcome-continue{display:inline-flex;align-items:center;gap:8px;margin-top:22px;background:none;border:0;color:#dce6ff;font:inherit;font-size:12px;padding:10px 16px;min-height:44px;border-radius:6px;cursor:pointer;animation:welcome-copy 260ms 300ms both;transition:background-color 100ms,color 100ms}
+.welcome-continue:hover{color:#fff;background:#ffffff10}.welcome-continue:active{transform:scale(.98)}
+.welcome-location{position:absolute;bottom:max(20px,env(safe-area-inset-bottom));left:20px;right:20px;text-align:center;font-size:10px;color:#b6c4e3;letter-spacing:.02em;pointer-events:none}
+.welcome-screen.welcome-leaving{pointer-events:none;animation:welcome-leave 220ms cubic-bezier(.2,.7,.2,1) both}
+.welcome-ready .welcome-orbit{border-color:#fe932c88;animation-play-state:paused}
+.welcome-ready .welcome-track:after{animation:none;background:var(--acento)}
+@keyframes welcome-seal{0%{opacity:0;transform:scale(.65) rotate(-8deg)}75%{opacity:1;transform:scale(1.05) rotate(1deg)}100%{opacity:1;transform:scale(1) rotate(0)}}
+@keyframes welcome-copy{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes welcome-orbit{to{transform:rotate(360deg)}}
+@keyframes welcome-track{from{transform:translateX(-100%)}to{transform:translateX(100%)}}
+@keyframes welcome-leave{to{opacity:0;transform:scale(1.025)}}
+@media(max-width:480px){.welcome-pending .welcome-screen{padding:24px 20px 56px}.welcome-emblem{width:152px;height:152px;margin-bottom:18px}.welcome-emblem img{width:96px;height:102px}.welcome-institution{margin-bottom:24px}.welcome-loading{margin-top:26px}}
+@media(max-height:650px){.welcome-pending .welcome-screen{padding-top:18px;padding-bottom:44px}.welcome-emblem{width:110px;height:110px;margin-bottom:12px}.welcome-emblem img{width:72px;height:78px}.welcome-institution{margin-bottom:14px}.welcome-loading{margin-top:16px}.welcome-screen #welcome-title{font-size:30px}.welcome-name{font-size:22px}.welcome-continue{margin-top:10px}}
+@media(prefers-reduced-motion:reduce){.welcome-screen *,.welcome-screen{animation:none!important;transition:none!important}.welcome-track:after{background:var(--acento)}.welcome-orbit{border-color:#fe932c88}}
+@media print{.welcome-screen{display:none!important}.welcome-pending body>*{visibility:visible!important}}
+
+.welcome-pending.welcome-revealing body>:not(.welcome-screen):not(script):not(svg){visibility:visible}
+
+.welcome-pending .welcome-screen{width:100vw;max-width:none}.welcome-emblem img{background:#fff;border-radius:14px;padding:5px}

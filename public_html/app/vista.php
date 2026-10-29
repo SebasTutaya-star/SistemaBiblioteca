@@ -20,18 +20,34 @@ function pagina_inicio(string $titulo, string $actual = ''): void
 ?><!doctype html>
 <html lang="es"><head>
 <script>
-(function(){var root=document.documentElement;root.classList.add("js");if(location.hash==="#historial")root.dataset.panelInicial="historial";try{var pending=JSON.parse(sessionStorage.getItem("biblioteca-navigation")||"null");sessionStorage.removeItem("biblioteca-navigation");root.dataset.navigation=pending&&Date.now()-pending.time<15000?pending.kind:"module";var entry=performance.getEntriesByType("navigation")[0];if(entry&&entry.type==="back_forward")root.dataset.navigation="history";}catch(_){root.dataset.navigation="module";}})();
+(function(){var root=document.documentElement;root.classList.add("js");try{var welcome=JSON.parse(sessionStorage.getItem("biblioteca-welcome")||"null");sessionStorage.removeItem("biblioteca-welcome");if(<?= $u ? 'true' : 'false' ?>&&welcome&&Date.now()-welcome.time<20000)root.classList.add("welcome-pending");}catch(_){}if(location.hash==="#historial")root.dataset.panelInicial="historial";try{var pending=JSON.parse(sessionStorage.getItem("biblioteca-navigation")||"null");sessionStorage.removeItem("biblioteca-navigation");root.dataset.navigation=pending&&Date.now()-pending.time<15000?pending.kind:"module";var entry=performance.getEntriesByType("navigation")[0];if(entry&&entry.type==="back_forward")root.dataset.navigation="history";}catch(_){root.dataset.navigation="module";}})();
 </script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#1e3a8a">
 <title><?= e($titulo) ?> · <?= e($app) ?></title>
 <link rel="icon" href="assets/img/insignia-san-juan.png">
 <link rel="preload" href="assets/fonts/stitch-font-7.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/fuentes.css?v=stitch-6">
-<link rel="stylesheet" href="assets/css/estilos.css?v=stitch-6">
-<link rel="stylesheet" href="assets/css/movimiento.css?v=stitch-6">
+<link rel="stylesheet" href="assets/css/fuentes.css?v=stitch-7">
+<link rel="stylesheet" href="assets/css/estilos.css?v=stitch-7">
+<link rel="stylesheet" href="assets/css/movimiento.css?v=stitch-7">
+<link rel="stylesheet" href="assets/css/bienvenida.css?v=stitch-7">
+<link rel="preload" href="assets/img/insignia-san-juan.png" as="image">
 </head><body class="<?= $u ? ($lector ? 'sesion lector' : 'sesion personal') : 'sin-sesion' ?>" data-pagina="<?= e(g('p', 'inicio')) ?>">
 <?php readfile(__DIR__ . '/../assets/img/iconos.svg'); ?>
+<?php if ($u): ?>
+<section class="welcome-screen" role="dialog" aria-modal="true" aria-labelledby="welcome-title" aria-describedby="welcome-name welcome-role" tabindex="-1">
+  <div class="welcome-content">
+    <div class="welcome-emblem"><span class="welcome-orbit" aria-hidden="true"></span><img src="assets/img/insignia-san-juan.png" alt="Insignia de la I.E. San Juan" width="128" height="132"></div>
+    <p class="welcome-institution">I.E. San Juan <span>Biblioteca Escolar</span></p>
+    <h2 id="welcome-title">¡Bienvenido(a)!</h2>
+    <p id="welcome-name" class="welcome-name"><?= e(nombre_completo($u)) ?></p>
+    <span id="welcome-role" class="welcome-role"><?= icono($lector ? 'school' : 'shield') ?> <?= e($rol) ?></span>
+    <div class="welcome-loading" role="status"><span class="welcome-track" aria-hidden="true"></span><p>Tu espacio de biblioteca está listo.</p></div>
+    <button type="button" class="welcome-continue">Continuar <?= icono('arrow') ?></button>
+  </div>
+  <span class="welcome-location">San Juan Bautista · Ayacucho</span>
+</section>
+<?php endif; ?>
 <a class="saltar-contenido" href="#contenido">Ir al contenido</a>
 <?php if ($u): ?>
 <header class="cabecera-app">
@@ -79,9 +95,10 @@ function pagina_fin(): void
 </nav>
 <footer class="pie-app"><span>Biblioteca Escolar · I.E. San Juan</span><span><?= date('Y') ?> · San Juan Bautista, Ayacucho</span></footer>
 <?php else: ui_pie_auth(); endif; ?>
-<script src="assets/js/movimiento.js?v=stitch-6" defer></script>
-<script src="assets/js/app.js?v=stitch-6" defer></script>
-<script src="assets/js/interfaz.js?v=stitch-6" defer></script>
+<script src="assets/js/movimiento.js?v=stitch-7" defer></script>
+<script src="assets/js/app.js?v=stitch-7" defer></script>
+<script src="assets/js/interfaz.js?v=stitch-7" defer></script>
+<script src="assets/js/bienvenida.js?v=stitch-7" defer></script>
 </body></html><?php
     ob_end_flush();
 }
