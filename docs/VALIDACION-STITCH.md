@@ -47,3 +47,13 @@ Los informes detallados y capturas están disponibles localmente en `artifacts/q
 - Backend, controladores y SQL siguen preservados según `tools/check_scope.py`.
 
 La regresión final de iconos y carga fría pasó en 14 pantallas con fuentes bloqueadas y caché desactivada. Se sustituyó la transición nativa entre documentos por opacidad CSS para evitar errores al interrumpir navegaciones.
+
+## Firma animada de navegación
+
+- 62 recorridos mediante controles visibles en los cinco perfiles, en escritorio y móvil.
+- Entrada de módulos, envío de formularios, filtros automáticos, búsquedas y navegación atrás verificados con sus animaciones correspondientes.
+- 12 grupos de interacción con y sin movimiento reducido, y 14 vistas con fuentes bloqueadas y caché desactivada, sin errores de JavaScript.
+- Comprobación adicional de CLS en acceso y vistas animadas de escritorio y móvil.
+- Se verificó que los enlaces internos al historial cierren el menú móvil.
+
+Informe: `artifacts/qa/navigation-effects.json`. Script: `tools/verify_navigation_effects.py`.
