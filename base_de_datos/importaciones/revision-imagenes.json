@@ -1,0 +1,594 @@
+{
+  "carpetas_con_imagenes": 158,
+  "imagenes_en_carpetas": 337,
+  "libros_registrables": 155,
+  "imagenes_publicadas": 305,
+  "imagenes_pendientes": 32,
+  "excluido": "No clasificados y sus descendientes",
+  "pendientes": [
+    {
+      "archivo": "IMG_20261030_104159.jpg",
+      "drive_id": "1glAbfKdPDPQWDOuuwjbTY4EidzU9xHv3",
+      "carpeta_origen": "Historia de la Republicana del Perú (1822-1933) 7 - Raúl Palacios Rodríguez",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104146.jpg",
+      "drive_id": "1y8QBH-vVopWBffIcBrCjrB9z7q6fGcd1",
+      "carpeta_origen": "Historia de la Republicana del Perú (1822-1933) 8 - Raúl Palacios Rodríguez",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104133.jpg",
+      "drive_id": "1leI6Jx3AtYNMGAIjOXd1eAeWKQnPUVRS",
+      "carpeta_origen": "Historia de la Republicana del Perú (1822-1933) 13 - Raúl Palacios Rodríguez",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104126.jpg",
+      "drive_id": "1-elI6Rmwwx580WDnajDxzmORzEeHdpK4",
+      "carpeta_origen": "Historia de la Republicana del Perú (1822-1933) 14 - Raúl Palacios Rodríguez",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104116.jpg",
+      "drive_id": "1dwnt_ySmgMn4OJBvNdwPkFE3u7LkNe8w",
+      "carpeta_origen": "Historia de la Republicana del Perú (1822-1933) 12 - Raúl Palacios Rodríguez",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104047.jpg",
+      "drive_id": "1jLewP1JzZZpbq_ZIRXZtjck8cQ_wsw_M",
+      "carpeta_origen": "Historia de la Republicana del Perú (1822-1933) 10 - Raúl Palacios Rodríguez",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104056.jpg",
+      "drive_id": "1DDslgO76WouvHoMhUZ0hN4qeYSdzfi_c",
+      "carpeta_origen": "Historia de la Republicana del Perú (1822-1933) 15 - Raúl Palacios Rodríguez",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104035.jpg",
+      "drive_id": "18iEjhxQQLpJVBJPhLqNMK7gMMBylvtpg",
+      "carpeta_origen": "Historia de la Republicana del Perú (1822-1933) 18 - Raúl Palacios Rodríguez",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_9910.JPG",
+      "drive_id": "1yUPN4CQRk19uzqL3xCjiOiG735jMECzk",
+      "carpeta_origen": "Pedro Páramo - Juan Rulfo",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104725.jpg",
+      "drive_id": "1mchjfKRrY38v36vRwRveB7bT6mr23T_9",
+      "carpeta_origen": "Poesías Completas - José María Eguren",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104528.jpg",
+      "drive_id": "1zMFMWkoVYoMQpYltiV2x-bkHFkM2yIWP",
+      "carpeta_origen": "Poesías Completas - José María Eguren",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_9963.JPG",
+      "drive_id": "12bTmmhS25fD4JZNluEnj7Sfe9CmCYvxj",
+      "carpeta_origen": "The Heinle Picture Dictionary - Heinle Cengage Learning",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_9984.JPG",
+      "drive_id": "1Y7x6iXM2f0TJi5D7lEIZL0xXIF6_ghru",
+      "carpeta_origen": "Tragedias Completas - William Shakespeare",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_9971.JPG",
+      "drive_id": "1b1ibM75gdOcjKogzUXORE9G-WfmNoB4U",
+      "carpeta_origen": "Tragedias Completas - William Shakespeare",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "20261030_110809.heic",
+      "drive_id": "1qxeS1ov0wbIhYspKs3hDD45ynalIBJdU",
+      "carpeta_origen": "Tragedias Completas - William Shakespeare",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104424.jpg",
+      "drive_id": "1fh-01h2Rl3QmCBR41XMmvMcTjNaAL0py",
+      "carpeta_origen": "La Odisea - Homero",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104836.jpg",
+      "drive_id": "1pZbvSbe-rDzqFPF8HBdNCDU0S2-zWST5",
+      "carpeta_origen": "Los Inocentes - Oswaldo Reynoso",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_9907.JPG",
+      "drive_id": "1xmVDg3A60c8JmVInPz-Z-juAw45RDzSN",
+      "carpeta_origen": "Obra Poética - César Vallejo",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_9926.JPG",
+      "drive_id": "1r83XazhPfe19VZYAE7Qa2Y9SbxWWjh7V",
+      "carpeta_origen": "Navajas en el Palomar - Jorge Eslava",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104539.jpg",
+      "drive_id": "19zufzvIBjy6jImHZ8iyYmq3oSRHxe1qB",
+      "carpeta_origen": "Señor de las Moscas - William Golding",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_105000.jpg",
+      "drive_id": "1Da-pfkNLLWAd9jFU6xNlEqLGlNSe24Xr",
+      "carpeta_origen": "Gestionando tu Propia Empresa 1 Y 2 - Macro",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104915.jpg",
+      "drive_id": "1sShqtIyibfZOTzY02gQ1Q_MlUj-WxquY",
+      "carpeta_origen": "Enseñar Literatura en Secundaria - G. Bordons, A. Díaz",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104753.jpg",
+      "drive_id": "13JNJfkiPQD7Hfo8uO8akzheyRiB4p7C7",
+      "carpeta_origen": "Enseñar Literatura en Secundaria - G. Bordons, A. Díaz",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104954.jpg",
+      "drive_id": "1UtZAR6-XumHhEBmpaJ8yzMZrthgnGkBN",
+      "carpeta_origen": "Fiestas y Costumbres - Jaime Y. Quelopana Mond.",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104804.jpg",
+      "drive_id": "1VHCBjIae9wzTC5k2I4_0Z1BNznq0pm5a",
+      "carpeta_origen": "Historia del Perú Contemporáneo - Carlos Contreras",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104440.jpg",
+      "drive_id": "1dLfnp3C2QHzdOIyB0Tb6gIrctLuQ9oCN",
+      "carpeta_origen": "Didáctica de la Lengua Castellana y Literatura - Uri Ruiz Bikandi",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_9929.JPG",
+      "drive_id": "1X_OhjEaeEvi-eMP7-Lmvhp3UGV6iLWXR",
+      "carpeta_origen": "Quijote - Miguel de Cervantes",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_9904.JPG",
+      "drive_id": "1uofuYyYsmvD_Pzdergz5QTjBacGpGFa8",
+      "carpeta_origen": "Cien Años de Soledad - Gabriel García Márquez",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104517.jpg",
+      "drive_id": "1iFbMeILwxFgxAE_YLtt_jm8Bq2Ai8m_N",
+      "carpeta_origen": "Cien Años de Soledad - Gabriel García Márquez",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_103828.jpg",
+      "drive_id": "1fDe5yDCj1maV9igqzoYpbeKbdmF_FtIU",
+      "carpeta_origen": "Diccionario Sinónimo Antónimo - María Moliner",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104826.jpg",
+      "drive_id": "1xJzwmNE6U7GW5tGE8qnbYc9W7s8RdmQm",
+      "carpeta_origen": "Biblioteca Hombre del Perú - César Vallejo",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    },
+    {
+      "archivo": "IMG_20261030_104340.jpg",
+      "drive_id": "1z4qRc7WWOTZcOu5cc_oG_VkBSI8KqONr",
+      "carpeta_origen": "Historia del Perú: Lexus - Lexus",
+      "motivo": "La fotografía muestra otro título o edición que no se pudo vincular con seguridad al inventario. Conservada en la caché local; no se publica como portada incorrecta."
+    }
+  ],
+  "asociaciones_revisadas": [
+    {
+      "archivo": "20261030_115349.heic",
+      "carpeta_origen": "Érase una vez el Hombre los Años de la Locura - Alexandra Muñoz",
+      "registro_destino": 351,
+      "titulo_destino": "Érase una vez el Hombre los Primeros Imperios"
+    },
+    {
+      "archivo": "IMG_20261030_104213.jpg",
+      "carpeta_origen": "Historia de la Republicana del Perú (1822-1933) 3 - Raúl Palacios Rodríguez",
+      "registro_destino": 292,
+      "titulo_destino": "Biblia América"
+    },
+    {
+      "archivo": "IMG_20261030_104210.jpg",
+      "carpeta_origen": "Historia de la Republicana del Perú (1822-1933) 4 - Raúl Palacios Rodríguez",
+      "registro_destino": 292,
+      "titulo_destino": "Biblia América"
+    },
+    {
+      "archivo": "20261030_115353.heic",
+      "carpeta_origen": "Érase una vez el Hombre América del Norte - Alexandra Muñoz",
+      "registro_destino": 337,
+      "titulo_destino": "Érase una vez el Hombre los Valles Fértiles"
+    },
+    {
+      "archivo": "20261030_115433.heic",
+      "carpeta_origen": "Érase una vez el Hombre la Primavera de los Pueblos - Alexandra Muñoz",
+      "registro_destino": 335,
+      "titulo_destino": "Érase una vez el Hombre la Primavera de los Pueblos"
+    },
+    {
+      "archivo": "20261030_115525.heic",
+      "carpeta_origen": "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz",
+      "registro_destino": 352,
+      "titulo_destino": "Érase una vez el Hombre los Bárbaros a Carlomagno"
+    },
+    {
+      "archivo": "20261030_115522.heic",
+      "carpeta_origen": "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz",
+      "registro_destino": 345,
+      "titulo_destino": "Érase una vez el Hombre los Vikingos"
+    },
+    {
+      "archivo": "20261030_115517.heic",
+      "carpeta_origen": "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz",
+      "registro_destino": 333,
+      "titulo_destino": "Érase una vez el Hombre los Constructores Catedrales"
+    },
+    {
+      "archivo": "20261030_115453.heic",
+      "carpeta_origen": "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz",
+      "registro_destino": 347,
+      "titulo_destino": "Érase una vez el Hombre el Gran Siglo de Luis XIV"
+    },
+    {
+      "archivo": "20261030_115427.heic",
+      "carpeta_origen": "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz",
+      "registro_destino": 342,
+      "titulo_destino": "Érase una vez el Hombre la Belle Époque"
+    },
+    {
+      "archivo": "20261030_115401.heic",
+      "carpeta_origen": "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz",
+      "registro_destino": 331,
+      "titulo_destino": "Érase una vez el Hombre Gromagnon"
+    },
+    {
+      "archivo": "20261030_115427.heic",
+      "carpeta_origen": "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz",
+      "registro_destino": 342,
+      "titulo_destino": "Érase una vez el Hombre la Belle Époque"
+    },
+    {
+      "archivo": "20261030_112400.heic",
+      "carpeta_origen": "Érase una vez el Hombre Pedro el Grande Rusia - Alexandra Muñoz",
+      "registro_destino": 282,
+      "titulo_destino": "Ética para Amador"
+    },
+    {
+      "archivo": "IMG_0006.JPG",
+      "carpeta_origen": "País de Jauja - Edgardo Rivera Martínez",
+      "registro_destino": 315,
+      "titulo_destino": "País de Jauja"
+    },
+    {
+      "archivo": "IMG_9936.JPG",
+      "carpeta_origen": "País de Jauja - Edgardo Rivera Martínez",
+      "registro_destino": 315,
+      "titulo_destino": "País de Jauja"
+    },
+    {
+      "archivo": "IMG_9987.JPG",
+      "carpeta_origen": "Constitución de 1993 - Marcial Rubio Correa",
+      "registro_destino": 316,
+      "titulo_destino": "Constitución de 1993"
+    },
+    {
+      "archivo": "IMG_20261030_104734.jpg",
+      "carpeta_origen": "Constitución de 1993 - Marcial Rubio Correa",
+      "registro_destino": 316,
+      "titulo_destino": "Constitución de 1993"
+    },
+    {
+      "archivo": "IMG_20261030_105009.jpg",
+      "carpeta_origen": "Planificación para Micro y Pequeñas Empresas - Ana M. Becerra Marsano",
+      "registro_destino": 9,
+      "titulo_destino": "Literatura Quechua Clásica"
+    },
+    {
+      "archivo": "IMG_9937.JPG",
+      "carpeta_origen": "PNL para Profesores - Albert Serrat",
+      "registro_destino": 307,
+      "titulo_destino": "Los Perros Hambrientos"
+    },
+    {
+      "archivo": "IMG_9937.JPG",
+      "carpeta_origen": "PNL para Profesores - Albert Serrat",
+      "registro_destino": 307,
+      "titulo_destino": "Los Perros Hambrientos"
+    },
+    {
+      "archivo": "IMG_20261030_103759.jpg",
+      "carpeta_origen": "Poetas Peruanos de Antología - Ricardo González Vigil",
+      "registro_destino": 238,
+      "titulo_destino": "Diccionario de Bolsillo Inglés Pocket"
+    },
+    {
+      "archivo": "IMG_9940.JPG",
+      "carpeta_origen": "Procedimientos en Historia - Didáctico - Crifol. Trepat",
+      "registro_destino": 310,
+      "titulo_destino": "Mitos, Leyendas y Cuentos Peruanos"
+    },
+    {
+      "archivo": "IMG_9940.JPG",
+      "carpeta_origen": "Procedimientos en Historia - Didáctico - Crifol. Trepat",
+      "registro_destino": 310,
+      "titulo_destino": "Mitos, Leyendas y Cuentos Peruanos"
+    },
+    {
+      "archivo": "IMG_9951.JPG",
+      "carpeta_origen": "Cuentos Antología Selección - Julio R. Ribeyro",
+      "registro_destino": 328,
+      "titulo_destino": "Tradiciones Peruanas"
+    },
+    {
+      "archivo": "IMG_9950.JPG",
+      "carpeta_origen": "Cuentos Antología Selección - Julio R. Ribeyro",
+      "registro_destino": 320,
+      "titulo_destino": "Poesías Completas"
+    },
+    {
+      "archivo": "IMG_9949.JPG",
+      "carpeta_origen": "Cuentos Antología Selección - Julio R. Ribeyro",
+      "registro_destino": 252,
+      "titulo_destino": "Cuentos Reunidos"
+    },
+    {
+      "archivo": "IMG_9948.JPG",
+      "carpeta_origen": "Sistematización de Práctica Docente - Carlos A. Audirac Camari",
+      "registro_destino": 330,
+      "titulo_destino": "Un Mundo para Julius"
+    },
+    {
+      "archivo": "IMG_9947.JPG",
+      "carpeta_origen": "Teoría del Movimiento - Kurt Meinel",
+      "registro_destino": 166,
+      "titulo_destino": "Un mundo para Julius"
+    },
+    {
+      "archivo": "IMG_9969.JPG",
+      "carpeta_origen": "The Heinle Picture Dictionary - Heinle Cengage Learning",
+      "registro_destino": 202,
+      "titulo_destino": "El mundo es ancho y ajeno"
+    },
+    {
+      "archivo": "20261030_110757.heic",
+      "carpeta_origen": "Tragedias Completas - William Shakespeare",
+      "registro_destino": 314,
+      "titulo_destino": "Obra Poética"
+    },
+    {
+      "archivo": "IMG_9972.JPG",
+      "carpeta_origen": "Tradiciones Peruanas - Ricardo Palma",
+      "registro_destino": 203,
+      "titulo_destino": "La Serpiente de Oro"
+    },
+    {
+      "archivo": "20261030_111913.heic",
+      "carpeta_origen": "Tradiciones Peruanas - Ricardo Palma",
+      "registro_destino": 328,
+      "titulo_destino": "Tradiciones Peruanas"
+    },
+    {
+      "archivo": "20261030_111009.heic",
+      "carpeta_origen": "Érase una vez el Hombre los Constructores Catedrales - Alexandra Muñoz",
+      "registro_destino": 177,
+      "titulo_destino": "La Tía Julia"
+    },
+    {
+      "archivo": "IMG_9888.JPG",
+      "carpeta_origen": "Historia de las Cosas - Annie Leonard",
+      "registro_destino": 297,
+      "titulo_destino": "Historia de las Cosas"
+    },
+    {
+      "archivo": "IMG_9939.JPG",
+      "carpeta_origen": "La Ciudad y los Perros - Mario Vargas Llosa",
+      "registro_destino": 295,
+      "titulo_destino": "La Ciudad y los Perros"
+    },
+    {
+      "archivo": "IMG_9896.JPG",
+      "carpeta_origen": "Los 7 Hábitos de los Adolescentes - Franklin Corey Company",
+      "registro_destino": 302,
+      "titulo_destino": "La Vuelta al Mundo en Ochenta Días"
+    },
+    {
+      "archivo": "IMG_9900.JPG",
+      "carpeta_origen": "Los 7 Hábitos de los Adolescentes - Franklin Corey Company",
+      "registro_destino": 304,
+      "titulo_destino": "Los 7 Hábitos de los Adolescentes"
+    },
+    {
+      "archivo": "IMG_9894.JPG",
+      "carpeta_origen": "Los Inocentes - Oswaldo Reynoso",
+      "registro_destino": 301,
+      "titulo_destino": "La Odisea"
+    },
+    {
+      "archivo": "IMG_9893.JPG",
+      "carpeta_origen": "Los Perros Hambrientos - Ciro Alegría",
+      "registro_destino": 309,
+      "titulo_destino": "Maus la Historia del Sobreviviente"
+    },
+    {
+      "archivo": "IMG_9895.JPG",
+      "carpeta_origen": "Maus la Historia del Sobreviviente - Art Spiegelman",
+      "registro_destino": 261,
+      "titulo_destino": "Drácula"
+    },
+    {
+      "archivo": "IMG_9899.JPG",
+      "carpeta_origen": "Mitos, Leyendas y Cuentos Peruanos - José María Arguedas",
+      "registro_destino": 277,
+      "titulo_destino": "El Viejo Saurio se Retira"
+    },
+    {
+      "archivo": "IMG_9922.JPG",
+      "carpeta_origen": "Nelson Mandela - Nelson Mandela",
+      "registro_destino": 270,
+      "titulo_destino": "El Guardián Sobre el Centeno"
+    },
+    {
+      "archivo": "IMG_9921.JPG",
+      "carpeta_origen": "Atlas Cuerpo Humano - Jordi Vigué",
+      "registro_destino": 276,
+      "titulo_destino": "Túnel"
+    },
+    {
+      "archivo": "IMG_9919.JPG",
+      "carpeta_origen": "Atlas Cuerpo Humano - Jordi Vigué",
+      "registro_destino": 317,
+      "titulo_destino": "Pedro Páramo"
+    },
+    {
+      "archivo": "IMG_9918.JPG",
+      "carpeta_origen": "Atlas Cuerpo Humano - Jordi Vigué",
+      "registro_destino": 294,
+      "titulo_destino": "La Casa de Cartón"
+    },
+    {
+      "archivo": "IMG_9928.JPG",
+      "carpeta_origen": "Navajas en el Palomar - Jorge Eslava",
+      "registro_destino": 311,
+      "titulo_destino": "Navajas en el Palomar"
+    },
+    {
+      "archivo": "20261030_115301.heic",
+      "carpeta_origen": "Historia de Iberoamérica desde los Niños 1,2,3,4 - Juan Acevedo",
+      "registro_destino": 287,
+      "titulo_destino": "Historia de Iberoamérica desde los Niños 1,2,3,4"
+    },
+    {
+      "archivo": "20261030_115253.heic",
+      "carpeta_origen": "Historia de Iberoamérica desde los Niños 1,2,3,4 - Juan Acevedo",
+      "registro_destino": 287,
+      "titulo_destino": "Historia de Iberoamérica desde los Niños 1,2,3,4"
+    },
+    {
+      "archivo": "20261030_115244.heic",
+      "carpeta_origen": "Historia de Iberoamérica desde los Niños 1,2,3,4 - Juan Acevedo",
+      "registro_destino": 287,
+      "titulo_destino": "Historia de Iberoamérica desde los Niños 1,2,3,4"
+    },
+    {
+      "archivo": "20261030_115236.heic",
+      "carpeta_origen": "Historia de Iberoamérica desde los Niños 1,2,3,4 - Juan Acevedo",
+      "registro_destino": 287,
+      "titulo_destino": "Historia de Iberoamérica desde los Niños 1,2,3,4"
+    },
+    {
+      "archivo": "IMG_20261030_104923.jpg",
+      "carpeta_origen": "Fiestas y Costumbres - Jaime Y. Quelopana Mond.",
+      "registro_destino": 18,
+      "titulo_destino": "Diccionario Quechua Runasimi"
+    },
+    {
+      "archivo": "IMG_20261030_104603.jpg",
+      "carpeta_origen": "Historia de la Literatura Hispanoamericana 1,2,3,4 - José Miguel Oviedo",
+      "registro_destino": 18,
+      "titulo_destino": "Diccionario Quechua Runasimi"
+    },
+    {
+      "archivo": "IMG_20261030_104324.jpg",
+      "carpeta_origen": "Historia de la Literatura Hispanoamericana 1,2,3,4 - José Miguel Oviedo",
+      "registro_destino": 107,
+      "titulo_destino": "Historia y Geografía: Economía"
+    },
+    {
+      "archivo": "IMG_20261030_104351.jpg",
+      "carpeta_origen": "Historia del Perú - Lexus Editores",
+      "registro_destino": 316,
+      "titulo_destino": "Constitución de 1993"
+    },
+    {
+      "archivo": "IMG_9998.JPG",
+      "carpeta_origen": "Economía para Principiantes - Alejandro Garvie",
+      "registro_destino": 262,
+      "titulo_destino": "Economía para Principiantes"
+    },
+    {
+      "archivo": "IMG_20261030_103941.jpg",
+      "carpeta_origen": "Diccionario Sinónimo Antónimo - María Moliner",
+      "registro_destino": 241,
+      "titulo_destino": "Diccionario Sinónimo Antónimo"
+    },
+    {
+      "archivo": "IMG_20261030_103931.jpg",
+      "carpeta_origen": "17 Narradores Latinoamérica - Cecilia Absatz",
+      "registro_destino": 240,
+      "titulo_destino": "Diccionario Panhispánico de Dudas"
+    },
+    {
+      "archivo": "IMG_9898.JPG",
+      "carpeta_origen": "24 Poetas Latinoamericanos - Cidcli",
+      "registro_destino": 243,
+      "titulo_destino": "24 Poetas Latinoamericanos"
+    },
+    {
+      "archivo": "IMG_9962.JPG",
+      "carpeta_origen": "Agua los Escoleros Warma Kuyay - José María Arguedas",
+      "registro_destino": 245,
+      "titulo_destino": "Agua los Escoleros Warma Kuyay"
+    },
+    {
+      "archivo": "IMG_9932.JPG",
+      "carpeta_origen": "Agua los Escoleros Warma Kuyay - José María Arguedas",
+      "registro_destino": 245,
+      "titulo_destino": "Agua los Escoleros Warma Kuyay"
+    },
+    {
+      "archivo": "IMG_9988.JPG",
+      "carpeta_origen": "Agua los Escoleros Warma Kuyay - José María Arguedas",
+      "registro_destino": 245,
+      "titulo_destino": "Agua los Escoleros Warma Kuyay"
+    },
+    {
+      "archivo": "IMG_20261030_104248.jpg",
+      "carpeta_origen": "Cuentos de Matemática - J. C. Hervás",
+      "registro_destino": 33,
+      "titulo_destino": "La Sagrada Biblia"
+    },
+    {
+      "archivo": "20261030_112441.heic",
+      "carpeta_origen": "Matalaché - Enrique López A.",
+      "registro_destino": 172,
+      "titulo_destino": "Matalaché"
+    },
+    {
+      "archivo": "IMG_20261030_104818.jpg",
+      "carpeta_origen": "Biblioteca Hombre del Perú - César Vallejo",
+      "registro_destino": 173,
+      "titulo_destino": "Biblioteca Hombre del Perú"
+    },
+    {
+      "archivo": "IMG_20261030_104230.jpg",
+      "carpeta_origen": "Razonamiento Verbal 3 - Jorge Cámara G.",
+      "registro_destino": 34,
+      "titulo_destino": "Religión 1 y 2"
+    }
+  ]
+}

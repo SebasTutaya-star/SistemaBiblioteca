@@ -1,0 +1,5260 @@
+{
+  "INV-2026-009": {
+    "numero": 9,
+    "titulo": "Literatura Quechua Clásica",
+    "autor": "Francisco Carrillo",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-009",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-009/1_akGp4SXSFuElmCWA1Anmbj992NGoOd8.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_105009.jpg",
+        "drive_id": "1_akGp4SXSFuElmCWA1Anmbj992NGoOd8"
+      }
+    ],
+    "carpetas_drive": [
+      "Planificación para Micro y Pequeñas Empresas - Ana M. Becerra Marsano"
+    ],
+    "descripcion": "Literatura Quechua Clásica. Autor o responsable consignado: Francisco Carrillo. Registro 9 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-018": {
+    "numero": 18,
+    "titulo": "Diccionario Quechua Runasimi",
+    "autor": "Víctor Tenorio García",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-018",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-018/1casGNUJh4BFUPj7klB5NNEt89z8goAag.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_104923.jpg",
+        "drive_id": "1casGNUJh4BFUPj7klB5NNEt89z8goAag"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-018/1pZqP3wr5MjVRo58_bNgN9vxQZtAZjmqC.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_104603.jpg",
+        "drive_id": "1pZqP3wr5MjVRo58_bNgN9vxQZtAZjmqC"
+      }
+    ],
+    "carpetas_drive": [
+      "Fiestas y Costumbres - Jaime Y. Quelopana Mond.",
+      "Historia de la Literatura Hispanoamericana 1,2,3,4 - José Miguel Oviedo"
+    ],
+    "descripcion": "Diccionario Quechua Runasimi. Autor o responsable consignado: Víctor Tenorio García. Registro 18 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-033": {
+    "numero": 33,
+    "titulo": "La Sagrada Biblia",
+    "autor": "Católica Familiar",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-033",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-033/1CKG9NaNhr6tDdULeYsoq36IEFxM4gx-E.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_104248.jpg",
+        "drive_id": "1CKG9NaNhr6tDdULeYsoq36IEFxM4gx-E"
+      }
+    ],
+    "carpetas_drive": [
+      "Cuentos de Matemática - J. C. Hervás"
+    ],
+    "descripcion": "La Sagrada Biblia. Autor o responsable consignado: Católica Familiar. Registro 33 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-034": {
+    "numero": 34,
+    "titulo": "Religión 1 y 2",
+    "autor": "Ondec",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-034",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-034/1M0uEuxWKfxL-O5tl6TLb9rR8r6hhmlo2.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_104230.jpg",
+        "drive_id": "1M0uEuxWKfxL-O5tl6TLb9rR8r6hhmlo2"
+      }
+    ],
+    "carpetas_drive": [
+      "Razonamiento Verbal 3 - Jorge Cámara G."
+    ],
+    "descripcion": "Religión 1 y 2. Autor o responsable consignado: Ondec. Registro 34 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-050": {
+    "numero": 50,
+    "titulo": "Historia Universal el Alba de la Civilización",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-050",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-050/1GlthorsZ95uPmEEG7mRpx85ua_D3ltNn.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115943.heic",
+        "drive_id": "1GlthorsZ95uPmEEG7mRpx85ua_D3ltNn"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-050/1aBQ54p9u69eqb7C_u1fkFwH2pj8YQ3DU.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115943.heic",
+        "drive_id": "1aBQ54p9u69eqb7C_u1fkFwH2pj8YQ3DU"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal el Alba de la Civilización - Larousse"
+    ],
+    "descripcion": "Historia Universal el Alba de la Civilización. Autor o responsable consignado: Larousse. Registro 50 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-051": {
+    "numero": 51,
+    "titulo": "Historia Universal el Apogeo del Mundo Clásico",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-051",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-051/1GWWDf-n4Q2QnCr6idTRpnEXgEo4NrvX6.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115940.heic",
+        "drive_id": "1GWWDf-n4Q2QnCr6idTRpnEXgEo4NrvX6"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-051/1Hdflvpi5D9KQfVLL9KzDNbQQjGtWANDt.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115940.heic",
+        "drive_id": "1Hdflvpi5D9KQfVLL9KzDNbQQjGtWANDt"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal el Apogeo del Mundo Clásico - Larousse"
+    ],
+    "descripcion": "Historia Universal el Apogeo del Mundo Clásico. Autor o responsable consignado: Larousse. Registro 51 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-052": {
+    "numero": 52,
+    "titulo": "Historia Universal el Ascenso de Roma",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-052",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-052/1tAZs5zzZitotWsz8sUzDtQcLPg1SYX3R.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115937.heic",
+        "drive_id": "1tAZs5zzZitotWsz8sUzDtQcLPg1SYX3R"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-052/1cw3dTHbOfWgca-etg_E6Ea0K7eVDDh_V.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115937.heic",
+        "drive_id": "1cw3dTHbOfWgca-etg_E6Ea0K7eVDDh_V"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal el Ascenso de Roma - Larousse"
+    ],
+    "descripcion": "Historia Universal el Ascenso de Roma. Autor o responsable consignado: Larousse. Registro 52 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-053": {
+    "numero": 53,
+    "titulo": "Historia Universal el Imperio de los Reinos Bárbaros",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-053",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-053/1BRqD0G0ho3eQYAB21gPHikErRoho1Vws.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115934.heic",
+        "drive_id": "1BRqD0G0ho3eQYAB21gPHikErRoho1Vws"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-053/1HkMsC9FmucmHQiQxuXxfXekf5HjDQt4l.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115934.heic",
+        "drive_id": "1HkMsC9FmucmHQiQxuXxfXekf5HjDQt4l"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal el Imperio de los Reinos Bárbaros - Larousse"
+    ],
+    "descripcion": "Historia Universal el Imperio de los Reinos Bárbaros. Autor o responsable consignado: Larousse. Registro 53 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-054": {
+    "numero": 54,
+    "titulo": "Historia Universal los Orígenes de la Edad Media",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-054",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-054/1a2R0CtqdLaHuBrq7sLVDBdqIh_0v3tjH.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115931.heic",
+        "drive_id": "1a2R0CtqdLaHuBrq7sLVDBdqIh_0v3tjH"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-054/10r3N7TtuCmE69aXycta9Z8TfnmA4duDj.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115931.heic",
+        "drive_id": "10r3N7TtuCmE69aXycta9Z8TfnmA4duDj"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal los Orígenes de la Edad Media - Larousse"
+    ],
+    "descripcion": "Historia Universal los Orígenes de la Edad Media. Autor o responsable consignado: Larousse. Registro 54 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-055": {
+    "numero": 55,
+    "titulo": "Historia Universal la Época Feudal",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-055",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-055/1aPB9Wshy2Hrlr-50eHlLNWuCTnm3c0mu.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115928.heic",
+        "drive_id": "1aPB9Wshy2Hrlr-50eHlLNWuCTnm3c0mu"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-055/1GfRuDghYhCvidwMw7eBI8D7OF1W8JD47.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115928.heic",
+        "drive_id": "1GfRuDghYhCvidwMw7eBI8D7OF1W8JD47"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal la Época Feudal - Larousse"
+    ],
+    "descripcion": "Historia Universal la Época Feudal. Autor o responsable consignado: Larousse. Registro 55 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-056": {
+    "numero": 56,
+    "titulo": "Historia Universal los Fundamentos del Mundo",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-056",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-056/1PlBzFQH5t1vfArvHIAQA7acA7BHRJptx.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115925.heic",
+        "drive_id": "1PlBzFQH5t1vfArvHIAQA7acA7BHRJptx"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-056/1xhpNTiPu-DjEIqo6RRGix-SulVq7wGPY.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115925.heic",
+        "drive_id": "1xhpNTiPu-DjEIqo6RRGix-SulVq7wGPY"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal los Fundamentos del Mundo - Larousse"
+    ],
+    "descripcion": "Historia Universal los Fundamentos del Mundo. Autor o responsable consignado: Larousse. Registro 56 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-057": {
+    "numero": 57,
+    "titulo": "Historia Universal la Era de los Descubrimientos",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-057",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-057/1H0DkwjsbxaShSXifgop79GVeHUbWHJ6w.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115921.heic",
+        "drive_id": "1H0DkwjsbxaShSXifgop79GVeHUbWHJ6w"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-057/1tK67dFxvxGRgNBEMftxXhqyQr0fblxCF.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115921.heic",
+        "drive_id": "1tK67dFxvxGRgNBEMftxXhqyQr0fblxCF"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal la Era de los Descubrimientos - Larousse"
+    ],
+    "descripcion": "Historia Universal la Era de los Descubrimientos. Autor o responsable consignado: Larousse. Registro 57 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-058": {
+    "numero": 58,
+    "titulo": "Historia Universal la Hegemonía Española",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-058",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-058/1FKybs9oLI0c7Dpa_xPqR2CGGMj4GgZFs.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115917.heic",
+        "drive_id": "1FKybs9oLI0c7Dpa_xPqR2CGGMj4GgZFs"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-058/1NuqtbR9t9i54ZZyb3WhO2EITbRuVPvtC.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115917.heic",
+        "drive_id": "1NuqtbR9t9i54ZZyb3WhO2EITbRuVPvtC"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal la Hegemonía Española - Larousse"
+    ],
+    "descripcion": "Historia Universal la Hegemonía Española. Autor o responsable consignado: Larousse. Registro 58 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-059": {
+    "numero": 59,
+    "titulo": "Historia Universal los Tiempos del Absolutismo",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-059",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-059/11-AndHDb9SYffv9KfH4pCBSj2z0JXO9n.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115855.heic",
+        "drive_id": "11-AndHDb9SYffv9KfH4pCBSj2z0JXO9n"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-059/1_uQNQikenANJxpnb7XuA3Uu5V7knhjly.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115855.heic",
+        "drive_id": "1_uQNQikenANJxpnb7XuA3Uu5V7knhjly"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal los Tiempos del Absolutismo - Larousse"
+    ],
+    "descripcion": "Historia Universal los Tiempos del Absolutismo. Autor o responsable consignado: Larousse. Registro 59 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-060": {
+    "numero": 60,
+    "titulo": "Historia Universal Despotismo Ilustrado",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-060",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-060/1JsbThIpTnOILAxrVlgSnOjXtquLZRjpE.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115852.heic",
+        "drive_id": "1JsbThIpTnOILAxrVlgSnOjXtquLZRjpE"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-060/1XJPVr8ehuWaNBqpgOUYjUA8c95fKVmLd.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115852.heic",
+        "drive_id": "1XJPVr8ehuWaNBqpgOUYjUA8c95fKVmLd"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal Despotismo Ilustrado - Larousse"
+    ],
+    "descripcion": "Historia Universal Despotismo Ilustrado. Autor o responsable consignado: Larousse. Registro 60 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-061": {
+    "numero": 61,
+    "titulo": "Historia Universal las Revoluciones",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-061",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-061/1NsIk49VnBH7IOjpboki6igcpWWmS1SP0.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115848.heic",
+        "drive_id": "1NsIk49VnBH7IOjpboki6igcpWWmS1SP0"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-061/1bckKshTgNeBIuG1vKEAp181MHqUHUbpf.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115848.heic",
+        "drive_id": "1bckKshTgNeBIuG1vKEAp181MHqUHUbpf"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal las Revoluciones - Larousse"
+    ],
+    "descripcion": "Historia Universal las Revoluciones. Autor o responsable consignado: Larousse. Registro 61 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-062": {
+    "numero": 62,
+    "titulo": "Historia Universal el Colonialismo Europeo",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-062",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-062/1cpAaF_v9MBhn7QGGfTJgOauCaXuKS9cH.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115845.heic",
+        "drive_id": "1cpAaF_v9MBhn7QGGfTJgOauCaXuKS9cH"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-062/1H66EwpNHlhwQLqDX9d73Rl48qZe1nDGg.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115845.heic",
+        "drive_id": "1H66EwpNHlhwQLqDX9d73Rl48qZe1nDGg"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal el Colonialismo Europeo - Larousse"
+    ],
+    "descripcion": "Historia Universal el Colonialismo Europeo. Autor o responsable consignado: Larousse. Registro 62 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-063": {
+    "numero": 63,
+    "titulo": "Historia Universal el Mundo en Crisis",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-063",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-063/1uKgTooHxfiXV73AT3QcYlY1wcuHFxmHS.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115842.heic",
+        "drive_id": "1uKgTooHxfiXV73AT3QcYlY1wcuHFxmHS"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-063/1sdqR7xWB22ZE84ckcoCvJYj-vOM8dfxp.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115842.heic",
+        "drive_id": "1sdqR7xWB22ZE84ckcoCvJYj-vOM8dfxp"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal el Mundo en Crisis - Larousse"
+    ],
+    "descripcion": "Historia Universal el Mundo en Crisis. Autor o responsable consignado: Larousse. Registro 63 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-064": {
+    "numero": 64,
+    "titulo": "Historia Universal la Primera Guerra Mundial",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-064",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-064/1blmwq1bJ0hteaUZ38jLj0Zko4XhS-eza.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115840.heic",
+        "drive_id": "1blmwq1bJ0hteaUZ38jLj0Zko4XhS-eza"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-064/1QBN5z0JzEqv3aT8XQhguEtdIxxaVYXeN.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115840.heic",
+        "drive_id": "1QBN5z0JzEqv3aT8XQhguEtdIxxaVYXeN"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal la Primera Guerra Mundial - Larousse"
+    ],
+    "descripcion": "Historia Universal la Primera Guerra Mundial. Autor o responsable consignado: Larousse. Registro 64 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-065": {
+    "numero": 65,
+    "titulo": "Historia Universal la Segunda Guerra Mundial",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-065",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-065/1oCBHBRAqA9Qf92_iOGZ_tqvMh5H2Cva0.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115834.heic",
+        "drive_id": "1oCBHBRAqA9Qf92_iOGZ_tqvMh5H2Cva0"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-065/1I0s8MiofaaLkUyerQfdhYN6WkiL3f3e8.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115834.heic",
+        "drive_id": "1I0s8MiofaaLkUyerQfdhYN6WkiL3f3e8"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal la Segunda Guerra Mundial - Larousse"
+    ],
+    "descripcion": "Historia Universal la Segunda Guerra Mundial. Autor o responsable consignado: Larousse. Registro 65 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-066": {
+    "numero": 66,
+    "titulo": "Historia Universal la Guerra Fría",
+    "autor": "Larousse",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-066",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-066/1HDCilKhhpv2DBxxDAYk4DJ1QSNnlKb_9.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115829.heic",
+        "drive_id": "1HDCilKhhpv2DBxxDAYk4DJ1QSNnlKb_9"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-066/159tvxViqQTDU6YRY98KHXdoloWiOOojb.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115829.heic",
+        "drive_id": "159tvxViqQTDU6YRY98KHXdoloWiOOojb"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal la Guerra Fría - Larousse"
+    ],
+    "descripcion": "Historia Universal la Guerra Fría. Autor o responsable consignado: Larousse. Registro 66 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-107": {
+    "numero": 107,
+    "titulo": "Historia y Geografía: Economía",
+    "autor": "Fabrizio Tualdo",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-107",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-107/10iWXNPdFCxGnrXLfvw_CVpKOUs4-Su6D.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_104324.jpg",
+        "drive_id": "10iWXNPdFCxGnrXLfvw_CVpKOUs4-Su6D"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Literatura Hispanoamericana 1,2,3,4 - José Miguel Oviedo"
+    ],
+    "descripcion": "Historia y Geografía: Economía. Autor o responsable consignado: Fabrizio Tualdo. Registro 107 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-116": {
+    "numero": 116,
+    "titulo": "Historia del Perú: Lexus",
+    "autor": "Lexus",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-116",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-116/115hx-itR5dzrzzkCavcn8a8G8WPxyfsf.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114830.heic",
+        "drive_id": "115hx-itR5dzrzzkCavcn8a8G8WPxyfsf"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-116/1wkI09AkOXjA2x8AimtKhAVHEGRVOYab4.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114830.heic",
+        "drive_id": "1wkI09AkOXjA2x8AimtKhAVHEGRVOYab4"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia del Perú: Lexus - Lexus"
+    ],
+    "descripcion": "Historia del Perú: Lexus. Autor o responsable consignado: Lexus. Registro 116 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-166": {
+    "numero": 166,
+    "titulo": "Un mundo para Julius",
+    "autor": "Alfredo Bryce Echenique",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-166",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-166/1rLQDhuVAAJVLhIHmNwanJk0ZQ-e1LdYD.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9947.JPG",
+        "drive_id": "1rLQDhuVAAJVLhIHmNwanJk0ZQ-e1LdYD"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-166/1MgWi5MYIBEWNysXgutyMRjRUtwAmd44h.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9947.JPG",
+        "drive_id": "1MgWi5MYIBEWNysXgutyMRjRUtwAmd44h"
+      }
+    ],
+    "carpetas_drive": [
+      "Un Mundo para Julius - Alfredo Bryce Echenique",
+      "Teoría del Movimiento - Kurt Meinel"
+    ],
+    "descripcion": "Un mundo para Julius. Autor o responsable consignado: Alfredo Bryce Echenique. Registro 166 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-167": {
+    "numero": 167,
+    "titulo": "El perfume",
+    "autor": "Patrick Süskind",
+    "cantidad": 3,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-167",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-167/1RhQe4nG8Z8lg288s3A4fj23QwSrNBEoU.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111703.heic",
+        "drive_id": "1RhQe4nG8Z8lg288s3A4fj23QwSrNBEoU"
+      }
+    ],
+    "carpetas_drive": [
+      "El perfume - Erick Süskind"
+    ],
+    "descripcion": "El perfume. Autor o responsable consignado: Patrick Süskind. Registro 167 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-168": {
+    "numero": 168,
+    "titulo": "Los Inocentes",
+    "autor": "Oswaldo Reynoso",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-168",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-168/1IcVDv7eXfYZiHL7SXM8JwolGusHefPSM.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111758.heic",
+        "drive_id": "1IcVDv7eXfYZiHL7SXM8JwolGusHefPSM"
+      }
+    ],
+    "carpetas_drive": [
+      "Los Inocentes - Oswaldo Reynoso"
+    ],
+    "descripcion": "Los Inocentes. Autor o responsable consignado: Oswaldo Reynoso. Registro 168 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-169": {
+    "numero": 169,
+    "titulo": "Un mundo mejor",
+    "autor": "Irene Silva",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-169",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-169/1s_5WXWQLGdh0U8rinTKxltbPwhVQslnn.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111524.heic",
+        "drive_id": "1s_5WXWQLGdh0U8rinTKxltbPwhVQslnn"
+      }
+    ],
+    "carpetas_drive": [
+      "Un mundo mejor - Irene Silva"
+    ],
+    "descripcion": "Un mundo mejor. Autor o responsable consignado: Irene Silva. Registro 169 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-170": {
+    "numero": 170,
+    "titulo": "Una última oportunidad",
+    "autor": "Brent Harlinger",
+    "cantidad": 2,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-170",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-170/12kPYISFneckNLMMGZrJnATYDMvOl3D_K.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110819.heic",
+        "drive_id": "12kPYISFneckNLMMGZrJnATYDMvOl3D_K"
+      }
+    ],
+    "carpetas_drive": [
+      "Una última oportunidad - Brent Harlinger"
+    ],
+    "descripcion": "Una última oportunidad. Autor o responsable consignado: Brent Harlinger. Registro 170 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-171": {
+    "numero": 171,
+    "titulo": "El sueño del Celta",
+    "autor": "Mario Vargas Llosa",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-171",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-171/1XX7LSxMSehqm9GEvaSqHPMGXen9JfZDK.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_112546.heic",
+        "drive_id": "1XX7LSxMSehqm9GEvaSqHPMGXen9JfZDK"
+      }
+    ],
+    "carpetas_drive": [
+      "El sueño del Celta - Mario Vargas Llosa"
+    ],
+    "descripcion": "El sueño del Celta. Autor o responsable consignado: Mario Vargas Llosa. Registro 171 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-172": {
+    "numero": 172,
+    "titulo": "Matalaché",
+    "autor": "Enrique López A.",
+    "cantidad": 3,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-172",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-172/1U8TzVb77B5g2c0XRFbUIBtttLOq_v7Gt.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110541.heic",
+        "drive_id": "1U8TzVb77B5g2c0XRFbUIBtttLOq_v7Gt"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-172/17PlUT5wtakhfoWK4OdV3fxotsS_Sha7x.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_112441.heic",
+        "drive_id": "17PlUT5wtakhfoWK4OdV3fxotsS_Sha7x"
+      }
+    ],
+    "carpetas_drive": [
+      "Matalaché - Enrique López A."
+    ],
+    "descripcion": "Matalaché. Autor o responsable consignado: Enrique López A.. Registro 172 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-173": {
+    "numero": 173,
+    "titulo": "Biblioteca Hombre del Perú",
+    "autor": "César Vallejo",
+    "cantidad": 4,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-173",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-173/1UhAG-qd99fBZput4NBxYeW-mOPpsvvZJ.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111904.heic",
+        "drive_id": "1UhAG-qd99fBZput4NBxYeW-mOPpsvvZJ"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-173/1C70RYBXJieG7yDUf6y82wxlYGSttUR2C.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_104818.jpg",
+        "drive_id": "1C70RYBXJieG7yDUf6y82wxlYGSttUR2C"
+      }
+    ],
+    "carpetas_drive": [
+      "Biblioteca Hombre del Perú - César Vallejo"
+    ],
+    "descripcion": "Biblioteca Hombre del Perú. Autor o responsable consignado: César Vallejo. Registro 173 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-174": {
+    "numero": 174,
+    "titulo": "Cuentos del Perú profundo",
+    "autor": "Danilo Sánchez",
+    "cantidad": 2,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-174",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-174/1TXkFvc8CaL9v2-XmZZligaOkA-v2wyRl.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_112157.heic",
+        "drive_id": "1TXkFvc8CaL9v2-XmZZligaOkA-v2wyRl"
+      }
+    ],
+    "carpetas_drive": [
+      "Cuentos del Perú profundo - Danilo Sánchez"
+    ],
+    "descripcion": "Cuentos del Perú profundo. Autor o responsable consignado: Danilo Sánchez. Registro 174 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-175": {
+    "numero": 175,
+    "titulo": "La Anaconda del Samiria",
+    "autor": "Roger Rumrrill",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-175",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-175/1--nP90TJBOc2Qr4BdWzJFnkrmPIfRFCq.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_112507.heic",
+        "drive_id": "1--nP90TJBOc2Qr4BdWzJFnkrmPIfRFCq"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-175/1AeVLip9MG_pcRU83yrebIzfSfTFMlhZy.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_112140.heic",
+        "drive_id": "1AeVLip9MG_pcRU83yrebIzfSfTFMlhZy"
+      }
+    ],
+    "carpetas_drive": [
+      "La Anaconda del Samiria - Roger Rumrrill"
+    ],
+    "descripcion": "La Anaconda del Samiria. Autor o responsable consignado: Roger Rumrrill. Registro 175 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-177": {
+    "numero": 177,
+    "titulo": "La Tía Julia",
+    "autor": "Mario Vargas Llosa",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-177",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-177/1kOqhfMBk6fVrw5clcuC2AKl-TUqPT0V6.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111009.heic",
+        "drive_id": "1kOqhfMBk6fVrw5clcuC2AKl-TUqPT0V6"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre los Constructores Catedrales - Alexandra Muñoz"
+    ],
+    "descripcion": "La Tía Julia. Autor o responsable consignado: Mario Vargas Llosa. Registro 177 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-178": {
+    "numero": 178,
+    "titulo": "De Abajo",
+    "autor": "Mariano Azuela",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-178",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-178/1z-mE7O4BA4fYj7G6V8L3XWe7oEv7MeWU.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111004.heic",
+        "drive_id": "1z-mE7O4BA4fYj7G6V8L3XWe7oEv7MeWU"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-178/1WuOGHSkyR0tHGPc08aki6JiHi5-D5Rhp.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110932.heic",
+        "drive_id": "1WuOGHSkyR0tHGPc08aki6JiHi5-D5Rhp"
+      }
+    ],
+    "carpetas_drive": [
+      "De Abajo - Mariano Azuela"
+    ],
+    "descripcion": "De Abajo. Autor o responsable consignado: Mariano Azuela. Registro 178 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-179": {
+    "numero": 179,
+    "titulo": "Relatos Al Atardecer",
+    "autor": "Urbano Muñoz",
+    "cantidad": 2,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-179",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-179/1l-Y5DPbHj4WWwPNjTPHQgWUsgzfivUDe.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110919.heic",
+        "drive_id": "1l-Y5DPbHj4WWwPNjTPHQgWUsgzfivUDe"
+      }
+    ],
+    "carpetas_drive": [
+      "Relatos Al Atardecer - Urbano Muñoz"
+    ],
+    "descripcion": "Relatos Al Atardecer. Autor o responsable consignado: Urbano Muñoz. Registro 179 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-180": {
+    "numero": 180,
+    "titulo": "Al pie de Andinia",
+    "autor": "Urbano Muñoz",
+    "cantidad": 2,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-180",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-180/1QoVzVXwdZizqj2Yr3G41_rpKYxgwtfrC.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111738.heic",
+        "drive_id": "1QoVzVXwdZizqj2Yr3G41_rpKYxgwtfrC"
+      }
+    ],
+    "carpetas_drive": [
+      "Al pie de Andinia - Urbano Muñoz"
+    ],
+    "descripcion": "Al pie de Andinia. Autor o responsable consignado: Urbano Muñoz. Registro 180 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-181": {
+    "numero": 181,
+    "titulo": "Las siete semillas",
+    "autor": "David Fischman",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-181",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-181/1nRZMTVuyoDNjUUxKCfRumDGaFMTqRpXI.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9980.JPG",
+        "drive_id": "1nRZMTVuyoDNjUUxKCfRumDGaFMTqRpXI"
+      }
+    ],
+    "carpetas_drive": [
+      "Las siete semillas - David Fischman"
+    ],
+    "descripcion": "Las siete semillas. Autor o responsable consignado: David Fischman. Registro 181 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-182": {
+    "numero": 182,
+    "titulo": "La Palabra del Mudo",
+    "autor": "Julio Ramón Ribeyro",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-182",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-182/1QypF-QuyK6NVpMiF1ouwnaXVnpQt0LoE.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111312.heic",
+        "drive_id": "1QypF-QuyK6NVpMiF1ouwnaXVnpQt0LoE"
+      }
+    ],
+    "carpetas_drive": [
+      "La Palabra del Mudo - Julio Ramón Ribeyro"
+    ],
+    "descripcion": "La Palabra del Mudo. Autor o responsable consignado: Julio Ramón Ribeyro. Registro 182 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-183": {
+    "numero": 183,
+    "titulo": "Amauta y su influencia",
+    "autor": "Alberto Tauro",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-183",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-183/1Ia3nHUZ6U4io8aUbk1DO4vQo1Z7XTinY.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111333.heic",
+        "drive_id": "1Ia3nHUZ6U4io8aUbk1DO4vQo1Z7XTinY"
+      }
+    ],
+    "carpetas_drive": [
+      "Amauta y su influencia - Alberto Tauro"
+    ],
+    "descripcion": "Amauta y su influencia. Autor o responsable consignado: Alberto Tauro. Registro 183 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-184": {
+    "numero": 184,
+    "titulo": "El artista y la epoca",
+    "autor": "José Carlos Mariategui",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-184",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-184/1DEW3q2aN83lRQmj9OFdfyoq5XuPQ7UBQ.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9986.JPG",
+        "drive_id": "1DEW3q2aN83lRQmj9OFdfyoq5XuPQ7UBQ"
+      }
+    ],
+    "carpetas_drive": [
+      "El artista y la epoca - José Carlos Mariategui"
+    ],
+    "descripcion": "El artista y la epoca. Autor o responsable consignado: José Carlos Mariategui. Registro 184 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-185": {
+    "numero": 185,
+    "titulo": "Fuente Ovejuna",
+    "autor": "Lope de Vega",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-185",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-185/1V2A8c5VuzWDkZVzu8nEfg3zYVCPCZTJG.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110850.heic",
+        "drive_id": "1V2A8c5VuzWDkZVzu8nEfg3zYVCPCZTJG"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-185/1kL2n1qDjH5rnrx3PkOfvXWwK1NjUhPJJ.webp",
+        "width": 1600,
+        "height": 1200,
+        "archivo_original": "IMG_9958.JPG",
+        "drive_id": "1kL2n1qDjH5rnrx3PkOfvXWwK1NjUhPJJ"
+      }
+    ],
+    "carpetas_drive": [
+      "Fuente Ovejuna - Lope de Vega"
+    ],
+    "descripcion": "Fuente Ovejuna. Autor o responsable consignado: Lope de Vega. Registro 185 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-186": {
+    "numero": 186,
+    "titulo": "Los 7 ensayos de la Interpretación de la realidad Peruana",
+    "autor": "José Carlos Mariátegui",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-186",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-186/1ymUj6ucHHfjbuwQEoZTzOAqPvyCaekLZ.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110718.heic",
+        "drive_id": "1ymUj6ucHHfjbuwQEoZTzOAqPvyCaekLZ"
+      }
+    ],
+    "carpetas_drive": [
+      "Los 7 ensayos de la Interpretación de la realidad Peruana - Honore de Balzac"
+    ],
+    "descripcion": "Los 7 ensayos de la Interpretación de la realidad Peruana. Autor o responsable consignado: José Carlos Mariátegui. Registro 186 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-188": {
+    "numero": 188,
+    "titulo": "Romeo y Julieta",
+    "autor": "William Shakespeare",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-188",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-188/1HFtTttxfFWW2uGqCSz5foPW7523PQkK2.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111530.heic",
+        "drive_id": "1HFtTttxfFWW2uGqCSz5foPW7523PQkK2"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-188/1EscGEGRuJZENBX4erRanUb9QmC7MIWx-.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111510.heic",
+        "drive_id": "1EscGEGRuJZENBX4erRanUb9QmC7MIWx-"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-188/1FpswEf0ILgTIsn-OPpx6QljjphNVvw5g.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111503.heic",
+        "drive_id": "1FpswEf0ILgTIsn-OPpx6QljjphNVvw5g"
+      }
+    ],
+    "carpetas_drive": [
+      "Romeo y Julieta - Mario Vargas Lloza"
+    ],
+    "descripcion": "Romeo y Julieta. Autor o responsable consignado: William Shakespeare. Registro 188 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-190": {
+    "numero": 190,
+    "titulo": "La casa verde",
+    "autor": "Mario Vargas Llosa",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-190",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-190/15REQxeKUtUd55aIr0Qaf96n8ZrdCLrrX.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_112636.heic",
+        "drive_id": "15REQxeKUtUd55aIr0Qaf96n8ZrdCLrrX"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-190/1muAX7ZbvuwlNTZQ0k3PbHsF9DXY4Z3Cg.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_112553.heic",
+        "drive_id": "1muAX7ZbvuwlNTZQ0k3PbHsF9DXY4Z3Cg"
+      }
+    ],
+    "carpetas_drive": [
+      "La casa verde - Miguel Carmena Laredo"
+    ],
+    "descripcion": "La casa verde. Autor o responsable consignado: Mario Vargas Llosa. Registro 190 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-191": {
+    "numero": 191,
+    "titulo": "Ética para Pancho",
+    "autor": "Miguel Carmena Laredo",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-191",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-191/1H69A1kQExEypOfXk9j5KQmazUkY1GLW1.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110553.heic",
+        "drive_id": "1H69A1kQExEypOfXk9j5KQmazUkY1GLW1"
+      }
+    ],
+    "carpetas_drive": [
+      "Elise para Pancho - José María Arguedas"
+    ],
+    "descripcion": "Ética para Pancho. Autor o responsable consignado: Miguel Carmena Laredo. Registro 191 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-193": {
+    "numero": 193,
+    "titulo": "Los Cien mejores poemas",
+    "autor": "Salvador Díaz Mirón",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-193",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-193/1wQ_tzKyLbDliVhG5s00dto99DMEpoGEs.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111039.heic",
+        "drive_id": "1wQ_tzKyLbDliVhG5s00dto99DMEpoGEs"
+      }
+    ],
+    "carpetas_drive": [
+      "Los Cien mejores poemas - J. Castañon"
+    ],
+    "descripcion": "Los Cien mejores poemas. Autor o responsable consignado: Salvador Díaz Mirón. Registro 193 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-194": {
+    "numero": 194,
+    "titulo": "Pasión por Vallejo",
+    "autor": "Jorge Castañón",
+    "cantidad": 2,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-194",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-194/1E9tyqGlvuBWdgH1s5ZWst1duRihy8wlP.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111823.heic",
+        "drive_id": "1E9tyqGlvuBWdgH1s5ZWst1duRihy8wlP"
+      }
+    ],
+    "carpetas_drive": [
+      "Pasion por Vallejo - David Fischman"
+    ],
+    "descripcion": "Pasión por Vallejo. Autor o responsable consignado: Jorge Castañón. Registro 194 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-195": {
+    "numero": 195,
+    "titulo": "El espejo del líder",
+    "autor": "David Fischman",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-195",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-195/1uSFS341kw7BtscHfCaQs73kzHP0TMmTK.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111257.heic",
+        "drive_id": "1uSFS341kw7BtscHfCaQs73kzHP0TMmTK"
+      }
+    ],
+    "carpetas_drive": [
+      "El espejo del lider - Fernando de Rojas"
+    ],
+    "descripcion": "El espejo del líder. Autor o responsable consignado: David Fischman. Registro 195 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-196": {
+    "numero": 196,
+    "titulo": "La Celestina",
+    "autor": "Fernando de Rojas",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-196",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-196/1khetlkhSineOEgIhAhdo-BFzBSsZGuVj.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111150.heic",
+        "drive_id": "1khetlkhSineOEgIhAhdo-BFzBSsZGuVj"
+      }
+    ],
+    "carpetas_drive": [
+      "La Celestina - Robert T. Kiyosaki"
+    ],
+    "descripcion": "La Celestina. Autor o responsable consignado: Fernando de Rojas. Registro 196 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-197": {
+    "numero": 197,
+    "titulo": "Niño rico, niño listo",
+    "autor": "Robert T. Kiyosaki",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-197",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-197/1qOud0Qj65-GJr4EEIYX82HyYSRKD3fvH.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111202.heic",
+        "drive_id": "1qOud0Qj65-GJr4EEIYX82HyYSRKD3fvH"
+      }
+    ],
+    "carpetas_drive": [
+      "Niño Rico niño listo - Harriet Beecher"
+    ],
+    "descripcion": "Niño rico, niño listo. Autor o responsable consignado: Robert T. Kiyosaki. Registro 197 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-198": {
+    "numero": 198,
+    "titulo": "La cabaña del tío Tom",
+    "autor": "Harriet Beecher Stowe",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-198",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-198/1koAk8wS2w-ofj6GstuMFu2-XPKJYN8PB.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111024.heic",
+        "drive_id": "1koAk8wS2w-ofj6GstuMFu2-XPKJYN8PB"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-198/13XIiIMyJlK3Q-0ZCM-jw8TB033t5EX89.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110521.heic",
+        "drive_id": "13XIiIMyJlK3Q-0ZCM-jw8TB033t5EX89"
+      }
+    ],
+    "carpetas_drive": [
+      "La casa del Teacher - José María Arguedas"
+    ],
+    "descripcion": "La cabaña del tío Tom. Autor o responsable consignado: Harriet Beecher Stowe. Registro 198 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-199": {
+    "numero": 199,
+    "titulo": "Relatos completos",
+    "autor": "José María Arguedas",
+    "cantidad": 2,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-199",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-199/1e1V05RfF2pD6ckSub34Wgwy74PYajKRC.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9979.JPG",
+        "drive_id": "1e1V05RfF2pD6ckSub34Wgwy74PYajKRC"
+      }
+    ],
+    "carpetas_drive": [
+      "Relatos completos - Miguel Asturias"
+    ],
+    "descripcion": "Relatos completos. Autor o responsable consignado: José María Arguedas. Registro 199 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-200": {
+    "numero": 200,
+    "titulo": "Hombres de Maíz",
+    "autor": "Miguel Ángel Asturias",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-200",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-200/1a-KAAYoQjKwPIRWqGzFSpe9RW9gJgnHg.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111210.heic",
+        "drive_id": "1a-KAAYoQjKwPIRWqGzFSpe9RW9gJgnHg"
+      }
+    ],
+    "carpetas_drive": [
+      "Hombres de Maíz - Inka Garcilaso de la V."
+    ],
+    "descripcion": "Hombres de Maíz. Autor o responsable consignado: Miguel Ángel Asturias. Registro 200 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-201": {
+    "numero": 201,
+    "titulo": "Comentarios Reales",
+    "autor": "Inca Garcilaso de la Vega",
+    "cantidad": 2,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-201",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-201/1C7KP8m0CjX0w9dsQZqVxtTQRWGXokLvq.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111612.heic",
+        "drive_id": "1C7KP8m0CjX0w9dsQZqVxtTQRWGXokLvq"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-201/1PLypdv-toe8_N88Udk1mFNfKR3bWAKtj.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111450.heic",
+        "drive_id": "1PLypdv-toe8_N88Udk1mFNfKR3bWAKtj"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-201/1dkxJnRK7XG3QKtVZYVAdwo6Z0-PSqz9f.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111439.heic",
+        "drive_id": "1dkxJnRK7XG3QKtVZYVAdwo6Z0-PSqz9f"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-201/1yiAZuKOrZNJCMSDWKiTAJV-L0FX12fgy.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111434.heic",
+        "drive_id": "1yiAZuKOrZNJCMSDWKiTAJV-L0FX12fgy"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-201/1aXYtPAMFo8uX59xLXLIey14IZtzbdtqJ.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111423.heic",
+        "drive_id": "1aXYtPAMFo8uX59xLXLIey14IZtzbdtqJ"
+      }
+    ],
+    "carpetas_drive": [
+      "Comentarios Reales - Inka Garcilaso de la V."
+    ],
+    "descripcion": "Comentarios Reales. Autor o responsable consignado: Inca Garcilaso de la Vega. Registro 201 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-202": {
+    "numero": 202,
+    "titulo": "El mundo es ancho y ajeno",
+    "autor": "Ciro Alegria",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-202",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-202/1W8bfC82ymmZ1IaDG-EZBTGHpJJbivwDR.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9970.JPG",
+        "drive_id": "1W8bfC82ymmZ1IaDG-EZBTGHpJJbivwDR"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-202/1v-9HvfuyeY6evEubrbS7rHQwIbfFwPd7.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9976.JPG",
+        "drive_id": "1v-9HvfuyeY6evEubrbS7rHQwIbfFwPd7"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-202/1N5cAihRT4yL7RsIquNkHO7sBQnrL9ZKR.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9969.JPG",
+        "drive_id": "1N5cAihRT4yL7RsIquNkHO7sBQnrL9ZKR"
+      }
+    ],
+    "carpetas_drive": [
+      "El mundo es ancho y ajeno - Ciro Alegria",
+      "The Heinle Picture Dictionary - Heinle Cengage Learning"
+    ],
+    "descripcion": "El mundo es ancho y ajeno. Autor o responsable consignado: Ciro Alegria. Registro 202 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-203": {
+    "numero": 203,
+    "titulo": "La Serpiente de Oro",
+    "autor": "Ciro Alegria",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-203",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-203/1F-eN1lsDgdpD6TIruAB-pN0PDBGbk6ds.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9968.JPG",
+        "drive_id": "1F-eN1lsDgdpD6TIruAB-pN0PDBGbk6ds"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-203/1gRFRNqp0jPfDtQVPo-LUn_cVdfMBSuRb.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9966.JPG",
+        "drive_id": "1gRFRNqp0jPfDtQVPo-LUn_cVdfMBSuRb"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-203/1FVWvnk5keCfhK75iA6Mvs4RUjheFuU0D.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9972.JPG",
+        "drive_id": "1FVWvnk5keCfhK75iA6Mvs4RUjheFuU0D"
+      }
+    ],
+    "carpetas_drive": [
+      "La Serpiente de Oro - Ciro Alegria",
+      "Tradiciones Peruanas - Ricardo Palma"
+    ],
+    "descripcion": "La Serpiente de Oro. Autor o responsable consignado: Ciro Alegria. Registro 203 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-204": {
+    "numero": 204,
+    "titulo": "El Zorro de arriba el zorro de abajo",
+    "autor": "José María Arguedas",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-204",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-204/1Ypb6tSoHagWb4MORCM_C4og7Vw81nTC3.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9945.JPG",
+        "drive_id": "1Ypb6tSoHagWb4MORCM_C4og7Vw81nTC3"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-204/1NQrlJ0nphy2CQLC8OsCdpBNUcySoLCMW.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9945.JPG",
+        "drive_id": "1NQrlJ0nphy2CQLC8OsCdpBNUcySoLCMW"
+      }
+    ],
+    "carpetas_drive": [
+      "El Zorro de arriba el zorro de abajo - José María Arguedas"
+    ],
+    "descripcion": "El Zorro de arriba el zorro de abajo. Autor o responsable consignado: José María Arguedas. Registro 204 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-205": {
+    "numero": 205,
+    "titulo": "Diamantes y Pedernales",
+    "autor": "José María Arguedas",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-205",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-205/17m_pSDg48p6as3Y0uGFvxdPoa9gp4kvu.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9942.JPG",
+        "drive_id": "17m_pSDg48p6as3Y0uGFvxdPoa9gp4kvu"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-205/1tPfkhCbOXcAzdWm1wVdj6zPmu7Z4cf56.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9942.JPG",
+        "drive_id": "1tPfkhCbOXcAzdWm1wVdj6zPmu7Z4cf56"
+      }
+    ],
+    "carpetas_drive": [
+      "Diamantes y Pedernales - José María Arguedas"
+    ],
+    "descripcion": "Diamantes y Pedernales. Autor o responsable consignado: José María Arguedas. Registro 205 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-206": {
+    "numero": 206,
+    "titulo": "Siempre Hay caminos",
+    "autor": "Ciro Alegria",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-206",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-206/18QeIPM4sGA473PbumTs403YYTqgRJm_b.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9973.JPG",
+        "drive_id": "18QeIPM4sGA473PbumTs403YYTqgRJm_b"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-206/1geHcGVlmcNw1iuOpj6MWiFnM3hJZGaGP.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9967.JPG",
+        "drive_id": "1geHcGVlmcNw1iuOpj6MWiFnM3hJZGaGP"
+      }
+    ],
+    "carpetas_drive": [
+      "Siempre Hay caminos - Ciro Alegria"
+    ],
+    "descripcion": "Siempre Hay caminos. Autor o responsable consignado: Ciro Alegria. Registro 206 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-238": {
+    "numero": 238,
+    "titulo": "Diccionario de Bolsillo Inglés Pocket",
+    "autor": "Pearson",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-238",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-238/1C80mwFBXc9a4EfqKBDRXSWuU3iOcjo1b.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_103759.jpg",
+        "drive_id": "1C80mwFBXc9a4EfqKBDRXSWuU3iOcjo1b"
+      }
+    ],
+    "carpetas_drive": [
+      "Poetas Peruanos de Antología - Ricardo González Vigil"
+    ],
+    "descripcion": "Diccionario de Bolsillo Inglés Pocket. Autor o responsable consignado: Pearson. Registro 238 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-240": {
+    "numero": 240,
+    "titulo": "Diccionario Panhispánico de Dudas",
+    "autor": "Laura Baca Olamendi",
+    "cantidad": 4,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-240",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-240/1o_zqC4FeUG6g0HcYXY4S4Lves0rVPwP1.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_103931.jpg",
+        "drive_id": "1o_zqC4FeUG6g0HcYXY4S4Lves0rVPwP1"
+      }
+    ],
+    "carpetas_drive": [
+      "17 Narradores Latinoamérica - Cecilia Absatz"
+    ],
+    "descripcion": "Diccionario Panhispánico de Dudas. Autor o responsable consignado: Laura Baca Olamendi. Registro 240 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-241": {
+    "numero": 241,
+    "titulo": "Diccionario Sinónimo Antónimo",
+    "autor": "María Moliner",
+    "cantidad": 2,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-241",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-241/1KuPn6gAPszgqMY0VIzn0TxrOOz2EmzFg.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_103941.jpg",
+        "drive_id": "1KuPn6gAPszgqMY0VIzn0TxrOOz2EmzFg"
+      }
+    ],
+    "carpetas_drive": [
+      "Diccionario Sinónimo Antónimo - María Moliner"
+    ],
+    "descripcion": "Diccionario Sinónimo Antónimo. Autor o responsable consignado: María Moliner. Registro 241 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-243": {
+    "numero": 243,
+    "titulo": "24 Poetas Latinoamericanos",
+    "autor": "Cidcli",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-243",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-243/1Mikaiu0JVJd7ipitZI_v4ffI4NdDs8_e.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9898.JPG",
+        "drive_id": "1Mikaiu0JVJd7ipitZI_v4ffI4NdDs8_e"
+      }
+    ],
+    "carpetas_drive": [
+      "24 Poetas Latinoamericanos - Cidcli"
+    ],
+    "descripcion": "24 Poetas Latinoamericanos. Autor o responsable consignado: Cidcli. Registro 243 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-245": {
+    "numero": 245,
+    "titulo": "Agua los Escoleros Warma Kuyay",
+    "autor": "José María Arguedas",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-245",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-245/1aZBe6OLxeFX1aWquZi1lyJX6qRSWOXxC.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9962.JPG",
+        "drive_id": "1aZBe6OLxeFX1aWquZi1lyJX6qRSWOXxC"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-245/19KnoD3jOhy1TMVlrBlO-h7QYvhIcy0Nt.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9932.JPG",
+        "drive_id": "19KnoD3jOhy1TMVlrBlO-h7QYvhIcy0Nt"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-245/1o-gAkUt6KnPMgM5DD4mmZEVWHNQMdFQU.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9988.JPG",
+        "drive_id": "1o-gAkUt6KnPMgM5DD4mmZEVWHNQMdFQU"
+      }
+    ],
+    "carpetas_drive": [
+      "Agua los Escoleros Warma Kuyay - José María Arguedas"
+    ],
+    "descripcion": "Agua los Escoleros Warma Kuyay. Autor o responsable consignado: José María Arguedas. Registro 245 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-252": {
+    "numero": 252,
+    "titulo": "Cuentos Reunidos",
+    "autor": "Abraham Valdelomar",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-252",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-252/1rpq7jxXw-YRg88OFS3dIRT8yKQArzxWh.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9949.JPG",
+        "drive_id": "1rpq7jxXw-YRg88OFS3dIRT8yKQArzxWh"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-252/1eGsIcgrASR2aBek36OPpim2KHfSZq8q7.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9949.JPG",
+        "drive_id": "1eGsIcgrASR2aBek36OPpim2KHfSZq8q7"
+      }
+    ],
+    "carpetas_drive": [
+      "Cuentos Reunidos - Abraham Valdelomar",
+      "Cuentos Antología Selección - Julio R. Ribeyro"
+    ],
+    "descripcion": "Cuentos Reunidos. Autor o responsable consignado: Abraham Valdelomar. Registro 252 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-253": {
+    "numero": 253,
+    "titulo": "Cuentos de Matemática",
+    "autor": "J. C. Hervás",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-253",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-253/1LRO-7tnBETBqaie_lSYHPe922X_kczn_.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9891.JPG",
+        "drive_id": "1LRO-7tnBETBqaie_lSYHPe922X_kczn_"
+      }
+    ],
+    "carpetas_drive": [
+      "Cuentos de Matemática - J. C. Hervás"
+    ],
+    "descripcion": "Cuentos de Matemática. Autor o responsable consignado: J. C. Hervás. Registro 253 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-254": {
+    "numero": 254,
+    "titulo": "Cuentos de Te y otros Árboles",
+    "autor": "Mónica Rodríguez Suárez",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-254",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-254/1rlAX6Dc09Fe2PrN9epGDi8sAs9K1FdNN.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9901.JPG",
+        "drive_id": "1rlAX6Dc09Fe2PrN9epGDi8sAs9K1FdNN"
+      }
+    ],
+    "carpetas_drive": [
+      "Cuentos de Te y otros Árboles - Mónica Rodríguez Suárez"
+    ],
+    "descripcion": "Cuentos de Te y otros Árboles. Autor o responsable consignado: Mónica Rodríguez Suárez. Registro 254 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-255": {
+    "numero": 255,
+    "titulo": "Cuentos Inolvidables",
+    "autor": "Julio Cortázar",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-255",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-255/15CBCp9J0oEQBHrX1hKyVVqDVQO6ET50O.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9897.JPG",
+        "drive_id": "15CBCp9J0oEQBHrX1hKyVVqDVQO6ET50O"
+      }
+    ],
+    "carpetas_drive": [
+      "Cuentos Inolvidables - Julio Cortázar"
+    ],
+    "descripcion": "Cuentos Inolvidables. Autor o responsable consignado: Julio Cortázar. Registro 255 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-261": {
+    "numero": 261,
+    "titulo": "Drácula",
+    "autor": "Bram Stoker",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-261",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-261/1rlq47jy6fzwCwH9aHl-pykoGzQltEYRG.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9895.JPG",
+        "drive_id": "1rlq47jy6fzwCwH9aHl-pykoGzQltEYRG"
+      }
+    ],
+    "carpetas_drive": [
+      "Maus la Historia del Sobreviviente - Art Spiegelman"
+    ],
+    "descripcion": "Drácula. Autor o responsable consignado: Bram Stoker. Registro 261 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-262": {
+    "numero": 262,
+    "titulo": "Economía para Principiantes",
+    "autor": "Alejandro Garvie",
+    "cantidad": 14,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-262",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-262/1TI-CcoFRXdeO3bz4H-TjaLhwZJABnOP-.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9998.JPG",
+        "drive_id": "1TI-CcoFRXdeO3bz4H-TjaLhwZJABnOP-"
+      }
+    ],
+    "carpetas_drive": [
+      "Economía para Principiantes - Alejandro Garvie"
+    ],
+    "descripcion": "Economía para Principiantes. Autor o responsable consignado: Alejandro Garvie. Registro 262 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-270": {
+    "numero": 270,
+    "titulo": "El Guardián Sobre el Centeno",
+    "autor": "J. D. Salinger",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-270",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-270/1DiGb95rEIWVNxn2NmFKVzIESFX8VHFRZ.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9922.JPG",
+        "drive_id": "1DiGb95rEIWVNxn2NmFKVzIESFX8VHFRZ"
+      }
+    ],
+    "carpetas_drive": [
+      "Nelson Mandela - Nelson Mandela"
+    ],
+    "descripcion": "El Guardián Sobre el Centeno. Autor o responsable consignado: J. D. Salinger. Registro 270 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-272": {
+    "numero": 272,
+    "titulo": "Príncipe que todo lo Aprendió en los Libros",
+    "autor": "Jacinto Benavente",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-272",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-272/1Bx273XNQWpG1k_2EMoulXfNZ0tzaK3dO.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9931.JPG",
+        "drive_id": "1Bx273XNQWpG1k_2EMoulXfNZ0tzaK3dO"
+      }
+    ],
+    "carpetas_drive": [
+      "Príncipe que todo lo Aprendió en los Libros - Jacinto Benavente"
+    ],
+    "descripcion": "Príncipe que todo lo Aprendió en los Libros. Autor o responsable consignado: Jacinto Benavente. Registro 272 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-273": {
+    "numero": 273,
+    "titulo": "Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-273",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-273/15idkIeUKfvj09JDz8OkllFX1kgM-qYCX.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9933.JPG",
+        "drive_id": "15idkIeUKfvj09JDz8OkllFX1kgM-qYCX"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-273/1fjV6cAXQqNy3Q9qOSHGqQd90vM7uEgsg.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9905.JPG",
+        "drive_id": "1fjV6cAXQqNy3Q9qOSHGqQd90vM7uEgsg"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-273/1IE_1bOYyotUC3_dHiaZMR_yiLGss9Y1R.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9916.JPG",
+        "drive_id": "1IE_1bOYyotUC3_dHiaZMR_yiLGss9Y1R"
+      }
+    ],
+    "carpetas_drive": [
+      "Principito - Antoine de Saint-Exupéry"
+    ],
+    "descripcion": "Principito. Autor o responsable consignado: Antoine de Saint-Exupéry. Registro 273 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-274": {
+    "numero": 274,
+    "titulo": "Quijote",
+    "autor": "Miguel de Cervantes",
+    "cantidad": 5,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-274",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-274/16y0kprNyg_0gSvJTGdfzYRCZsEVKbJz2.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110529.heic",
+        "drive_id": "16y0kprNyg_0gSvJTGdfzYRCZsEVKbJz2"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-274/1dpAGcXKtQJTRt7lO-8HKpTGLr_FP8hXW.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9930.JPG",
+        "drive_id": "1dpAGcXKtQJTRt7lO-8HKpTGLr_FP8hXW"
+      }
+    ],
+    "carpetas_drive": [
+      "Quijote - Miguel de Cervantes"
+    ],
+    "descripcion": "Quijote. Autor o responsable consignado: Miguel de Cervantes. Registro 274 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-275": {
+    "numero": 275,
+    "titulo": "Señor de las Moscas",
+    "autor": "William Golding",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-275",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-275/19CTx1XwqIioK8T2chde_zjpQ0hggPpZj.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9924.JPG",
+        "drive_id": "19CTx1XwqIioK8T2chde_zjpQ0hggPpZj"
+      }
+    ],
+    "carpetas_drive": [
+      "Señor de las Moscas - William Golding"
+    ],
+    "descripcion": "Señor de las Moscas. Autor o responsable consignado: William Golding. Registro 275 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-276": {
+    "numero": 276,
+    "titulo": "Túnel",
+    "autor": "Ernesto Sábato",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-276",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-276/1mx_IQo6diROkOl88pOlbarqpx5LBl7Av.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110649.heic",
+        "drive_id": "1mx_IQo6diROkOl88pOlbarqpx5LBl7Av"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-276/1GruvHuefFUW-iH7-VsZBRjtmwGEJIzUT.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9921.JPG",
+        "drive_id": "1GruvHuefFUW-iH7-VsZBRjtmwGEJIzUT"
+      }
+    ],
+    "carpetas_drive": [
+      "Túnel - Ernesto Sábato",
+      "Atlas Cuerpo Humano - Jordi Vigué"
+    ],
+    "descripcion": "Túnel. Autor o responsable consignado: Ernesto Sábato. Registro 276 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-277": {
+    "numero": 277,
+    "titulo": "El Viejo Saurio se Retira",
+    "autor": "Miguel Gutiérrez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-277",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-277/1ydd5KsbJxRs8iFlrFAgJN2MmFU-4RcSt.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9899.JPG",
+        "drive_id": "1ydd5KsbJxRs8iFlrFAgJN2MmFU-4RcSt"
+      }
+    ],
+    "carpetas_drive": [
+      "Mitos, Leyendas y Cuentos Peruanos - José María Arguedas"
+    ],
+    "descripcion": "El Viejo Saurio se Retira. Autor o responsable consignado: Miguel Gutiérrez. Registro 277 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-282": {
+    "numero": 282,
+    "titulo": "Ética para Amador",
+    "autor": "Fernando Savater",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-282",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-282/14O3LK0l5NpVpo_PBvizQ2VzqUeXZ3Fhq.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9892.JPG",
+        "drive_id": "14O3LK0l5NpVpo_PBvizQ2VzqUeXZ3Fhq"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-282/1mm7WzMK-mJ4vJNZcpWB5H3_ZLG40BXEn.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_112400.heic",
+        "drive_id": "1mm7WzMK-mJ4vJNZcpWB5H3_ZLG40BXEn"
+      }
+    ],
+    "carpetas_drive": [
+      "Ética para Amador - Ernesto Sábato",
+      "Érase una vez el Hombre Pedro el Grande Rusia - Alexandra Muñoz"
+    ],
+    "descripcion": "Ética para Amador. Autor o responsable consignado: Fernando Savater. Registro 282 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-285": {
+    "numero": 285,
+    "titulo": "Gestionando tu Propia Empresa 1 Y 2",
+    "autor": "Macro",
+    "cantidad": 11,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-285",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-285/1taQP_guV3Lam61YuJ6aRL5xNYc5eg095.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110326.heic",
+        "drive_id": "1taQP_guV3Lam61YuJ6aRL5xNYc5eg095"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-285/1mPK58Ukpe75IC3r0cIOzIJud-SXcTxD1.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110314.heic",
+        "drive_id": "1mPK58Ukpe75IC3r0cIOzIJud-SXcTxD1"
+      }
+    ],
+    "carpetas_drive": [
+      "Gestionando tu Propia Empresa 1 Y 2 - Macro"
+    ],
+    "descripcion": "Gestionando tu Propia Empresa 1 Y 2. Autor o responsable consignado: Macro. Registro 285 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-286": {
+    "numero": 286,
+    "titulo": "Historia de la Literatura Hispanoamericana 1,2,3,4",
+    "autor": "José Miguel Oviedo",
+    "cantidad": 2,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-286",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-286/13Vag1HoHWTKCOtfyarDOwLrJGebnlQ3B.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115804.heic",
+        "drive_id": "13Vag1HoHWTKCOtfyarDOwLrJGebnlQ3B"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-286/1SEC1pw2_OpK18FH_dNjTW91AqPuJWqSg.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115745.heic",
+        "drive_id": "1SEC1pw2_OpK18FH_dNjTW91AqPuJWqSg"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-286/1n5MjNb72a21cu5EVc4KGRuYKVWhpJ51S.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115722.heic",
+        "drive_id": "1n5MjNb72a21cu5EVc4KGRuYKVWhpJ51S"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-286/1-wy7F4cxzkJIMqqj8Ty0_1qHbCOi-SxH.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115717.heic",
+        "drive_id": "1-wy7F4cxzkJIMqqj8Ty0_1qHbCOi-SxH"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-286/14GWr4JNSbwa0quVG5T3IWfLR-zac3vRI.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115804.heic",
+        "drive_id": "14GWr4JNSbwa0quVG5T3IWfLR-zac3vRI"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-286/1WTJodblH2A_shfeaWHZvc7aLE8vQr4Ex.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115745.heic",
+        "drive_id": "1WTJodblH2A_shfeaWHZvc7aLE8vQr4Ex"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-286/17kbss91NJyPAc2-COAyp6-uXTwlNZm5Q.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115722.heic",
+        "drive_id": "17kbss91NJyPAc2-COAyp6-uXTwlNZm5Q"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-286/1IIez8EviIuK62p4YFiKVvWZP-RGtZqrr.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115717.heic",
+        "drive_id": "1IIez8EviIuK62p4YFiKVvWZP-RGtZqrr"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Literatura Hispanoamericana 1,2,3,4 - José Miguel Oviedo"
+    ],
+    "descripcion": "Historia de la Literatura Hispanoamericana 1,2,3,4. Autor o responsable consignado: José Miguel Oviedo. Registro 286 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-287": {
+    "numero": 287,
+    "titulo": "Historia de Iberoamérica desde los Niños 1,2,3,4",
+    "autor": "Juan Acevedo",
+    "cantidad": 12,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-287",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-287/1k66JZjotzAHhV8hYcPFDFfM6NGb5M8jK.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115301.heic",
+        "drive_id": "1k66JZjotzAHhV8hYcPFDFfM6NGb5M8jK"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-287/14Zm9mwxWA9zswgZ16vmdZXx9gtvJ5Bis.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115253.heic",
+        "drive_id": "14Zm9mwxWA9zswgZ16vmdZXx9gtvJ5Bis"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-287/1ePKZQCFwG00kclwlYIoGEJLqnhGfMCIU.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115244.heic",
+        "drive_id": "1ePKZQCFwG00kclwlYIoGEJLqnhGfMCIU"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-287/1ZsCI9PQGh4BTA4O8wMUxq5DKCKFaqsPb.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115236.heic",
+        "drive_id": "1ZsCI9PQGh4BTA4O8wMUxq5DKCKFaqsPb"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-287/1SUBWWUuv2LHQ645VVbBcMcld_llJ_6Zv.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115301.heic",
+        "drive_id": "1SUBWWUuv2LHQ645VVbBcMcld_llJ_6Zv"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-287/1y9cBHARPtrJ9-PzxBVdmvuLNL9kVN81C.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115253.heic",
+        "drive_id": "1y9cBHARPtrJ9-PzxBVdmvuLNL9kVN81C"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-287/1y8JXzRyptNN4cJ-lr1eKxB6C7bB3QC3U.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115244.heic",
+        "drive_id": "1y8JXzRyptNN4cJ-lr1eKxB6C7bB3QC3U"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-287/1KE62DvwD2Zix_VO0Oczxn3-3cdwO-nlb.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115236.heic",
+        "drive_id": "1KE62DvwD2Zix_VO0Oczxn3-3cdwO-nlb"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de Iberoamérica desde los Niños 1,2,3,4 - Juan Acevedo"
+    ],
+    "descripcion": "Historia de Iberoamérica desde los Niños 1,2,3,4. Autor o responsable consignado: Juan Acevedo. Registro 287 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-289": {
+    "numero": 289,
+    "titulo": "Historia del Perú Contemporáneo",
+    "autor": "Carlos Contreras",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-289",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-289/1HeRKvQXzdN1XjLDcEAzZ4OhM99vfMCar.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115703.heic",
+        "drive_id": "1HeRKvQXzdN1XjLDcEAzZ4OhM99vfMCar"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-289/1ExXMw20Jzm5kRAeWaHAtFfCNMg1hYmob.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115703.heic",
+        "drive_id": "1ExXMw20Jzm5kRAeWaHAtFfCNMg1hYmob"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia del Perú Contemporáneo - Carlos Contreras"
+    ],
+    "descripcion": "Historia del Perú Contemporáneo. Autor o responsable consignado: Carlos Contreras. Registro 289 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-290": {
+    "numero": 290,
+    "titulo": "Historia Universal",
+    "autor": "Océano",
+    "cantidad": 6,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-290",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-290/1fYSUpbu3f3sgZ8jg4tE8JNfRntP7USVg.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115639.heic",
+        "drive_id": "1fYSUpbu3f3sgZ8jg4tE8JNfRntP7USVg"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-290/1H1zeqGmFnIyhlc4eBQRecCFFYr2QQw62.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115632.heic",
+        "drive_id": "1H1zeqGmFnIyhlc4eBQRecCFFYr2QQw62"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-290/1bh-CDRbp14KE4kuETHTYVrgNLAzqrkR_.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115619.heic",
+        "drive_id": "1bh-CDRbp14KE4kuETHTYVrgNLAzqrkR_"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-290/1K8BJGcp7Gb29zdqclTUUsSL5cpl03loa.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115639.heic",
+        "drive_id": "1K8BJGcp7Gb29zdqclTUUsSL5cpl03loa"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-290/1YDyd23XxaS6VGSG2oNW4Uf0petlGeOzo.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115632.heic",
+        "drive_id": "1YDyd23XxaS6VGSG2oNW4Uf0petlGeOzo"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-290/1QJpJ9mVlqki9Cw1dQi0U-_Jb7jiojIxz.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115619.heic",
+        "drive_id": "1QJpJ9mVlqki9Cw1dQi0U-_Jb7jiojIxz"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia Universal - Océano"
+    ],
+    "descripcion": "Historia Universal. Autor o responsable consignado: Océano. Registro 290 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-292": {
+    "numero": 292,
+    "titulo": "Biblia América",
+    "autor": "SM S.A.C",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-292",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-292/16hT-eq1tC7VXEZDuA0MYPm0rbHgNN8d3.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_104213.jpg",
+        "drive_id": "16hT-eq1tC7VXEZDuA0MYPm0rbHgNN8d3"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-292/1laqxighHZTjZ2-y3JbDgHQOq7Iz8X4Y2.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_104210.jpg",
+        "drive_id": "1laqxighHZTjZ2-y3JbDgHQOq7Iz8X4Y2"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 3 - Raúl Palacios Rodríguez",
+      "Historia de la Republicana del Perú (1822-1933) 4 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Biblia América. Autor o responsable consignado: SM S.A.C. Registro 292 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-294": {
+    "numero": 294,
+    "titulo": "La Casa de Cartón",
+    "autor": "Martín Adán",
+    "cantidad": 6,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-294",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-294/1XRfg74ABCkc9KY-ABlfoFc1DdtX0qt__.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9918.JPG",
+        "drive_id": "1XRfg74ABCkc9KY-ABlfoFc1DdtX0qt__"
+      }
+    ],
+    "carpetas_drive": [
+      "Atlas Cuerpo Humano - Jordi Vigué"
+    ],
+    "descripcion": "La Casa de Cartón. Autor o responsable consignado: Martín Adán. Registro 294 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-295": {
+    "numero": 295,
+    "titulo": "La Ciudad y los Perros",
+    "autor": "Mario Vargas Llosa",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-295",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-295/15hAXvIAHXoj9AOjW6Zvx9zVgN_MoZquh.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_112643.heic",
+        "drive_id": "15hAXvIAHXoj9AOjW6Zvx9zVgN_MoZquh"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-295/1lBO5VdY-adc79y_kEo0hZCo_JeqfLg1b.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_112625.heic",
+        "drive_id": "1lBO5VdY-adc79y_kEo0hZCo_JeqfLg1b"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-295/1SF3VHEWg86tVIC4rR5EAml6_FEhkgGCL.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_112612.heic",
+        "drive_id": "1SF3VHEWg86tVIC4rR5EAml6_FEhkgGCL"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-295/1Gjm6ZztCSuF367vkJf72erUSSYLKLm6U.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9939.JPG",
+        "drive_id": "1Gjm6ZztCSuF367vkJf72erUSSYLKLm6U"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-295/14czjpQ9kW8PI20vUNxWNoj6Nu8tyNTKd.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9939.JPG",
+        "drive_id": "14czjpQ9kW8PI20vUNxWNoj6Nu8tyNTKd"
+      }
+    ],
+    "carpetas_drive": [
+      "La Ciudad y los Perros - Mario Vargas Llosa"
+    ],
+    "descripcion": "La Ciudad y los Perros. Autor o responsable consignado: Mario Vargas Llosa. Registro 295 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-297": {
+    "numero": 297,
+    "titulo": "Historia de las Cosas",
+    "autor": "Annie Leonard",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-297",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-297/1OXSnrmCh32zUndh42EjaSu9JLABmizlL.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9888.JPG",
+        "drive_id": "1OXSnrmCh32zUndh42EjaSu9JLABmizlL"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de las Cosas - Annie Leonard"
+    ],
+    "descripcion": "Historia de las Cosas. Autor o responsable consignado: Annie Leonard. Registro 297 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-298": {
+    "numero": 298,
+    "titulo": "Leyenda del CID Clásicos Adaptados",
+    "autor": "Agustín Sánchez Aguilar",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-298",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-298/1ee_pV8MuwkpYNZYNxOy5YCRrV8ecxqMw.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9934.JPG",
+        "drive_id": "1ee_pV8MuwkpYNZYNxOy5YCRrV8ecxqMw"
+      }
+    ],
+    "carpetas_drive": [
+      "Leyenda del CID Clásicos Adaptados - Agustín Sánchez Aguilar"
+    ],
+    "descripcion": "Leyenda del CID Clásicos Adaptados. Autor o responsable consignado: Agustín Sánchez Aguilar. Registro 298 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-299": {
+    "numero": 299,
+    "titulo": "Llamada de lo Salvaje",
+    "autor": "Jack London",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-299",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-299/1HM1k4fkZGgQp0wz91cSr345ANEdH0nvP.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_0003.JPG",
+        "drive_id": "1HM1k4fkZGgQp0wz91cSr345ANEdH0nvP"
+      }
+    ],
+    "carpetas_drive": [
+      "Llamada de lo Salvaje - Jack London"
+    ],
+    "descripcion": "Llamada de lo Salvaje. Autor o responsable consignado: Jack London. Registro 299 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-301": {
+    "numero": 301,
+    "titulo": "La Odisea",
+    "autor": "Homero",
+    "cantidad": 15,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-301",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-301/11kyNZme_aI0LVhAT05hpktSugwSo9_y8.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9894.JPG",
+        "drive_id": "11kyNZme_aI0LVhAT05hpktSugwSo9_y8"
+      }
+    ],
+    "carpetas_drive": [
+      "Los Inocentes - Oswaldo Reynoso"
+    ],
+    "descripcion": "La Odisea. Autor o responsable consignado: Homero. Registro 301 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-302": {
+    "numero": 302,
+    "titulo": "La Vuelta al Mundo en Ochenta Días",
+    "autor": "Julio Verne",
+    "cantidad": 3,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-302",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-302/1SnfAkFcpyYdTrlu0t19sIkEMLsYliTWP.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111320.heic",
+        "drive_id": "1SnfAkFcpyYdTrlu0t19sIkEMLsYliTWP"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-302/1hrvXpAg-26pPAWseHgJranYzQnU7uddX.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9991.JPG",
+        "drive_id": "1hrvXpAg-26pPAWseHgJranYzQnU7uddX"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-302/1TqFubgK6QvBVYvMeO9C5glX1cEIjkU9q.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9896.JPG",
+        "drive_id": "1TqFubgK6QvBVYvMeO9C5glX1cEIjkU9q"
+      }
+    ],
+    "carpetas_drive": [
+      "La Vuelta al Mundo en Ochenta Días - Julio Verne",
+      "Los 7 Hábitos de los Adolescentes - Franklin Corey Company"
+    ],
+    "descripcion": "La Vuelta al Mundo en Ochenta Días. Autor o responsable consignado: Julio Verne. Registro 302 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-304": {
+    "numero": 304,
+    "titulo": "Los 7 Hábitos de los Adolescentes",
+    "autor": "Sean Covey",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-304",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-304/1iWyR_0rvnOfZB999ox6_QzyN3z141QO1.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9900.JPG",
+        "drive_id": "1iWyR_0rvnOfZB999ox6_QzyN3z141QO1"
+      }
+    ],
+    "carpetas_drive": [
+      "Los 7 Hábitos de los Adolescentes - Franklin Corey Company"
+    ],
+    "descripcion": "Los 7 Hábitos de los Adolescentes. Autor o responsable consignado: Sean Covey. Registro 304 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-305": {
+    "numero": 305,
+    "titulo": "Los Inocentes",
+    "autor": "Oswaldo Reynoso",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-305",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-305/1lDDBvfq1dgWJB14QQlu7ay1cMLNkDhjJ.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9954.JPG",
+        "drive_id": "1lDDBvfq1dgWJB14QQlu7ay1cMLNkDhjJ"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-305/18FKKMBCK1GIeFFQSUccPvA7FbqkvwOBg.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9954.JPG",
+        "drive_id": "18FKKMBCK1GIeFFQSUccPvA7FbqkvwOBg"
+      }
+    ],
+    "carpetas_drive": [
+      "Los Inocentes - Oswaldo Reynoso"
+    ],
+    "descripcion": "Los Inocentes. Autor o responsable consignado: Oswaldo Reynoso. Registro 305 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-306": {
+    "numero": 306,
+    "titulo": "Los Jefes los Cachorros",
+    "autor": "Mario Vargas Llosa",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-306",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-306/1q2YWDKITNRZ6veRIbe9nzoVuZhD-tlzp.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_112619.heic",
+        "drive_id": "1q2YWDKITNRZ6veRIbe9nzoVuZhD-tlzp"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-306/18sxJZxCrGvBKXDHNjg_6hkmW8bdeGufl.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9938.JPG",
+        "drive_id": "18sxJZxCrGvBKXDHNjg_6hkmW8bdeGufl"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-306/1iN_Y5rhBxBj1bJHUdn-0noIO6WXAFyFM.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9938.JPG",
+        "drive_id": "1iN_Y5rhBxBj1bJHUdn-0noIO6WXAFyFM"
+      }
+    ],
+    "carpetas_drive": [
+      "Los Jefes los Cachorros - Mario Vargas Llosa"
+    ],
+    "descripcion": "Los Jefes los Cachorros. Autor o responsable consignado: Mario Vargas Llosa. Registro 306 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-307": {
+    "numero": 307,
+    "titulo": "Los Perros Hambrientos",
+    "autor": "Ciro Alegría",
+    "cantidad": 4,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-307",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-307/1xTPJCPFSCdo2GtRCuV_j0U-KkgrQdfW5.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9977.JPG",
+        "drive_id": "1xTPJCPFSCdo2GtRCuV_j0U-KkgrQdfW5"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-307/10TP_k36BOEx_VpbrX98RO5xqsIRYZykc.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9978.JPG",
+        "drive_id": "10TP_k36BOEx_VpbrX98RO5xqsIRYZykc"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-307/1b3cVQaLwTCraIdDlGM_P9mc13KCFky7-.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9996.JPG",
+        "drive_id": "1b3cVQaLwTCraIdDlGM_P9mc13KCFky7-"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-307/1ZI3bxBM-fDyBiL9t6TAhGOPqzhLqOdY_.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9965.JPG",
+        "drive_id": "1ZI3bxBM-fDyBiL9t6TAhGOPqzhLqOdY_"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-307/1UIt5gBXGbJu-51QbLoQZAuoTdawn1Rtm.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9964.JPG",
+        "drive_id": "1UIt5gBXGbJu-51QbLoQZAuoTdawn1Rtm"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-307/1NdHVvmbEwf-z53UglByLgQfhw6XLWL9w.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9937.JPG",
+        "drive_id": "1NdHVvmbEwf-z53UglByLgQfhw6XLWL9w"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-307/19rAtF2brPgryDDLzfUxceZWYUqej1A_H.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9937.JPG",
+        "drive_id": "19rAtF2brPgryDDLzfUxceZWYUqej1A_H"
+      }
+    ],
+    "carpetas_drive": [
+      "Los Perros Hambrientos - Ciro Alegría",
+      "PNL para Profesores - Albert Serrat"
+    ],
+    "descripcion": "Los Perros Hambrientos. Autor o responsable consignado: Ciro Alegría. Registro 307 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-309": {
+    "numero": 309,
+    "titulo": "Maus la Historia del Sobreviviente",
+    "autor": "Art Spiegelman",
+    "cantidad": 12,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-309",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-309/1zCdoVXeSQu7pSiOojqotcEPDSTHp02CJ.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9893.JPG",
+        "drive_id": "1zCdoVXeSQu7pSiOojqotcEPDSTHp02CJ"
+      }
+    ],
+    "carpetas_drive": [
+      "Los Perros Hambrientos - Ciro Alegría"
+    ],
+    "descripcion": "Maus la Historia del Sobreviviente. Autor o responsable consignado: Art Spiegelman. Registro 309 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-310": {
+    "numero": 310,
+    "titulo": "Mitos, Leyendas y Cuentos Peruanos",
+    "autor": "José María Arguedas",
+    "cantidad": 6,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-310",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-310/1s0yOAhw_y559U7h_kWyTVg3h88I9Lv4Q.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9940.JPG",
+        "drive_id": "1s0yOAhw_y559U7h_kWyTVg3h88I9Lv4Q"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-310/1oQBUDaB3jkhxAeqLxhVwwCSf1S8tb1Hx.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9940.JPG",
+        "drive_id": "1oQBUDaB3jkhxAeqLxhVwwCSf1S8tb1Hx"
+      }
+    ],
+    "carpetas_drive": [
+      "Procedimientos en Historia - Didáctico - Crifol. Trepat"
+    ],
+    "descripcion": "Mitos, Leyendas y Cuentos Peruanos. Autor o responsable consignado: José María Arguedas. Registro 310 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-311": {
+    "numero": 311,
+    "titulo": "Navajas en el Palomar",
+    "autor": "Jorge Eslava",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-311",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-311/1NwS7gOP_c42Mtqfj3-GZejfwmgE0iAjv.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9928.JPG",
+        "drive_id": "1NwS7gOP_c42Mtqfj3-GZejfwmgE0iAjv"
+      }
+    ],
+    "carpetas_drive": [
+      "Navajas en el Palomar - Jorge Eslava"
+    ],
+    "descripcion": "Navajas en el Palomar. Autor o responsable consignado: Jorge Eslava. Registro 311 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-314": {
+    "numero": 314,
+    "titulo": "Obra Poética",
+    "autor": "César Vallejo",
+    "cantidad": 2,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-314",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-314/1cpXlnOFOBYVVcWwlrs4Pl_KIltZLPXjp.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9952.JPG",
+        "drive_id": "1cpXlnOFOBYVVcWwlrs4Pl_KIltZLPXjp"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-314/1_yF4xlRsRHVl-s-igKCMFicmduygvDMy.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9952.JPG",
+        "drive_id": "1_yF4xlRsRHVl-s-igKCMFicmduygvDMy"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-314/1GxkGkzLE6T785l7Q10xSogf1Hxs5fhU2.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_110757.heic",
+        "drive_id": "1GxkGkzLE6T785l7Q10xSogf1Hxs5fhU2"
+      }
+    ],
+    "carpetas_drive": [
+      "Obra Poética - César Vallejo",
+      "Tragedias Completas - William Shakespeare"
+    ],
+    "descripcion": "Obra Poética. Autor o responsable consignado: César Vallejo. Registro 314 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-315": {
+    "numero": 315,
+    "titulo": "País de Jauja",
+    "autor": "Edgardo Rivera Martínez",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-315",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-315/1WJL7kabw9UVc2P5tY4FpMsKEHfxusneC.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9936.JPG",
+        "drive_id": "1WJL7kabw9UVc2P5tY4FpMsKEHfxusneC"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-315/1Q9HvzaCdTxwL1N4ZxFNjxqnhwGaSCB9j.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_0006.JPG",
+        "drive_id": "1Q9HvzaCdTxwL1N4ZxFNjxqnhwGaSCB9j"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-315/1oDHnv2MRZrADeHUzMm_BeFXWJyZOhe8P.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9936.JPG",
+        "drive_id": "1oDHnv2MRZrADeHUzMm_BeFXWJyZOhe8P"
+      }
+    ],
+    "carpetas_drive": [
+      "País de Jauja - Edgardo Rivera Martínez"
+    ],
+    "descripcion": "País de Jauja. Autor o responsable consignado: Edgardo Rivera Martínez. Registro 315 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-316": {
+    "numero": 316,
+    "titulo": "Constitución de 1993",
+    "autor": "Marcial Rubio Correa",
+    "cantidad": 3,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-316",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-316/1LSQ1csmD3Ug3JDdhbgEns05lpqb2IgdX.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9987.JPG",
+        "drive_id": "1LSQ1csmD3Ug3JDdhbgEns05lpqb2IgdX"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-316/1DK1HL693BgIJ_-1RDReg8lNy-JPGCo9Y.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_104734.jpg",
+        "drive_id": "1DK1HL693BgIJ_-1RDReg8lNy-JPGCo9Y"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-316/1jHcrhIFQr6xbm3KO6r9N-jqqlfrPxHET.webp",
+        "width": 904,
+        "height": 1600,
+        "archivo_original": "IMG_20261030_104351.jpg",
+        "drive_id": "1jHcrhIFQr6xbm3KO6r9N-jqqlfrPxHET"
+      }
+    ],
+    "carpetas_drive": [
+      "Constitución de 1993 - Marcial Rubio Correa",
+      "Historia del Perú - Lexus Editores"
+    ],
+    "descripcion": "Constitución de 1993. Autor o responsable consignado: Marcial Rubio Correa. Registro 316 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-317": {
+    "numero": 317,
+    "titulo": "Pedro Páramo",
+    "autor": "Juan Rulfo",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-317",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-317/11dgNwuGCQsbXswXyIWF2INdGpwNawYXH.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9920.JPG",
+        "drive_id": "11dgNwuGCQsbXswXyIWF2INdGpwNawYXH"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-317/1bj47hpVgwotZ8p-5pOa2Pv4eaOdIMYuI.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9919.JPG",
+        "drive_id": "1bj47hpVgwotZ8p-5pOa2Pv4eaOdIMYuI"
+      }
+    ],
+    "carpetas_drive": [
+      "Pedro Páramo - Juan Rulfo",
+      "Atlas Cuerpo Humano - Jordi Vigué"
+    ],
+    "descripcion": "Pedro Páramo. Autor o responsable consignado: Juan Rulfo. Registro 317 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-320": {
+    "numero": 320,
+    "titulo": "Poesías Completas",
+    "autor": "José María Eguren",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-320",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-320/1WvjeBEd43nSR2eimSjcqwEyV5rxH_Gzt.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9950.JPG",
+        "drive_id": "1WvjeBEd43nSR2eimSjcqwEyV5rxH_Gzt"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-320/1WKz1RuvYEin0I6738tJ3HGbQta9WmcPy.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9950.JPG",
+        "drive_id": "1WKz1RuvYEin0I6738tJ3HGbQta9WmcPy"
+      }
+    ],
+    "carpetas_drive": [
+      "Poesías Completas - José María Eguren",
+      "Cuentos Antología Selección - Julio R. Ribeyro"
+    ],
+    "descripcion": "Poesías Completas. Autor o responsable consignado: José María Eguren. Registro 320 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-321": {
+    "numero": 321,
+    "titulo": "Poetas Peruanos de Antología",
+    "autor": "Ricardo González Vigil",
+    "cantidad": 5,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-321",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-321/1TwWuvd9J_8BnUMbE-ETVJXY3MdnXlswd.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9927.JPG",
+        "drive_id": "1TwWuvd9J_8BnUMbE-ETVJXY3MdnXlswd"
+      }
+    ],
+    "carpetas_drive": [
+      "Poetas Peruanos de Antología - Ricardo González Vigil"
+    ],
+    "descripcion": "Poetas Peruanos de Antología. Autor o responsable consignado: Ricardo González Vigil. Registro 321 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-323": {
+    "numero": 323,
+    "titulo": "Cuentos Antología Selección",
+    "autor": "Julio R. Ribeyro",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-323",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-323/1tKapBPYqqr0seBOO4QjmRuTIYaQ6hlYv.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9953.JPG",
+        "drive_id": "1tKapBPYqqr0seBOO4QjmRuTIYaQ6hlYv"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-323/1DC_ptaik_z0VytdvK-uqj273k3lXUKmh.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9953.JPG",
+        "drive_id": "1DC_ptaik_z0VytdvK-uqj273k3lXUKmh"
+      }
+    ],
+    "carpetas_drive": [
+      "Cuentos Antología Selección - Julio R. Ribeyro"
+    ],
+    "descripcion": "Cuentos Antología Selección. Autor o responsable consignado: Julio R. Ribeyro. Registro 323 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-328": {
+    "numero": 328,
+    "titulo": "Tradiciones Peruanas",
+    "autor": "Ricardo Palma",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-328",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-328/1zGcfGsPVSGyhalYUbyz44KMgQlRdhvD_.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111926.heic",
+        "drive_id": "1zGcfGsPVSGyhalYUbyz44KMgQlRdhvD_"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-328/1-wzFeHZkHZ0SUOJGuX-KUeDByaiKc4yp.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111716.heic",
+        "drive_id": "1-wzFeHZkHZ0SUOJGuX-KUeDByaiKc4yp"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-328/1mSors1cIoBH4wtd1tXF_bz4t851zE8k0.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9951.JPG",
+        "drive_id": "1mSors1cIoBH4wtd1tXF_bz4t851zE8k0"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-328/1EUPbxwc3oOM0cBc_5jECp8EF9OsxrPOw.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9951.JPG",
+        "drive_id": "1EUPbxwc3oOM0cBc_5jECp8EF9OsxrPOw"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-328/19IYVWuNV0veDEldixt5PkCZONrJZJks-.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_111913.heic",
+        "drive_id": "19IYVWuNV0veDEldixt5PkCZONrJZJks-"
+      }
+    ],
+    "carpetas_drive": [
+      "Tradiciones Peruanas - Ricardo Palma",
+      "Cuentos Antología Selección - Julio R. Ribeyro"
+    ],
+    "descripcion": "Tradiciones Peruanas. Autor o responsable consignado: Ricardo Palma. Registro 328 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-329": {
+    "numero": 329,
+    "titulo": "Tragedias Completas",
+    "autor": "William Shakespeare",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-329",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-329/1RHW0GGbay6-cWFoDDslE8hdBI_-vY2CY.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9886.JPG",
+        "drive_id": "1RHW0GGbay6-cWFoDDslE8hdBI_-vY2CY"
+      }
+    ],
+    "carpetas_drive": [
+      "Tragedias Completas - William Shakespeare"
+    ],
+    "descripcion": "Tragedias Completas. Autor o responsable consignado: William Shakespeare. Registro 329 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-330": {
+    "numero": 330,
+    "titulo": "Un Mundo para Julius",
+    "autor": "Alfredo Bryce Echenique",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-330",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-330/1pTfQoU256ENk59ti98pdPckmh7gC37u3.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9948.JPG",
+        "drive_id": "1pTfQoU256ENk59ti98pdPckmh7gC37u3"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-330/1AtXRzxI-0fyOIgMm5oI2cKVTWZqhn2r0.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9948.JPG",
+        "drive_id": "1AtXRzxI-0fyOIgMm5oI2cKVTWZqhn2r0"
+      }
+    ],
+    "carpetas_drive": [
+      "Un mundo para Julius - Alfredo Bryce Echenique",
+      "Sistematización de Práctica Docente - Carlos A. Audirac Camari"
+    ],
+    "descripcion": "Un Mundo para Julius. Autor o responsable consignado: Alfredo Bryce Echenique. Registro 330 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-331": {
+    "numero": 331,
+    "titulo": "Érase una vez el Hombre Gromagnon",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 3,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-331",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-331/1i3Q33IC4BGCafvGLqAScdr8x9OpVi634.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115401.heic",
+        "drive_id": "1i3Q33IC4BGCafvGLqAScdr8x9OpVi634"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-331/1Geh3irFfcHiHjHrkfDw9SXzhDkzzZJ7O.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115401.heic",
+        "drive_id": "1Geh3irFfcHiHjHrkfDw9SXzhDkzzZJ7O"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre Gromagnon - Alexandra Muñoz",
+      "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre Gromagnon. Autor o responsable consignado: Alexandra Muñoz. Registro 331 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-332": {
+    "numero": 332,
+    "titulo": "Érase una vez el Hombre la Pax Romana",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 5,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-332",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-332/1_V8hdVAojK_cQrZOaXxKBylo_V2fM6I0.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115531.heic",
+        "drive_id": "1_V8hdVAojK_cQrZOaXxKBylo_V2fM6I0"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-332/1rk5CYg6V0sEjEwSUBhmPcT4V_sI0RHkm.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115531.heic",
+        "drive_id": "1rk5CYg6V0sEjEwSUBhmPcT4V_sI0RHkm"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre la Pax Romana - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre la Pax Romana. Autor o responsable consignado: Alexandra Muñoz. Registro 332 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-333": {
+    "numero": 333,
+    "titulo": "Érase una vez el Hombre los Constructores Catedrales",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 6,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-333",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-333/1uoamhP496O_QzAOTMlRqZpTfTJncH__p.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115517.heic",
+        "drive_id": "1uoamhP496O_QzAOTMlRqZpTfTJncH__p"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-333/17aHNBTrcIvOnrgXiX26QvifVf1C5CnnP.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115517.heic",
+        "drive_id": "17aHNBTrcIvOnrgXiX26QvifVf1C5CnnP"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre los Constructores Catedrales - Alexandra Muñoz",
+      "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre los Constructores Catedrales. Autor o responsable consignado: Alexandra Muñoz. Registro 333 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-334": {
+    "numero": 334,
+    "titulo": "Érase una vez el Hombre el siglo de Oro",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-334",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-334/1OwqkCkFgVAM6AhMo9z7WlAIeGICGfzw1.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115501.heic",
+        "drive_id": "1OwqkCkFgVAM6AhMo9z7WlAIeGICGfzw1"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-334/1rFtexea2kTayzM76KaTWNdISif2ulMby.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115501.heic",
+        "drive_id": "1rFtexea2kTayzM76KaTWNdISif2ulMby"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre el siglo de Oro - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre el siglo de Oro. Autor o responsable consignado: Alexandra Muñoz. Registro 334 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-335": {
+    "numero": 335,
+    "titulo": "Érase una vez el Hombre la Primavera de los Pueblos",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-335",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-335/1fnLbOPLUYv8D5Ba3Dy_D7AF261tzYD29.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115433.heic",
+        "drive_id": "1fnLbOPLUYv8D5Ba3Dy_D7AF261tzYD29"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-335/1aK8rxKHOhvbLZqu6BU0EEnpW95xq52rJ.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115433.heic",
+        "drive_id": "1aK8rxKHOhvbLZqu6BU0EEnpW95xq52rJ"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre la Primavera de los Pueblos - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre la Primavera de los Pueblos. Autor o responsable consignado: Alexandra Muñoz. Registro 335 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-336": {
+    "numero": 336,
+    "titulo": "Érase una vez el Hombre Pedro el Grande Rusia",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-336",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-336/1GMi9IJbQmTPhr0qFhxAGm2phuAwJUa2v.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115450.heic",
+        "drive_id": "1GMi9IJbQmTPhr0qFhxAGm2phuAwJUa2v"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-336/1s9fqNu2YTga6brjyK2aX4ASDGrjXMqPc.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115450.heic",
+        "drive_id": "1s9fqNu2YTga6brjyK2aX4ASDGrjXMqPc"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre Pedro el Grande Rusia - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre Pedro el Grande Rusia. Autor o responsable consignado: Alexandra Muñoz. Registro 336 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-337": {
+    "numero": 337,
+    "titulo": "Érase una vez el Hombre los Valles Fértiles",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-337",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-337/1ssyW3zx4h6aYSospXv581Wq5llnpfv1H.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115353.heic",
+        "drive_id": "1ssyW3zx4h6aYSospXv581Wq5llnpfv1H"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-337/11-M-fwWs4PpTNQ5dui8qpjsMeTfiBMJm.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115353.heic",
+        "drive_id": "11-M-fwWs4PpTNQ5dui8qpjsMeTfiBMJm"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre los Valles Fértiles - Alexandra Muñoz",
+      "Érase una vez el Hombre América del Norte - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre los Valles Fértiles. Autor o responsable consignado: Alexandra Muñoz. Registro 337 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-338": {
+    "numero": 338,
+    "titulo": "Érase una vez el Hombre los mil y un Orientes",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-338",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-338/1w6vtO-plO_drCzxjg8JCB6jnaeEWsaAI.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115528.heic",
+        "drive_id": "1w6vtO-plO_drCzxjg8JCB6jnaeEWsaAI"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-338/1PIuZLRN6tvuEXpYjAN0EpwZL0LGj8ISJ.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115528.heic",
+        "drive_id": "1PIuZLRN6tvuEXpYjAN0EpwZL0LGj8ISJ"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre los mil y un Orientes - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre los mil y un Orientes. Autor o responsable consignado: Alexandra Muñoz. Registro 338 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-339": {
+    "numero": 339,
+    "titulo": "Érase una vez el Hombre los Viajes de Marco Polo",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 4,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-339",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-339/17iQ_NugCEBffOmoxGxprRkhvf_2VVwqJ.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115513.heic",
+        "drive_id": "17iQ_NugCEBffOmoxGxprRkhvf_2VVwqJ"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-339/1Rp_1RnhKRtqcH9kVJADjsTs8bY7mnb9g.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115508.heic",
+        "drive_id": "1Rp_1RnhKRtqcH9kVJADjsTs8bY7mnb9g"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-339/1GzTqgimEJJDDpTs_Ke0m-00mU5-TIBgG.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115513.heic",
+        "drive_id": "1GzTqgimEJJDDpTs_Ke0m-00mU5-TIBgG"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-339/1RppROi5ShfdQyzYcVgdEBqXflca45pfF.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115508.heic",
+        "drive_id": "1RppROi5ShfdQyzYcVgdEBqXflca45pfF"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre los Viajes de Marco Polo - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre los Viajes de Marco Polo. Autor o responsable consignado: Alexandra Muñoz. Registro 339 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-340": {
+    "numero": 340,
+    "titulo": "Érase una vez el Hombre Isabel el Gran Siglo",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 6,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-340",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-340/1Tb81cZ4LBbvJYn0s177ZBYeTLMJVjrQ7.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115459.heic",
+        "drive_id": "1Tb81cZ4LBbvJYn0s177ZBYeTLMJVjrQ7"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-340/1yTeQXxbqTwxiSSBeKKdyzrJ29ItwLPsN.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115459.heic",
+        "drive_id": "1yTeQXxbqTwxiSSBeKKdyzrJ29ItwLPsN"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre Isabel el Gran Siglo - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre Isabel el Gran Siglo. Autor o responsable consignado: Alexandra Muñoz. Registro 340 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-341": {
+    "numero": 341,
+    "titulo": "Érase una vez el Hombre al Siglo de las Luces",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-341",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-341/1mJVD0dItVxbE1KpuNyDLjRUZRemDQ96M.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115446.heic",
+        "drive_id": "1mJVD0dItVxbE1KpuNyDLjRUZRemDQ96M"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-341/1bBg4QFWTnaLoxPqTNXZkTVd64bEruAnY.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115446.heic",
+        "drive_id": "1bBg4QFWTnaLoxPqTNXZkTVd64bEruAnY"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre al Siglo de las Luces - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre al Siglo de las Luces. Autor o responsable consignado: Alexandra Muñoz. Registro 341 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-342": {
+    "numero": 342,
+    "titulo": "Érase una vez el Hombre la Belle Époque",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-342",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-342/19Sc3aXUGdgemB4cMwdSJQLn4kVwHal-L.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115427.heic",
+        "drive_id": "19Sc3aXUGdgemB4cMwdSJQLn4kVwHal-L"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-342/1Efq0rEtbC-Bli-r2QGfQ___ZQiUl8UUL.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115427.heic",
+        "drive_id": "1Efq0rEtbC-Bli-r2QGfQ___ZQiUl8UUL"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre la Belle Époque. Autor o responsable consignado: Alexandra Muñoz. Registro 342 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-343": {
+    "numero": 343,
+    "titulo": "Érase una vez el Hombre el Hombre de Neanderthal",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 4,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-343",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-343/1Pd3DPU96XSMI-SByA3c2OPN-KmBMnbXf.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115406.heic",
+        "drive_id": "1Pd3DPU96XSMI-SByA3c2OPN-KmBMnbXf"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-343/1cX5miVWQwUplrA-IDSbCdIo_N7zZzVez.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115406.heic",
+        "drive_id": "1cX5miVWQwUplrA-IDSbCdIo_N7zZzVez"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre el Hombre de Neanderthal - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre el Hombre de Neanderthal. Autor o responsable consignado: Alexandra Muñoz. Registro 343 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-344": {
+    "numero": 344,
+    "titulo": "Érase una vez el Hombre el Siglo de Pericles",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-344",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-344/1DnkN_t24hfS4b8W4vhH2b2P_slK-CzQF.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115533.heic",
+        "drive_id": "1DnkN_t24hfS4b8W4vhH2b2P_slK-CzQF"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-344/17PSUz18-PybaUpUJxxQBjv40mOQGwk4j.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115533.heic",
+        "drive_id": "17PSUz18-PybaUpUJxxQBjv40mOQGwk4j"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre el Siglo de Pericles - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre el Siglo de Pericles. Autor o responsable consignado: Alexandra Muñoz. Registro 344 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-345": {
+    "numero": 345,
+    "titulo": "Érase una vez el Hombre los Vikingos",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-345",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-345/1MLxCmclgEDhxve0er1vwfDImPAWvcBEF.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115522.heic",
+        "drive_id": "1MLxCmclgEDhxve0er1vwfDImPAWvcBEF"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-345/1b1xjqkKO8c9ubwC2noiDkrN1fSCkmY4U.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115522.heic",
+        "drive_id": "1b1xjqkKO8c9ubwC2noiDkrN1fSCkmY4U"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre los Vikingos - Alexandra Muñoz",
+      "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre los Vikingos. Autor o responsable consignado: Alexandra Muñoz. Registro 345 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-346": {
+    "numero": 346,
+    "titulo": "Érase una vez el Hombre del Renacimiento",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 5,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-346",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-346/1Jv1hOWtBPUW1L7APS3OyBREpX_-r9uyF.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115503.heic",
+        "drive_id": "1Jv1hOWtBPUW1L7APS3OyBREpX_-r9uyF"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-346/1lrdPCvio8QJkkOO0CUWaZCmyaBPq-2ri.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115503.heic",
+        "drive_id": "1lrdPCvio8QJkkOO0CUWaZCmyaBPq-2ri"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre del Renacimiento - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre del Renacimiento. Autor o responsable consignado: Alexandra Muñoz. Registro 346 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-347": {
+    "numero": 347,
+    "titulo": "Érase una vez el Hombre el Gran Siglo de Luis XIV",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-347",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-347/17mIHbd1_aC4sSTJlZKOL3iwIsESXMeHq.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115453.heic",
+        "drive_id": "17mIHbd1_aC4sSTJlZKOL3iwIsESXMeHq"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-347/1_Rt7F_HBsSg1HBNS8B5Lj5ROi_lj_QEi.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115453.heic",
+        "drive_id": "1_Rt7F_HBsSg1HBNS8B5Lj5ROi_lj_QEi"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre el Gran Siglo de Luis XIV - Alexandra Muñoz",
+      "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre el Gran Siglo de Luis XIV. Autor o responsable consignado: Alexandra Muñoz. Registro 347 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-348": {
+    "numero": 348,
+    "titulo": "Érase una vez el Hombre la Revolución Francesa",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-348",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-348/1l6745WUQODOrWvU__HmSAUMoe8vZR_Zz.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115438.heic",
+        "drive_id": "1l6745WUQODOrWvU__HmSAUMoe8vZR_Zz"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-348/1ravd9D_pqHny1oVnCuD0Qh2LwwRXkmHf.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115438.heic",
+        "drive_id": "1ravd9D_pqHny1oVnCuD0Qh2LwwRXkmHf"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre la Revolución Francesa - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre la Revolución Francesa. Autor o responsable consignado: Alexandra Muñoz. Registro 348 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-349": {
+    "numero": 349,
+    "titulo": "Érase una vez el Hombre érase una vez la Tierra",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-349",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-349/1FcsuGqxaqFWEjBjI0EpG2ouokFRS71HY.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115416.heic",
+        "drive_id": "1FcsuGqxaqFWEjBjI0EpG2ouokFRS71HY"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-349/1AH2nACJCksRjhG2n4NSdk8WDM0UdYwuu.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115416.heic",
+        "drive_id": "1AH2nACJCksRjhG2n4NSdk8WDM0UdYwuu"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre érase una vez la Tierra - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre érase una vez la Tierra. Autor o responsable consignado: Alexandra Muñoz. Registro 349 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-350": {
+    "numero": 350,
+    "titulo": "Érase una vez el Hombre Nace la Tierra",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 5,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-350",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-350/15RDWZB-BX5OrBQQq60OfDw3mJJxXVB9l.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115535.heic",
+        "drive_id": "15RDWZB-BX5OrBQQq60OfDw3mJJxXVB9l"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-350/1HWv9RdWrRv-R1xli5UDbYoumsuJMKPcq.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115535.heic",
+        "drive_id": "1HWv9RdWrRv-R1xli5UDbYoumsuJMKPcq"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre Nace la Tierra - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre Nace la Tierra. Autor o responsable consignado: Alexandra Muñoz. Registro 350 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-351": {
+    "numero": 351,
+    "titulo": "Érase una vez el Hombre los Primeros Imperios",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-351",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-351/1Ubv_cwq1v8mBuAy4sr8n1lBCjPqb4W55.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115349.heic",
+        "drive_id": "1Ubv_cwq1v8mBuAy4sr8n1lBCjPqb4W55"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-351/13Ayd0JnS1FzWRhcDBYr8QQ9wHZy6xnxQ.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115349.heic",
+        "drive_id": "13Ayd0JnS1FzWRhcDBYr8QQ9wHZy6xnxQ"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre los Primeros Imperios - Alexandra Muñoz",
+      "Érase una vez el Hombre los Años de la Locura - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre los Primeros Imperios. Autor o responsable consignado: Alexandra Muñoz. Registro 351 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-352": {
+    "numero": 352,
+    "titulo": "Érase una vez el Hombre los Bárbaros a Carlomagno",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-352",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-352/1Qo-GiNiITQaIVtrRJVg8ak_TGr-d5mlt.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115525.heic",
+        "drive_id": "1Qo-GiNiITQaIVtrRJVg8ak_TGr-d5mlt"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-352/1aMVHVxY--bjIpXTh67QBS6UOheIkAYQX.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115525.heic",
+        "drive_id": "1aMVHVxY--bjIpXTh67QBS6UOheIkAYQX"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre los Bárbaros a Carlomagno - Alexandra Muñoz",
+      "Érase una vez el Hombre la Belle Époque - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre los Bárbaros a Carlomagno. Autor o responsable consignado: Alexandra Muñoz. Registro 352 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-353": {
+    "numero": 353,
+    "titulo": "Érase una vez el Hombre las Ciudades Comunales",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 6,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-353",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-353/1fWz8Q8IVqCHeFFu9otxj8kgIOYivi4mi.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115505.heic",
+        "drive_id": "1fWz8Q8IVqCHeFFu9otxj8kgIOYivi4mi"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-353/1g3-Tpnh42J8el7OljLYmfwU4K5Vs4mzt.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115505.heic",
+        "drive_id": "1g3-Tpnh42J8el7OljLYmfwU4K5Vs4mzt"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre las Ciudades Comunales - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre las Ciudades Comunales. Autor o responsable consignado: Alexandra Muñoz. Registro 353 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-354": {
+    "numero": 354,
+    "titulo": "Érase una vez el Hombre el Esplendor de las Provincias",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-354",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-354/13rHoSLtNVHd73rWfABkPyjJCoRCYYRea.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115456.heic",
+        "drive_id": "13rHoSLtNVHd73rWfABkPyjJCoRCYYRea"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-354/1ES2HL_H4sCVc5k9o12YkQRYS6ckQr7kK.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115456.heic",
+        "drive_id": "1ES2HL_H4sCVc5k9o12YkQRYS6ckQr7kK"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre el Esplendor de las Provincias - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre el Esplendor de las Provincias. Autor o responsable consignado: Alexandra Muñoz. Registro 354 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-355": {
+    "numero": 355,
+    "titulo": "Érase una vez el Hombre América del Norte",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-355",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-355/1DS5kL9z1mqW2LF6pR9BT8hh1E1gFtSjU.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115442.heic",
+        "drive_id": "1DS5kL9z1mqW2LF6pR9BT8hh1E1gFtSjU"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-355/1k54OxluKs1oqzbsUG3GWTh-TtQw2zJT6.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115442.heic",
+        "drive_id": "1k54OxluKs1oqzbsUG3GWTh-TtQw2zJT6"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre América del Norte - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre América del Norte. Autor o responsable consignado: Alexandra Muñoz. Registro 355 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-356": {
+    "numero": 356,
+    "titulo": "Érase una vez el Hombre los Años de la Locura",
+    "autor": "Alexandra Muñoz",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-356",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-356/1vv0_YWNlB5vb8NaQPJKr6npyV7yVMvID.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115422.heic",
+        "drive_id": "1vv0_YWNlB5vb8NaQPJKr6npyV7yVMvID"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-356/1TJGStn8WGa-6pdoO9y0RR_Fjf2rXDANv.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115422.heic",
+        "drive_id": "1TJGStn8WGa-6pdoO9y0RR_Fjf2rXDANv"
+      }
+    ],
+    "carpetas_drive": [
+      "Érase una vez el Hombre los Años de la Locura - Alexandra Muñoz"
+    ],
+    "descripcion": "Érase una vez el Hombre los Años de la Locura. Autor o responsable consignado: Alexandra Muñoz. Registro 356 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-357": {
+    "numero": 357,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 1",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-357",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-357/1mUtPpi2TBqFq6LFEaP1IWfWEpAZBOv-d.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114840.heic",
+        "drive_id": "1mUtPpi2TBqFq6LFEaP1IWfWEpAZBOv-d"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-357/1jyeBvKarwD9Fr6wek_33O6zPgiOf8JIC.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114840.heic",
+        "drive_id": "1jyeBvKarwD9Fr6wek_33O6zPgiOf8JIC"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 1 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 1. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 357 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-358": {
+    "numero": 358,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 2",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-358",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-358/1WyIf_FEmKlT8orTbm1F3tyq3_bC51CUd.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114849.heic",
+        "drive_id": "1WyIf_FEmKlT8orTbm1F3tyq3_bC51CUd"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-358/14b91qHBmrWUlEpEeBwpS6ljnLnPz7Ig_.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114849.heic",
+        "drive_id": "14b91qHBmrWUlEpEeBwpS6ljnLnPz7Ig_"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 2 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 2. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 358 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-359": {
+    "numero": 359,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 3",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-359",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-359/1pcxtJe81x3qoHm_nspNcXkpq4DUw1wQk.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114923.heic",
+        "drive_id": "1pcxtJe81x3qoHm_nspNcXkpq4DUw1wQk"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-359/1KnoANRx5WRpkqj-5ZMHARfjvOlPlFqv5.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114923.heic",
+        "drive_id": "1KnoANRx5WRpkqj-5ZMHARfjvOlPlFqv5"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 3 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 3. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 359 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-360": {
+    "numero": 360,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 4",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-360",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-360/1NEVGfzxBAPaJceWHl2k4Ena22JotP4MA.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114934.heic",
+        "drive_id": "1NEVGfzxBAPaJceWHl2k4Ena22JotP4MA"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-360/1dMYdnLyEN0cbkXEr03DXGIEIhzCijjon.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114934.heic",
+        "drive_id": "1dMYdnLyEN0cbkXEr03DXGIEIhzCijjon"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 4 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 4. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 360 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-361": {
+    "numero": 361,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 5",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-361",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-361/1XK2G9U0NBe3vzzu6sKoOSwYiG4uPpxyW.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114945.heic",
+        "drive_id": "1XK2G9U0NBe3vzzu6sKoOSwYiG4uPpxyW"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-361/1iAe8tWUr54Tm1UD3L3goC9i2bNAUBqtq.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114945.heic",
+        "drive_id": "1iAe8tWUr54Tm1UD3L3goC9i2bNAUBqtq"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 5 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 5. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 361 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-362": {
+    "numero": 362,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 6",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-362",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-362/14e4ulvVqDPgRFo6oa2R6Pdbmyl4Fw8ql.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114953.heic",
+        "drive_id": "14e4ulvVqDPgRFo6oa2R6Pdbmyl4Fw8ql"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-362/1QEB6dqCcnyeZw8QQLmKYR_HjC3Gip_A5.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_114953.heic",
+        "drive_id": "1QEB6dqCcnyeZw8QQLmKYR_HjC3Gip_A5"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 6 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 6. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 362 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-363": {
+    "numero": 363,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 7",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-363",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-363/12r4X8t6bkdTnJsRPEtPCfyUpGbEFSDIY.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115001.heic",
+        "drive_id": "12r4X8t6bkdTnJsRPEtPCfyUpGbEFSDIY"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-363/1iMyOlvUv76faf_YDj-4kkbprbI47K66t.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115001.heic",
+        "drive_id": "1iMyOlvUv76faf_YDj-4kkbprbI47K66t"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 7 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 7. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 363 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-364": {
+    "numero": 364,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 8",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-364",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-364/16RuwpEcRmsUPWCI8fQABDNsECruWjq0u.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115023.heic",
+        "drive_id": "16RuwpEcRmsUPWCI8fQABDNsECruWjq0u"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-364/19TQ4cGXt4yagovOTOT8h91ow3rDTr2pR.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115023.heic",
+        "drive_id": "19TQ4cGXt4yagovOTOT8h91ow3rDTr2pR"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 8 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 8. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 364 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-365": {
+    "numero": 365,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 9",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-365",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-365/1iR85vu0gP6Qr1s-Gf4bg9BXviV_z1CI8.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115046.heic",
+        "drive_id": "1iR85vu0gP6Qr1s-Gf4bg9BXviV_z1CI8"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-365/1KgOu-7BfmWyvAo7CzDDbh4WBRaHuWtIv.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115046.heic",
+        "drive_id": "1KgOu-7BfmWyvAo7CzDDbh4WBRaHuWtIv"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 9 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 9. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 365 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-366": {
+    "numero": 366,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 10",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-366",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-366/1vTpZRqKZCVuL9KU89Wq3GIRob4Hbshr5.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115119.heic",
+        "drive_id": "1vTpZRqKZCVuL9KU89Wq3GIRob4Hbshr5"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-366/1N9GGyoDvLxTodtVZaS6xmD4mLGJJBdGB.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115119.heic",
+        "drive_id": "1N9GGyoDvLxTodtVZaS6xmD4mLGJJBdGB"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 10 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 10. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 366 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-367": {
+    "numero": 367,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 11",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-367",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-367/1wtLAx40IdZOZSsVj48n7PGTIiHGg4DHH.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115127.heic",
+        "drive_id": "1wtLAx40IdZOZSsVj48n7PGTIiHGg4DHH"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-367/1rslMNxeJLPhHuzCZ2va0xe1caZi_QcYY.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115127.heic",
+        "drive_id": "1rslMNxeJLPhHuzCZ2va0xe1caZi_QcYY"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 11 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 11. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 367 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-368": {
+    "numero": 368,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 12",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-368",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-368/1EjWHXC_BuPWz6i66hG1BpIo4mxkYj3Wd.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115135.heic",
+        "drive_id": "1EjWHXC_BuPWz6i66hG1BpIo4mxkYj3Wd"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-368/1UIfQZxJFT6L6x4mFs9gK-pIUkVyBmEwU.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115135.heic",
+        "drive_id": "1UIfQZxJFT6L6x4mFs9gK-pIUkVyBmEwU"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 12 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 12. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 368 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-369": {
+    "numero": 369,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 13",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-369",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-369/1HKqinRiUXto8oMv3WybSq48Z49oWRXR4.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115141.heic",
+        "drive_id": "1HKqinRiUXto8oMv3WybSq48Z49oWRXR4"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-369/16gvofMgJK4VC5dSg4fZHBsqOGLN1fy8e.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115141.heic",
+        "drive_id": "16gvofMgJK4VC5dSg4fZHBsqOGLN1fy8e"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 13 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 13. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 369 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-370": {
+    "numero": 370,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 14",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-370",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-370/15kdh9j8ElJ3__RSnOcmzHvy76BOQaMvb.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115149.heic",
+        "drive_id": "15kdh9j8ElJ3__RSnOcmzHvy76BOQaMvb"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-370/146_Wa1jVX6jhScOECx36qSV6a2bd3Yfu.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115149.heic",
+        "drive_id": "146_Wa1jVX6jhScOECx36qSV6a2bd3Yfu"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 14 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 14. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 370 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-371": {
+    "numero": 371,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 15",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 5,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-371",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-371/1GdTpaia2a6cw0WWQS0iRD0t-DxqXuWSZ.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115156.heic",
+        "drive_id": "1GdTpaia2a6cw0WWQS0iRD0t-DxqXuWSZ"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-371/1uqd1ON8jz5HD0JBcBNIesKTm8fb-_Cjg.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115156.heic",
+        "drive_id": "1uqd1ON8jz5HD0JBcBNIesKTm8fb-_Cjg"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 15 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 15. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 371 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-372": {
+    "numero": 372,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 16",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-372",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-372/1f3n7XUTVnjMQ5yImRjlNOZTPbXmOBPv_.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115206.heic",
+        "drive_id": "1f3n7XUTVnjMQ5yImRjlNOZTPbXmOBPv_"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-372/1N9lCZ0Y1NmHHJHCFXc4slmNUb7aQ1Leo.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115206.heic",
+        "drive_id": "1N9lCZ0Y1NmHHJHCFXc4slmNUb7aQ1Leo"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 16 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 16. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 372 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-373": {
+    "numero": 373,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 17",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-373",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-373/1_lzifd9P-FVAuqSbOm2rACcbuyXg3CPO.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115212.heic",
+        "drive_id": "1_lzifd9P-FVAuqSbOm2rACcbuyXg3CPO"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-373/1LiIcuMeIoOERaAvfdeYB5COhA4v-Utlp.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115212.heic",
+        "drive_id": "1LiIcuMeIoOERaAvfdeYB5COhA4v-Utlp"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 17 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 17. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 373 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-374": {
+    "numero": 374,
+    "titulo": "Historia de la Republicana del Perú (1822-1933) 18",
+    "autor": "Raúl Palacios Rodríguez",
+    "cantidad": 1,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-374",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-374/11NoT4iJ9WfQ0qO3dwILNaXEr1ZVEYvFd.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115220.heic",
+        "drive_id": "11NoT4iJ9WfQ0qO3dwILNaXEr1ZVEYvFd"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-374/1C_rY-1T41p6v2wU6fisOuo-nTfq8FYSo.webp",
+        "width": 900,
+        "height": 1600,
+        "archivo_original": "20261030_115220.heic",
+        "drive_id": "1C_rY-1T41p6v2wU6fisOuo-nTfq8FYSo"
+      }
+    ],
+    "carpetas_drive": [
+      "Historia de la Republicana del Perú (1822-1933) 18 - Raúl Palacios Rodríguez"
+    ],
+    "descripcion": "Historia de la Republicana del Perú (1822-1933) 18. Autor o responsable consignado: Raúl Palacios Rodríguez. Registro 374 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-375": {
+    "numero": 375,
+    "titulo": "Verdad Incómoda",
+    "autor": "Gedisa",
+    "cantidad": 8,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-375",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-375/1dNOn2pW6NUC4yiS8S6dBq9JnZOI3UVJw.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9887.JPG",
+        "drive_id": "1dNOn2pW6NUC4yiS8S6dBq9JnZOI3UVJw"
+      }
+    ],
+    "carpetas_drive": [
+      "Verdad Incómoda - Gedisa"
+    ],
+    "descripcion": "Verdad Incómoda. Autor o responsable consignado: Gedisa. Registro 375 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  },
+  "INV-2026-376": {
+    "numero": 376,
+    "titulo": "Yawar Fiesta",
+    "autor": "José María Arguedas",
+    "cantidad": 7,
+    "ubicacion": "Biblioteca",
+    "codigo": "INV-2026-376",
+    "nivel": "Secundaria",
+    "area": "General",
+    "editorial": "",
+    "anio": null,
+    "tema": "",
+    "tipo": "Libro",
+    "imagenes": [
+      {
+        "src": "assets/catalogo/INV-2026-376/1aVbyX1yIuC72NUMIWdZR3M_R9lmxOUlW.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9941.JPG",
+        "drive_id": "1aVbyX1yIuC72NUMIWdZR3M_R9lmxOUlW"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-376/1U6mJN_XIASJNoZKNSJ1WR8hyr9UP0vh0.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9943.JPG",
+        "drive_id": "1U6mJN_XIASJNoZKNSJ1WR8hyr9UP0vh0"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-376/1TrmEvpTZhIYFiaAzMdN-kM6xD4Uw2kYA.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9960.JPG",
+        "drive_id": "1TrmEvpTZhIYFiaAzMdN-kM6xD4Uw2kYA"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-376/1IUu324rfAE57AsaVQMRGa3VGdK-9JgCl.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9941.JPG",
+        "drive_id": "1IUu324rfAE57AsaVQMRGa3VGdK-9JgCl"
+      },
+      {
+        "src": "assets/catalogo/INV-2026-376/1-iOcZpWUMX3mRRCU5V1opYdy4uCqHORo.webp",
+        "width": 1200,
+        "height": 1600,
+        "archivo_original": "IMG_9943.JPG",
+        "drive_id": "1-iOcZpWUMX3mRRCU5V1opYdy4uCqHORo"
+      }
+    ],
+    "carpetas_drive": [
+      "Yawar Fiesta - José María Arguedas"
+    ],
+    "descripcion": "Yawar Fiesta. Autor o responsable consignado: José María Arguedas. Registro 376 del inventario patrimonial de la I.E. San Juan (2026). Fotografías del ejemplar de biblioteca."
+  }
+}
