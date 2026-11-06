@@ -35,6 +35,20 @@ encabezado($m['titulo'], $m['autor'] ?: '', $acciones);
       <dt>Disponibilidad</dt><dd><?= disponibilidad_html($m) ?></dd>
     </dl>
     <?php if ($m['descripcion']): ?><h3>Descripción</h3><p><?= nl2br(e($m['descripcion'])) ?></p><?php endif; ?>
+    <?php $fotos = ui_fotos_material($m); if ($fotos): ?>
+    <section class="fotos-libro" aria-label="Fotografías del ejemplar">
+      <h3>Fotografías del ejemplar <span class="sub">(<?= count($fotos) ?>)</span></h3>
+      <p class="sub">Selecciona una fotografía para verla a tamaño completo en otra pestaña.</p>
+      <div class="fotos-libro-rejilla">
+        <?php foreach ($fotos as $i => $foto): ?>
+        <a href="<?= e($foto['src']) ?>" target="_blank" rel="noopener" aria-label="Ver fotografía <?= $i + 1 ?> de <?= e($m['titulo']) ?> (nueva pestaña)">
+          <img src="<?= e($foto['src']) ?>" alt="Fotografía <?= $i + 1 ?> de <?= e($m['titulo']) ?>" width="<?= (int)$foto['width'] ?>" height="<?= (int)$foto['height'] ?>" loading="lazy" decoding="async">
+          <span>Fotografía <?= $i + 1 ?> ↗</span>
+        </a>
+        <?php endforeach; ?>
+      </div>
+    </section>
+    <?php endif; ?>
   </section>
 
   <?php if ($gestion): ?>

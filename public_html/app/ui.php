@@ -29,8 +29,30 @@ function ui_icono(string $nombre): string
     return '<svg class="material-symbols-outlined" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><use href="#ui-' . ($simbolos[$nombre] ?? 'info') . '"></use></svg>';
 }
 
+/** Fotografías locales vinculadas al código estable del inventario. Sin consultas externas. */
+function ui_fotos_material(array $material): array
+{
+    static $catalogo = null;
+    if ($catalogo === null) {
+        $ruta = __DIR__ . '/../assets/catalogo/catalogo.json';
+        $catalogo = is_file($ruta) ? (json_decode(file_get_contents($ruta), true) ?: []) : [];
+    }
+    $registro = $catalogo[$material['codigo'] ?? ''] ?? null;
+    if (!$registro) return [];
+    return array_values(array_filter($registro['imagenes'] ?? [], function ($foto) {
+        $src = $foto['src'] ?? '';
+        return preg_match('~^assets/catalogo/INV-2026-\d{3}/[A-Za-z0-9_-]+\.webp$~D', $src)
+            && is_file(__DIR__ . '/../' . $src);
+    }));
+}
+
 function ui_portada(array $material, string $clase = ''): string
 {
+    $fotos = ui_fotos_material($material);
+    if ($fotos) {
+        $foto = $fotos[0];
+        return '<div class="libro-portada portada-imagen portada-fotografica ' . e($clase) . '"><img src="' . e($foto['src']) . '" alt="Portada de ' . e($material['titulo']) . '" width="' . (int)$foto['width'] . '" height="' . (int)$foto['height'] . '" loading="lazy" decoding="async"><b>' . e($material['codigo']) . '</b></div>';
+    }
     // Arte exportado del prototipo cuando coincide el título; sin columnas nuevas.
     $portadas = ['cien anos de soledad'=>'cien-anos-de-soledad', 'los rios profundos'=>'los-rios-profundos', 'el principito'=>'el-principito', 'cosmos'=>'cosmos'];
     $clave = mb_strtolower(sin_tildes(trim($material['titulo'])));

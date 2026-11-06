@@ -30,6 +30,7 @@ function pagina_inicio(string $titulo, string $actual = ''): void
 <link rel="stylesheet" href="assets/css/fuentes.css?v=stitch-8">
 <link rel="stylesheet" href="assets/css/estilos.css?v=stitch-8">
 <link rel="stylesheet" href="assets/css/movimiento.css?v=stitch-8">
+<link rel="stylesheet" href="assets/css/catalogo-fotografico.css?v=1">
 <link rel="stylesheet" href="assets/css/bienvenida.css?v=stitch-9">
 <link rel="preload" href="assets/img/insignia-san-juan.png?v=institucion-1" as="image">
 </head><body class="<?= $u ? ($lector ? 'sesion lector' : 'sesion personal') : 'sin-sesion' ?>" data-pagina="<?= e(g('p', 'inicio')) ?>">
