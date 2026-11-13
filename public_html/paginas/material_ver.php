@@ -23,16 +23,16 @@ encabezado($m['titulo'], $m['autor'] ?: '', $acciones);
   <section class="tarjeta">
     <div class="grupo-form-titulo"><?= icono('book') ?> Ficha bibliográfica <?= $gestion ? '' : 'del lector' ?></div>
     <div class="libro-activo" style="margin-bottom:24px"><?= ui_portada($m) ?><div class="libro-activo-info"><span class="etiqueta"><?= e($m['area'] ?: 'General') ?></span><h3><?= e($m['titulo']) ?></h3><p class="sub"><?= e($m['autor'] ?: 'Autor no registrado') ?></p><p style="margin-top:16px"><?= disponibilidad_html($m) ?></p></div></div>
-    <dl class="datos-grandes">
-      <dt>Código</dt><dd class="mono"><?= e($m['codigo']) ?></dd>
-      <dt>Autor</dt><dd><?= e($m['autor'] ?: '—') ?></dd>
-      <dt>Editorial</dt><dd><?= e($m['editorial'] ?: '—') ?></dd>
-      <dt>Año</dt><dd><?= e($m['anio'] ?: '—') ?></dd>
-      <dt>Área</dt><dd><?= e($m['area'] ?: '—') ?></dd>
-      <dt>Nivel / grado</dt><dd><?= e($m['nivel'] ?: '—') ?></dd>
-      <dt>Tema</dt><dd><?= e($m['tema'] ?: '—') ?></dd>
-      <dt>Tipo de material</dt><dd><?= e($m['tipo_nombre'] ?: '—') ?></dd>
-      <dt>Disponibilidad</dt><dd><?= disponibilidad_html($m) ?></dd>
+    <dl class="datos-grandes detalles-bibliograficos">
+      <div><dt>Código</dt><dd class="mono"><?= e($m['codigo']) ?></dd></div>
+      <div><dt>Autor</dt><dd><?= e($m['autor'] ?: '—') ?></dd></div>
+      <div><dt>Editorial</dt><dd><?= e($m['editorial'] ?: '—') ?></dd></div>
+      <div><dt>Año</dt><dd><?= e($m['anio'] ?: '—') ?></dd></div>
+      <div><dt>Área</dt><dd><?= e($m['area'] ?: '—') ?></dd></div>
+      <div><dt>Nivel / grado</dt><dd><?= e($m['nivel'] ?: '—') ?></dd></div>
+      <div><dt>Tema</dt><dd><?= e($m['tema'] ?: '—') ?></dd></div>
+      <div><dt>Tipo de material</dt><dd><?= e($m['tipo_nombre'] ?: '—') ?></dd></div>
+      <div><dt>Disponibilidad</dt><dd><?= disponibilidad_html($m) ?></dd></div>
     </dl>
     <?php if ($m['descripcion']): ?><h3>Descripción</h3><p><?= nl2br(e($m['descripcion'])) ?></p><?php endif; ?>
     <?php $fotos = ui_fotos_material($m); if ($fotos): ?>
