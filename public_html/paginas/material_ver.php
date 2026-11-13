@@ -24,7 +24,7 @@ encabezado($m['titulo'], $m['autor'] ?: '', $acciones);
   <section class="tarjeta">
     <div class="grupo-form-titulo"><?= icono('book') ?> Ficha bibliográfica <?= $gestion ? '' : 'del lector' ?></div>
     <div class="libro-activo" style="margin-bottom:24px">
-      <?php if ($fotos): ?><button type="button" class="portada-zoom" data-zoom-imagen data-src="<?= e($fotos[0]['src']) ?>" data-alt="Portada de <?= e($m['titulo']) ?>" aria-label="Ampliar portada de <?= e($m['titulo']) ?>"><?= ui_portada($m) ?><span class="lupa-imagen" aria-hidden="true"><?= icono('search') ?></span></button><?php else: ?><?= ui_portada($m) ?><?php endif; ?>
+      <?= ui_portada_zoom($m) ?>
       <div class="libro-activo-info"><span class="etiqueta"><?= e($m['area'] ?: 'General') ?></span><h3><?= e($m['titulo']) ?></h3><p class="sub"><?= e($m['autor'] ?: 'Autor no registrado') ?></p><p style="margin-top:16px"><?= disponibilidad_html($m) ?></p></div>
     </div>
     <dl class="datos-grandes detalles-bibliograficos">
@@ -52,10 +52,6 @@ encabezado($m['titulo'], $m['autor'] ?: '', $acciones);
         <?php endforeach; ?>
       </div>
     </section>
-    <dialog class="visor-imagen" aria-label="Imagen ampliada">
-      <form method="dialog"><button class="visor-cerrar" aria-label="Cerrar imagen ampliada"><?= icono('close') ?></button></form>
-      <img src="" alt="">
-    </dialog>
     <?php endif; ?>
   </section>
 

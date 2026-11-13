@@ -25,6 +25,12 @@ with sync_playwright() as p:
         page.get_by_role('button',name='Ingresar al Sistema').click();page.wait_for_load_state('networkidle')
         assert 'p=login' not in page.url
         page.goto(BASE+'/index.php?p=catalogo&q=INV-2026-315');page.wait_for_load_state('networkidle')
+        portadas=page.locator('button[data-zoom-imagen]')
+        if portadas.count():
+            portadas.first.click()
+            assert page.locator('.visor-imagen').evaluate('(el) => el.open')
+            assert page.locator('.visor-imagen img').get_attribute('src').endswith('.webp')
+            page.locator('.visor-cerrar').click()
         # Los enlaces reales permiten identificar la ficha sin depender de IDs locales.
         links=page.locator('a[href*="p=material_ver"]')
         if not links.count():

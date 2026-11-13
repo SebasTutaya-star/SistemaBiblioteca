@@ -63,6 +63,20 @@ function ui_portada(array $material, string $clase = ''): string
     return '<div class="libro-portada ' . e($clase) . '" aria-hidden="true"><span>' . ui_icono('book') . '</span><strong>' . e($material['titulo']) . '</strong><small>' . e($material['autor'] ?? '') . '</small><b>' . e($material['codigo'] ?? '') . '</b></div>';
 }
 
+function ui_portada_zoom(array $material, string $clase = ''): string
+{
+    $fotos = ui_fotos_material($material);
+    if (!$fotos) return ui_portada($material, $clase);
+    $foto = $fotos[0];
+    $tipo = $clase === 'portada-mini' ? ' portada-zoom-mini' : '';
+    return '<button type="button" class="portada-zoom' . $tipo . '" data-zoom-imagen data-src="' . e($foto['src']) . '" data-alt="Portada de ' . e($material['titulo']) . '" aria-label="Ampliar portada de ' . e($material['titulo']) . '">' . ui_portada($material, $clase) . '<span class="lupa-imagen" aria-hidden="true">' . ui_icono('search') . '</span></button>';
+}
+
+function ui_visor_imagen(): void
+{
+    ?><dialog class="visor-imagen" aria-label="Imagen ampliada"><form method="dialog"><button class="visor-cerrar" aria-label="Cerrar imagen ampliada"><?= ui_icono('close') ?></button></form><img src="" alt=""></dialog><?php
+}
+
 function ui_metrica(string $titulo, $valor, string $detalle, string $ico = 'book', string $tono = ''): void
 {
     echo '<article class="metrica ' . e($tono) . '"><div><span>' . e($titulo) . '</span>' . ui_icono($ico) . '</div><strong>' . e($valor) . '</strong><small>' . e($detalle) . '</small></article>';
