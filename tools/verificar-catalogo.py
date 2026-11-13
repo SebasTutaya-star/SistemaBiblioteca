@@ -36,6 +36,14 @@ with sync_playwright() as p:
         if not links.count():
             results.append(dict(rol=role,catalogo='sin acceso según permisos existentes'));context.close();continue
         href=links.first.get_attribute('href')
+        # La ficha rápida se carga por AJAX: su portada también debe abrir el visor global.
+        links.first.click()
+        page.locator('.ficha-dialog [data-zoom-imagen]').first.wait_for()
+        page.locator('.ficha-dialog [data-zoom-imagen]').first.click()
+        assert page.locator('.visor-imagen').evaluate('(el) => el.open')
+        page.locator('.visor-cerrar').click()
+        page.wait_for_function("!document.querySelector('.visor-imagen').open")
+        page.locator('.ficha-dialog .icon-btn[aria-label="Cerrar ficha"]').click()
         for width in [1440,1024,768,390,320]:
             page.set_viewport_size(dict(width=width,height=900))
             page.goto(href if href.startswith('http') else BASE+'/'+href.lstrip('/'));page.wait_for_load_state('networkidle')

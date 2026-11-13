@@ -124,12 +124,13 @@
   var visor = document.querySelector('.visor-imagen');
   if (visor) {
     var imagenVisor = visor.querySelector('img');
-    document.querySelectorAll('[data-zoom-imagen]').forEach(function (boton) {
-      boton.addEventListener('click', function () {
-        imagenVisor.src = boton.dataset.src;
-        imagenVisor.alt = boton.dataset.alt || 'Imagen ampliada del libro';
-        visor.showModal();
-      });
+    visor.querySelector('.visor-cerrar').addEventListener('click', function () { visor.close(); });
+    document.addEventListener('click', function (evento) {
+      var boton = evento.target.closest('[data-zoom-imagen]');
+      if (!boton) return;
+      imagenVisor.src = boton.dataset.src;
+      imagenVisor.alt = boton.dataset.alt || 'Imagen ampliada del libro';
+      visor.showModal();
     });
     visor.addEventListener('click', function (evento) {
       if (evento.target === visor) visor.close();

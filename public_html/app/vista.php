@@ -98,7 +98,7 @@ function pagina_fin(): void
 <?php else: ui_pie_auth(); endif; ?>
 <?php ui_visor_imagen(); ?>
 <script src="assets/js/movimiento.js?v=stitch-8" defer></script>
-<script src="assets/js/app.js?v=stitch-10" defer></script>
+<script src="assets/js/app.js?v=stitch-12" defer></script>
 <script src="assets/js/interfaz.js?v=stitch-8" defer></script>
 <script src="assets/js/bienvenida.js?v=stitch-8" defer></script>
 </body></html><?php
