@@ -30,7 +30,7 @@ function pagina_inicio(string $titulo, string $actual = ''): void
 <link rel="stylesheet" href="assets/css/fuentes.css?v=stitch-8">
 <link rel="stylesheet" href="assets/css/estilos.css?v=stitch-8">
 <link rel="stylesheet" href="assets/css/movimiento.css?v=stitch-8">
-<link rel="stylesheet" href="assets/css/catalogo-fotografico.css?v=1">
+<link rel="stylesheet" href="assets/css/catalogo-fotografico.css?v=2">
 <link rel="stylesheet" href="assets/css/bienvenida.css?v=stitch-9">
 <link rel="preload" href="assets/img/insignia-san-juan.png?v=institucion-1" as="image">
 </head><body class="<?= $u ? ($lector ? 'sesion lector' : 'sesion personal') : 'sin-sesion' ?>" data-pagina="<?= e(g('p', 'inicio')) ?>">
@@ -97,7 +97,7 @@ function pagina_fin(): void
 <footer class="pie-app"><span>Biblioteca Escolar · I.E. San Juan</span><span><?= date('Y') ?> · San Juan Bautista, Ayacucho</span></footer>
 <?php else: ui_pie_auth(); endif; ?>
 <script src="assets/js/movimiento.js?v=stitch-8" defer></script>
-<script src="assets/js/app.js?v=stitch-8" defer></script>
+<script src="assets/js/app.js?v=stitch-9" defer></script>
 <script src="assets/js/interfaz.js?v=stitch-8" defer></script>
 <script src="assets/js/bienvenida.js?v=stitch-8" defer></script>
 </body></html><?php

@@ -119,4 +119,24 @@
     tipo.addEventListener('change', ajustar);
     ajustar();
   }
+
+  // ---- Visor de fotografías del catálogo ----
+  var visor = document.querySelector('.visor-imagen');
+  if (visor) {
+    var imagenVisor = visor.querySelector('img');
+    document.querySelectorAll('[data-zoom-imagen]').forEach(function (boton) {
+      boton.addEventListener('click', function () {
+        imagenVisor.src = boton.dataset.src;
+        imagenVisor.alt = boton.dataset.alt || 'Imagen ampliada del libro';
+        visor.showModal();
+      });
+    });
+    visor.addEventListener('click', function (evento) {
+      if (evento.target === visor) visor.close();
+    });
+    visor.addEventListener('close', function () {
+      imagenVisor.removeAttribute('src');
+      imagenVisor.alt = '';
+    });
+  }
 })();

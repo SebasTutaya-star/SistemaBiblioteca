@@ -10,6 +10,7 @@ if (!$gestion) {
     // Restricción en la capa de datos: el Lector no recibe la ubicación física ni datos internos.
     unset($m['ubicacion'], $m['cantidad_deteriorada'], $m['cantidad_perdida'], $m['creado_por']);
 }
+$fotos = ui_fotos_material($m);
 
 pagina_inicio($m['titulo'], 'catalogo');
 $acciones = '<a class="btn" href="' . e(url('catalogo')) . '">‹ Catálogo</a>';
@@ -22,7 +23,10 @@ encabezado($m['titulo'], $m['autor'] ?: '', $acciones);
 <div class="rejilla-2">
   <section class="tarjeta">
     <div class="grupo-form-titulo"><?= icono('book') ?> Ficha bibliográfica <?= $gestion ? '' : 'del lector' ?></div>
-    <div class="libro-activo" style="margin-bottom:24px"><?= ui_portada($m) ?><div class="libro-activo-info"><span class="etiqueta"><?= e($m['area'] ?: 'General') ?></span><h3><?= e($m['titulo']) ?></h3><p class="sub"><?= e($m['autor'] ?: 'Autor no registrado') ?></p><p style="margin-top:16px"><?= disponibilidad_html($m) ?></p></div></div>
+    <div class="libro-activo" style="margin-bottom:24px">
+      <?php if ($fotos): ?><button type="button" class="portada-zoom" data-zoom-imagen data-src="<?= e($fotos[0]['src']) ?>" data-alt="Portada de <?= e($m['titulo']) ?>" aria-label="Ampliar portada de <?= e($m['titulo']) ?>"><?= ui_portada($m) ?><span class="lupa-imagen" aria-hidden="true"><?= icono('search') ?></span></button><?php else: ?><?= ui_portada($m) ?><?php endif; ?>
+      <div class="libro-activo-info"><span class="etiqueta"><?= e($m['area'] ?: 'General') ?></span><h3><?= e($m['titulo']) ?></h3><p class="sub"><?= e($m['autor'] ?: 'Autor no registrado') ?></p><p style="margin-top:16px"><?= disponibilidad_html($m) ?></p></div>
+    </div>
     <dl class="datos-grandes detalles-bibliograficos">
       <div><dt>Código</dt><dd class="mono"><?= e($m['codigo']) ?></dd></div>
       <div><dt>Autor</dt><dd><?= e($m['autor'] ?: '—') ?></dd></div>
@@ -35,19 +39,23 @@ encabezado($m['titulo'], $m['autor'] ?: '', $acciones);
       <div><dt>Disponibilidad</dt><dd><?= disponibilidad_html($m) ?></dd></div>
     </dl>
     <?php if ($m['descripcion']): ?><h3>Descripción</h3><p><?= nl2br(e($m['descripcion'])) ?></p><?php endif; ?>
-    <?php $fotos = ui_fotos_material($m); if ($fotos): ?>
+    <?php if ($fotos): ?>
     <section class="fotos-libro" aria-label="Fotografías del ejemplar">
       <h3>Fotografías del ejemplar <span class="sub">(<?= count($fotos) ?>)</span></h3>
       <p class="sub">Selecciona una fotografía para verla a tamaño completo en otra pestaña.</p>
       <div class="fotos-libro-rejilla">
         <?php foreach ($fotos as $i => $foto): ?>
-        <a href="<?= e($foto['src']) ?>" target="_blank" rel="noopener" aria-label="Ver fotografía <?= $i + 1 ?> de <?= e($m['titulo']) ?> (nueva pestaña)">
+        <button type="button" data-zoom-imagen data-src="<?= e($foto['src']) ?>" data-alt="Fotografía <?= $i + 1 ?> de <?= e($m['titulo']) ?>" aria-label="Ampliar fotografía <?= $i + 1 ?> de <?= e($m['titulo']) ?>">
           <img src="<?= e($foto['src']) ?>" alt="Fotografía <?= $i + 1 ?> de <?= e($m['titulo']) ?>" width="<?= (int)$foto['width'] ?>" height="<?= (int)$foto['height'] ?>" loading="lazy" decoding="async">
-          <span>Fotografía <?= $i + 1 ?> ↗</span>
-        </a>
+          <span>Fotografía <?= $i + 1 ?><i class="lupa-imagen" aria-hidden="true"><?= icono('search') ?></i></span>
+        </button>
         <?php endforeach; ?>
       </div>
     </section>
+    <dialog class="visor-imagen" aria-label="Imagen ampliada">
+      <form method="dialog"><button class="visor-cerrar" aria-label="Cerrar imagen ampliada"><?= icono('close') ?></button></form>
+      <img src="" alt="">
+    </dialog>
     <?php endif; ?>
   </section>
 

@@ -33,16 +33,18 @@ with sync_playwright() as p:
         for width in [1440,1024,768,390,320]:
             page.set_viewport_size(dict(width=width,height=900))
             page.goto(href if href.startswith('http') else BASE+'/'+href.lstrip('/'));page.wait_for_load_state('networkidle')
-            assert page.locator('.fotos-libro-rejilla a').count()>=1
+            assert page.locator('.fotos-libro-rejilla button').count()>=1
             page.locator('.fotos-libro').scroll_into_view_if_needed()
             page.wait_for_function("Array.from(document.querySelectorAll('.fotos-libro img')).every(i=>i.complete&&i.naturalWidth>0)")
             assert not page.evaluate('document.documentElement.scrollWidth>innerWidth+1'),(role,width)
             assert not any(x in page.locator('body').inner_text() for x in ['Fatal error:','Warning:','Parse error:'])
             if role in ['bibliotecaria','estudiante'] and width in [1440,390]:page.screenshot(path=str(OUT/f'{role}-{width}.png'),full_page=True)
-            results.append(dict(rol=role,ancho=width,fotos=page.locator('.fotos-libro-rejilla a').count(),resultado='correcto'))
-        with page.expect_popup() as popup:
-            page.locator('.fotos-libro-rejilla a').first.click()
-        popup.value.wait_for_load_state();assert popup.value.url.endswith('.webp');popup.value.close()
+            results.append(dict(rol=role,ancho=width,fotos=page.locator('.fotos-libro-rejilla button').count(),resultado='correcto'))
+        page.locator('.fotos-libro-rejilla button').first.click()
+        assert page.locator('.visor-imagen').evaluate('(el) => el.open')
+        assert page.locator('.visor-imagen img').get_attribute('src').endswith('.webp')
+        page.locator('.visor-cerrar').click()
+        assert not page.locator('.visor-imagen').evaluate('(el) => el.open')
         if role in ['estudiante','docente']:assert page.get_by_text('Información administrativa',exact=True).count()==0
         context.close()
     browser.close()
